@@ -35,6 +35,7 @@ def process_csv(file_path):
 def main():
     # Path to your CSV file
     file_path = 'schema_chinook.csv'
+    file_path = 'schema_northwind.csv'
 
     # Process the CSV file
     result_df = process_csv(file_path)
