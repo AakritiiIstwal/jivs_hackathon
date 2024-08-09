@@ -1,0 +1,511 @@
+SAP_TABLE_NAME,SAP_TABLE_DESCRIPTION
+BSIP,Index for Vendor Validation of Double Documents
+CDHDR,Change document header
+TOA01,Link table 1
+VIBDINFRA,Infrastructure
+ADR12,FTP and URL (Business Address Services)
+ADR2,Telephone Numbers (Business Address Services)
+ADR7,Remote Mail Addresses (SAP - SAP - Communication; BAS)
+COEP,CO Object: Line Items (by Period)
+MAST,Material to BOM Link
+MSKU,Special Stocks with Customer
+STZU,Permanent BOM data
+CRHD,Work Center Header
+DFKKBPTAXNUM,Tax Numbers for Business Partner
+DRAT,Texts for Document Info Records
+EREV,Version in Purchasing
+KNVH,Customer Hierarchies
+QMIH,Quality message - maintenance data excerpt
+TIVAJRULET,Adjustment Rules (Text)
+VBLB,Sales document: Release order data
+VBPA,Sales Document: Partner
+BUT021_FS,Time-Dependent Address Usage
+BUT0BK,BP: Bank Details
+DMS_PHRE_HD1,DVS: Outgoing links PHIOS for additional files
+DMS_PH_PROP_CD1,DVS: Attribute PHIOS (main originals)
+KOTD001,Conditions: Substitution - Sample Structure
+T681,Conditions: Structures
+VISRTMSBRP,Assignment of a Reporting Rule to a Sales Rule
+VITMNTPROCREL,Individual Notice Procedure
+VITMNTRULEPR,Individual Period Regulation
+WCOCOI,Condition Contract: Eligible Partner
+/BEV1/LUT906,Check Table for LU Groups in Material Master
+CUKB,Administrative Information for Dependency Maintenance
+TQ15T,Language-dependent texts for table TQ15
+VICARSRULEPAR,Parameter of Resubmission Rule for Object
+VICDCOND,Condition
+ANLK,Asset Origin by Cost Element
+ANLP,Asset Periodic Values
+COBRA,Settlement Rule for Order Settlement
+EINA,Purchasing Info Record: General Data
+TJ30T,Texts for User Status
+VCNUM,Credit card master
+VEKP,Handling Unit - Header Table
+AFFH,PRT assignment data for the work order
+AFKO,Order header data PP orders
+AFPO,Order item
+AFVC,Operation within an order
+AFVV,DB structure of the quantities/dates/values in the operation
+CABN,Characteristic
+KNA1,General Data in Customer Master
+KNAS,Customer master (VAT registration numbers general section)
+KNB1,Customer Master (Company Code)
+KNKA,Customer master credit management: Central data
+KNMT,Customer-Material Info Record Data Table
+LFB1,Vendor Master (Company Code)
+MCHA,Batches
+TCLUT,Class Status (Texts)
+TKT03,Stat. key figure texts
+VLBL,Express Delivery Company's Data Field
+PRPS,WBS (Work Breakdown Structure) Element Master Data
+STPU,BOM Subitem
+WYT3,Partner Functions
+BSEC,One-Time Account Data Document Segment
+BSED,Bill of Exchange Fields Document Segment
+BSET,Tax Data Document Segment
+CEPC,Profit Center Master Data Table
+RESB,Reservation/dependent requirements
+T005,Countries
+TIV26,Real Estate Contract Type (Entities)
+TOA02,Link table 2
+VEVW,Where-Used List for Handling Units
+VIAJOBJINDX,Contract/Rental Object: INDX
+VIBDOBJRELPART,Object Relationship A/U Object <-> A/U Object: Percent
+ADR5,Telex Numbers (Business Address Services)
+ADRU,Table for Communication Usages
+MARM,Units of Measure for Material
+PLFT,Process Instructions
+PLFV,PI Characteristics/Sub-Operation Parameter Values
+PLMZ,Allocation of bill of material items to operations
+KNVD,Customer master record sales request form
+KNVI,Customer Master Tax Indicator
+QMEL,Quality Notification
+QMFE,Quality notification - items
+QMMA,Quality notification - activities
+QPAM,Inspection catalog selected sets
+TIVAJRULE,Adjustment Rules
+BUT0ID,BP: ID Numbers
+DMS_DOC2LOIO,DVS: Link table DVS Key <-> LOIO-ID
+MVOP,Material data material versions
+TKA03,Statistical key figures
+WRF12,Plant / receiving points
+/BEV1/EMGRP,Empties Group
+BKK21,Business Partner Aliases
+KAKT,Capacity Description
+VICDCONDDIST,Conditions - Distribution Factors and Transfer Amounts
+A305,Customer/material with release status
+ANLE,Asset Origin by Line Item
+ANLH,Main asset number
+ANLT,Asset Texts
+ANLW,Insurable values (year dependent)
+BFOK_A,FI subsequent BA/PC adjustment: Vendor items
+CHVW,Table CHVW for Batch Where-Used List
+CRVM_B,Link of material to a production resource/tool
+EIPO,Foreign Trade: Export/Import: Item Data
+KBED,Capacity Requirements Records
+JITCU,Customer data
+AFVU,DB structure of the user fields of the operation
+BP011,Employment Data
+KLPA,Customer/Vendor Linking
+KNAT,Customer Master Record (Tax Groupings)
+KNB4,Customer Payment History
+KNBW,Customer master record (withholding tax types) X
+KNEX,Customer Master: Legal Control - Sanctioned Party List
+KNKK,Customer master credit management: Control area data
+LIKP,SD Document: Delivery Header Data
+MCH1,Batches (if Batch Management Cross-Plant)
+MCHB,Batch Stocks
+TCME,Validity for Global Characteristics
+CSLA,Activity master
+EQUZ,Equipment time segment
+MAKT,Material Descriptions
+MMPT,Cycle definitions and MeasPoints for MaintPlan
+STPN,BOM Follow-Up Control
+STPO,BOM item
+STXL,STXD SAPscript text file lines
+TCYMIT,Definition of transition matrix
+BSAS,Accounting: Secondary Index for G/L Accounts (Cleared Items)
+BSE_CLR,Additional Data for Document Segment: Clearing Information
+BSIK,Accounting: Secondary Index for Vendors
+BSIM,"Secondary Index, Documents for Material"
+INOB,Link between Internal Number and Object
+T001,Company Codes
+TTXIT,Texts for Text IDs
+VIBDCHARACT,Fixtures/Fittings
+VIBDOBJASS,Object Assignment
+VIBDOBJREL,Object Relationship A/U Object <-> A/U Object
+ADR8,X.400 Numbers (Business Address Services)
+ADRT,Communication Data Text (Business Address Services)
+FIGLDOC,G/L accounting: Subsequent derivations
+MARD,Storage Location Data for Material
+MSEG,Document Segment: Material
+MSLB,Special Stocks with Vendor
+PLKZ,Task list: main header
+TVZBT,Customers: Terms of Payment Texts
+BD001,Business Partner: Assignment Customer - Partner
+KNVS,Customer Master Shipping Data
+LEIN,Storage unit header records
+QPMT,Master Inspection Characteristics Texts
+QMSM,Quality notification - tasks
+TIVAJSPECINDX,Additional Data for Adjustment Rule INDX
+VBAK,Sales Document: Header Data
+BUT021,BP: Address usages
+BUT050,BP relationships/role definitions: General data
+DMS_LODESC_HD1,DVS: LOIO-Description of additional data (help document)
+DMS_PH_CHKO_CD1,DVS: Check out data to PHIO (main originals)
+KONDNS,Conditions: Free goods determination - scales
+KONP,Conditions (Item)
+LQUA,Quants
+QPGT,Code group texts
+T685T,Conditions: Types: Texts
+WCOCOH,Condition Contract: Header
+CUKN,Dependency Storage - Variants/Configuration
+MPLA,Maintenance plan
+SKAS,G/L account master (chart of accounts: key word list)
+SWOR,Classification System: Keywords
+VIITOPTRATE,Option Rate per Object and Period
+A017,Material Info Record (Plant-Specific)
+A304,Material with release status
+ANEK,Document Header Asset Posting
+ANEP,Asset Line Items
+ANLA,Asset Master Record Segment
+ANLU,Asset Master Record: User Fields
+BFIT_A,FI Subsequent BA/PC Adjustment: G/L Account Items
+BFOK_AB,FI subseq.BA/PC adjustmnt: Valuatn difference in vendor OIs
+CRTX,Text for the Work Center or Production Resource/Tool
+EKETH,Scheduling Agreement Schedules: History Tables
+KAPA,Shift Parameters for Available Capacity
+KBEZ,Add. data for table KBED (for indiv. capacities/splits)
+PRHI,"Work Breakdown Structure, Edges (Hierarchy Pointer)"
+PROJ,Project definition
+TJ02T,System status texts
+AEEF,ECM: effectivity
+AFIH,Maintenance order header
+BP1010,BP: Credit standing data
+KLAH,Class Header Data
+LFBW,Vendor master record (withholding tax types) X
+LIPS,SD document: Delivery: Item data
+CSSL,Cost Center/Activity Type
+MLEA,Vendor-Specific EANs
+MLGN,Material Data for Each Warehouse Number
+PROW,Forecast Values
+T411T,Language-dependent texts for T411: Task list usages
+BSAD,Accounting: Secondary Index for Customers (Cleared Items)
+BSBW,Document Valuation Fields
+BSEGC,Document: Data on Payment Card Payments
+CEPCT,Texts for Profit Center Master Data
+MEAN,International Article Numbers (EANs) for Material
+T000,Clients
+T001W,Plants/Branches
+TOAHR,Container table for HR administration level
+ADRCOMC,Comm. Data Serial Number Counter (Business Address Services)
+ADRG,Assignment of Addresses to Other Address Groups (BAS)
+ADRP,Persons (Business Address Services)
+BC001,Business Partner: Assign Vendor - Partner
+KSML,Characteristics of a Class
+MBEWH,Material Valuation: History
+PLKO,Task list - header
+PLMK,Inspection plan characteristics
+POEXT,Enhancement Fields for Purchase Order
+SEPA_MANDATE,SEPA Mandate
+TVKO,Organizational Unit: Sales Organizations
+DRAD,Document-Object Link
+T052,Terms of Payment
+VBAP,Sales Document: Item Data
+VBFA,Sales Document Flow
+VBKD,Sales Document: Business Data
+BUT051,BP Relationship: Contact Person Relationship
+DMS_LODESC_CD1,DVS: LOIO-Descirption of the main original (conv. document)
+DMS_LO_CD1,DVS: LOIOS of main originals (conv. document)
+DMS_PHF_CD1,DVS: PHIOS Components of main originals (conv. document)
+KONDIND,General Document Index for Conditions
+KONH,Conditions (Header)
+KOTN010,Customer / material
+PMCO,Cost structure of maintenance order
+T685A,Conditions: Types: Additional Price Element Data
+VISCMPPROP,Additional Characteristics of Meter
+VITMTERM,Term
+VICNMEASCN,Contract Measurement
+A018,Material Info Record
+ANEA,Asset Line Items for Proportional Values
+ANLB,Depreciation terms
+BFOD_AB,FI Subseq.BA/PC Adjustmnt: Valuatn Diffrnce in Customer OIs
+EKAB,Release Documentation
+EKBEH,Removed PO History Records
+EKKO,Purchasing Document Header
+KAZY,Interval of Available Capacity
+AENR,Change Master
+AUSP,Characteristic Values
+BNKA,Bank master record
+BP001,FS-Specific Attributes; Organization
+BP021,Fiscal Year Information
+IFLOTX,Functional Location: Short Texts
+KNC1,Customer master (transaction figures)
+LFC1,Vendor master (transaction figures)
+TDWST,Document Status Texts
+MAEX,Material Master: Legal Control
+PVKT,Supply Area Short Text
+STXH,STXD SAPscript text file header
+T352R,Maintenance revisions
+BSEG,Accounting Document Segment
+BSE_CLR_ASGMT,Doc. Segment Add. Data: Clearing Info with Acct Assignment
+CEPC_BUKRS,Assignment of Profit Centers to a Company Code
+T005U,Taxes: Region Key: Texts
+TB004T,BP Types: Texts
+TIV2F,Text table for Real Estate Contract Type (table TIV26)
+VIBDPR,Land
+VIBDROOCC,Occupancy History
+ADR10,Printer (Business Address Services)
+ADR3,Fax Numbers (Business Address Services)
+ESSR,Service Entry Sheet Header Data
+IHPA,Plant Maintenance: Partners
+JEST,Individual Object Status
+QPGR,Inspection catalog code groups
+DRAW,Document Info Record
+KNVK,Customer Master Contact Partner
+KNVP,Customer Master Partner Functions
+QPMK,Inspection characteristic master
+QPAC,Inspection catalog codes for selected sets
+VBUK,Sales Document: Header Status and Administrative Data
+BUT052,BP Relationship: Addresses
+KONDN,Conditions: Free goods - Data section
+KONM,Conditions (1-Dimensional Quantity Scale)
+MDMA,MRP Area for Material
+PLWP,Allocation of maintenance packages to task list operations
+VISRREPORT,Sales Report
+VISRTMSBRPI,Assignment of Reporting Rule to Sales Rule (Grading)
+VITMNT,Notice Term
+VITMWT,Term: Withholding Tax
+DD07T,DD: Texts for Domain Fixed Values (Language-Dependent)
+CUXREF,Object Dependency Cross References
+EORD,Purchasing Source List
+SKA1,G/L Account Master (Chart of Accounts)
+TPST,Link Between Functional Location and BOM
+VICDCONDCALC,Conditions - Calculation Factors and Condition Amounts
+ANLC,Asset Value Fields
+BFO_A_RA,Versions for Resetting Cleared Items
+BGMKOBJ,Master Warranty - Object Assignment
+CAWN,Characteristic values
+COBRB,Distribution Rules Settlement Rule Order Settlement
+CRVE_A,Assignment PRT data - equipment
+CRVM_A,Link of PRT data to a material
+EKBE,History per Purchasing Document
+EKBZ,History per Purchasing Document: Delivery Costs
+EKES,Vendor Confirmations
+EKPA,Partner Roles in Purchasing
+KAPE,Capacity unit of measure allocation
+SOFFPHIO,SOFF: Instances of Physical Information Objects
+AFRU,Order Confirmations
+AUFK,Order master data
+BP1012,Ratings
+CABNT,Characteristic Descriptions
+EAPL,Allocation of task lists to pieces of equipment
+FAGLFLEXT,General Ledger: Totals
+LFA1,Vendor Master (General Section)
+LFAS,Vendor master (VAT registration numbers general section)
+LFBK,Vendor Master (Bank Details)
+LFC3,Vendor master (special G/L transaction figures)
+TCLA,Class Types
+CRFH,CIM production resource/tool master data
+CSKT,Cost Center Texts
+CUCO,Additional Data for Configurable Objects
+EKPV,Shipping Data For Stock Transfer of Purchasing Document Item
+MKPF,Header: Material Document
+CDPOS,Change document items
+ILOA,PM Object Location and Account Assignment
+T001K,Valuation area
+TB002,BP grouping: Texts
+TOA03,Link table 3
+UKMBP_CMS,SAP Credit Management: Credit Master Data for Partner
+VIBDBU,Building
+VIBDRO,Rental Object
+ADR9,RFC Destinations (Business Address Services)
+COEJ,CO Object: Line Items (by Fiscal Year)
+LAGP,Storage bins
+MAPR,Material Index for Forecast
+PLFL,Task list - sequences
+TIBAN,IBAN
+KNVV,Customer Master Sales Data
+MHIO,Call Object from Maintenance Order
+PKHD,Control Cycle
+QMTT,Inspection Method Texts
+AGKO,Cleared Accounts
+BUT001,BP: General data II
+BUT0BANK,Business Partner: Bank Data
+DMS_PH_PROP_HD1,DVS: Attribute PHIOS (additional files)
+KONDD,Material Substitution - Data Division
+KONW,Conditions (1-Dimensional Value Scale)
+VISCMPSUBOBJ,Subordinate Objects of Meter
+VISRTMMSBSB,Assignment of a Sales Rule to a Peak Sales Rule
+VISRTMRP,Reporting Rule
+VISRTMRPRH,Assignment of Frequency Rule to Reporting Rule
+VISRTMSB,Sales Rule
+VITMOBJREL,Object Assignment
+VITMPY,Term: Posting Rule
+VITMRNRULEPR,Individual Renewal Rule
+WRF4,Plant/ Departments
+SKB1,G/L account master (company code)
+STAS,BOMs - Item Selection
+VICARSDATE,Resubmission Date
+BFIT_A0,FI Subseq.BA/PC Adjustmnt: Zero Bal.Postings for Bus.Area
+CBPT,Text Table for Business Process Master
+COBK,CO Object: Document Header
+EKEK,Header Data for Scheduling Agreement Releases
+EKET,Scheduling Agreement Schedule Lines
+KBKO,Header Record for Capacity Requirements
+JITPGD,JIT: Unloading Points and Assembly Locations per Customer
+VEDA,Contract Data
+AFKO_KAL,Storing calendar selections for Maintenance Order
+BP000,Business Partner Master (General Data)
+BP1000,BP: Business Partner - Role
+IFLOT,Functional Location (Table)
+KNBK,Customer Master (Bank Details)
+LFB5,Vendor master (dunning data)
+LFM1,Vendor master record purchasing organization data
+CSKB,Cost Elements (Data Dependent on Controlling Area)
+EQST,Equipment to BOM Link
+MLAN,Tax Classification for Material
+RF048,Subseq.BA/PC Adjustmnt: Index/Distributn Vector (Calculate)
+BSIS,Accounting: Secondary Index for G/L Accounts
+IMRG,Measurement Document
+JSTO,Status object information
+T002,Language Keys (Component BC-I18)
+TAPL,Allocation of task lists to functional locations
+VIAJOBJCOMP,Contract/Rental Object: COMP
+VIAJTERM,Contract/Rental Object: Adjustment Term
+VIBDMEAS,Measurement
+ADR13,Pager (Business Address Services)
+ADR6,E-Mail Addresses (Business Address Services)
+ADRCT,Address Texts (Business Address Services)
+KSSK,Allocation Table: Object to Class
+MSKA,Sales Order Stock
+MSPR,Project Stock
+MVER,Material Consumption
+PLFH,Task list - production resources/tools
+T604,Foreign Trade: Commodity Code / Import Code Number
+KNVA,Customer Master Unloading Points
+KNZA,Permitted Alternative Payer
+MHIS,Maintenance plan history
+PLAB,Relationships
+PLAS,Task list - selection of operations/activities
+QPMZ,Assignment table - insp. methods/master insp. characteristic
+QMTB,Inspection method master record
+QMUR,Quality notification - causes
+QPCD,Inspection catalog codes
+QPCT,Code texts
+VBEP,Sales Document: Schedule Line Data
+BUT000,BP: General data I
+BUT0IS,BP: Industries
+BUT100,BP: Roles
+DMS_PHRE_CD1,DVS: Outgoing links PHIOS for main originals
+DMS_PH_CD1,DVS: PHIOS of main originals
+DMS_PH_HD1,DVS: PHIOS of additional originals
+KONV,Conditions (Transaction Data)
+PLPO,Task list - operation/activity
+PLZU,Routing data for group
+TKA01,Controlling Areas
+COOI,Commitments Management: Line Items
+CUOB,Assignment of Object to Dependency
+KAKO,Capacity Header Segment
+SKAT,G/L Account Master Record (Chart of Accounts: Description)
+STKO,BOM Header
+VIBPOBJREL,Business Partner-Object Relationship
+VICAINTRENO,Assignment of INTRENO / OBJNR / IMKEY
+VIEXFIWTITEM,Term: Withholding Tax Item
+WITH_ITEM,Witholding tax info per W/tax type and FI line item
+ANLV,Insurance data
+BFOD_A,FI Subsequent BA/PC Adjustment: Customer Items
+CBPR,CO-ABC: Activity Master Table
+CRVD_A,Link of PRT to Document
+CRVS_A,Relationship of PRT internal number to PRT external number
+EIKP,Foreign Trade: Export/Import Header Data
+EKKN,Account Assignment in Purchasing Document
+AENV,ECH: Object Types for Change Master
+AEPF,ECM: effectivity
+AFFL,Work order sequence
+BKPF,Accounting Document Header
+BP030,BP: Business partner - address
+BP1030,BP: Business partner - reporting data
+KNB5,Customer master (dunning data)
+LFEI,Vendor Master: Preference for Import and Export
+LFLR,Vendor Master Record: Supply Regions
+LFZA,Permitted Alternative Payee
+MVKE,Sales Data for Material
+BP3010,Additional Data
+CRCO,Assignment of Work Center to Cost Center
+CSKS,Cost Center Master Data
+CSLT,Activity type texts
+EKUB,Index for Stock Transport Orders for Material
+EQKT,Equipment Short Texts
+MKAL,Production Versions of Material
+MKAL_AEND,Change History of Production Version (Recipes Only)
+MLGT,Material Data for Each Storage Type
+PROP,Forecast parameters
+PVBE,Supply area
+BSAK,Accounting: Secondary Index for Vendors (Cleared Items)
+BSID,Accounting: Secondary Index for Customers
+IMPTT,Measuring Point (Table)
+T003P,Order Type Descriptions
+TB006,BP data sources: Text
+VEPO,Packing: Handling Unit Item (Contents)
+VIBDAO,Architectural Object
+VIBDBE,Business Entity
+ADR11,SSF (Business Address Services)
+ADR4,Teletex Numbers (Business Address Services)
+ADRC,Addresses (Business Address Services)
+HUSSTAT,Individual Status for Each Handling Unit
+MAPE,Material Master: Export Control File
+MAPL,Assignment of Task Lists to Materials
+MARA,General Material Data
+MARC,Plant Data for Material
+MBEW,Material Valuation
+PLMW,MAPL-Dependent Charac. Specifications (Inspection Plan)
+DRAP,Document Log File
+FDES,Cash Management and Forecast: Memo Records
+KNVL,Customer Master Licenses
+VBUP,Sales Document: Item Status
+VBUV,Sales Document: Incompletion Log
+BUT020,BP: Addresses
+BVOR,Intercompany posting procedures
+CJIT03,JIT : Conversion of External Status Information
+DMS_DOC_FILES,DMS: File Names for Documents
+DMS_LO_HD1,DVS: LIOS of addtional files (help document)
+DMS_PHF_HD1,DVS: PHIOS Components of additional files (help document)
+DMS_PHIO2FILE,DMS: File Name for Phios
+DMS_RELA,DVS: Instances of links
+KONDDP,Conditions: Additional Materials for Material Determination
+TKA02,Controlling area assignment
+VISRTMSBRH,Assignment of Frequency Rule to Sales Rule
+VITMNTRULEDR,Individual Deadline Regulation
+VITMOA,Term: Organizational Assignment
+VITMRH,Terms: Frequency Rule
+VITMRN,Renewal Term
+VZOBJECT,Object Data (Virtual Object)
+CUKBT,Text Table for Dependency Maintenance Admin. Information
+MPOS,Maintenance item
+VICARSRULE,Resubmission Rule for Object
+VICNCN,Real Estate Contract
+VICNDPACTUAL,Actual Security Deposit
+ANEV,Asset downpymt settlement
+ANKA,Asset classes:  general data
+ANLZ,Time-Dependent Asset Allocations
+CAWNT,Value Texts
+EINE,Purchasing Info Record: Purchasing Organization Data
+EKEH,Scheduling Agreement Release Documentation
+EKPO,Purchasing Document Item
+VCKUN,Assign customer-credit card
+AEDT,Engineering Change Management: Alternative Dates
+AEOI,ECH: Object Management Records for Change Master
+IFLOS,Functional Location Labels
+KNC3,Customer master (special G/L transaction figures)
+LFAT,Vendor master record  (tax groupings)
+LFM2,Vendor Master Record: Purchasing Data
+CRCA,Work Center Capacity Allocation
+CSSK,Cost center  /cost element
+EQUI,Equipment master data
+PRTE,Scheduling Data for Project Item
+RPSCO,"Project info database: Costs, revenues, finances"
+TCURR,Exchange Rates
+TCYTM,Transition matrix
+WYT1,Vendor Subrange
+WYT1T,Vendor Sub-Range Description
