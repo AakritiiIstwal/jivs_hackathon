@@ -1,0 +1,2538 @@
+SAP_TABLE_NAME,SAP_COL_NAME,ROLLNAME,SAP_DATATYPE,SAP_COL_DESCRIPTION
+BSEG,.INCLU--AP, , ,
+BSEG,.INCLU--AP, , ,
+BSEG,ABPER,ABPER_RF,ACCP,Settlement period
+BSEG,ABSBT,ABSBT,CURR,Credit management: Hedged amount
+BSEG,AGZEI,AGZEI,DEC,Clearing Item
+BSEG,ALTKT,BILKT_SKA1,CHAR,Group account number
+BSEG,ANBWA,ANBWA,CHAR,Asset Transaction Type
+BSEG,ANFAE,ANFAE,DATS,Bill of Exchange Payment Request Due Date
+BSEG,ANFBJ,ANFBJ,NUMC,Fiscal Year of the Bill of Exchange Payment Request Document
+BSEG,ANFBN,ANFBN,CHAR,Document Number of the Bill of Exchange Payment Request
+BSEG,ANFBU,ANFBU,CHAR,Company Code in Which Bill of Exch.Payment Request Is Posted
+BSEG,ANLN1,ANLN1,CHAR,Main Asset Number
+BSEG,ANLN2,ANLN2,CHAR,Asset Subnumber
+BSEG,APLZL,APLZL_CH,NUMC,General counter for order
+BSEG,AUFNR,AUFNR,CHAR,Order Number
+BSEG,AUFPL,AUFPL_CH,NUMC,Task list number for operations in order
+BSEG,AUGBL,AUGBL,CHAR,Document Number of the Clearing Document
+BSEG,AUGCP,AUGCP,DATS,Clearing Entry Date
+BSEG,AUGDT,AUGDT,DATS,Clearing Date
+BSEG,AUGGJ,AUGGJ,NUMC,Fiscal Year of Clearing Document
+BSEG,BDIF2,BDIF2,CURR,Valuation Difference for the Second Local Currency
+BSEG,BDIF3,BDIF3,CURR,Valuation Difference for the Third Local Currency
+BSEG,BDIFF,BDIFF,CURR,Valuation Difference
+BSEG,BELNR,BELNR_D,CHAR,Accounting Document Number
+BSEG,BEWAR,RMVCT,CHAR,Transaction Type
+BSEG,BLNBT,BLNBT,CURR,Base Amount for Determining the Preference Amount
+BSEG,BLNKZ,BLNKZ,CHAR,Subsidy indicator for determining the reduction rates
+BSEG,BLNPZ,BLNPZ,DEC,Preference Percentage Rate
+BSEG,BONFB,BONFB,CURR,Amount Qualifying for Bonus in Local Currency
+BSEG,BPMNG,BPMNG,QUAN,Quantity in Purchase Order Price Unit
+BSEG,BPRME,BPRME,UNIT,Order Price Unit (Purchasing)
+BSEG,BSCHL,BSCHL,CHAR,Posting Key
+BSEG,BTYPE,JV_BILIND,CHAR,Payroll Type
+BSEG,BUALT,BUALT,CURR,Amount posted in alternative price control
+BSEG,BUKRS,BUKRS,CHAR,Company Code
+BSEG,BUPLA,BUPLA,CHAR,Business Place
+BSEG,BUSTW,BUSTW,CHAR,Posting string for values
+BSEG,BUZEI,BUZEI,NUMC,Number of Line Item Within Accounting Document
+BSEG,BUZID,BUZID,CHAR,Identification of the Line Item
+BSEG,BVTYP,BVTYP,CHAR,Partner Bank Type
+BSEG,BWKEY,BWKEY,CHAR,Valuation Area
+BSEG,BWTAR,BWTAR_D,CHAR,Valuation Type
+BSEG,BZDAT,BZDAT,DATS,Asset value date
+BSEG,CCBTC,CCBTC,CHAR,Payment cards: Settlement run
+BSEG,CESSION_KZ,CESSION_KZ,CHAR,Accounts Receivable Pledging Indicator
+BSEG,DABRZ,DABRBEZ,DATS,Reference Date for Settlement
+BSEG,DEPOT,RLDEPO,CHAR,Securities Account
+BSEG,DIEKZ,DIEKZ,CHAR,Service Indicator (Foreign Payment)
+BSEG,DISBJ,DISBJ,NUMC,Fiscal Year of Bill of Exchange Usage Document
+BSEG,DISBN,DISBN,CHAR,Number of Bill of Exchange Usage Document (Discount Doc.)
+BSEG,DISBZ,DISBZ,NUMC,Line Item within the Bill of Exchange Usage Document
+BSEG,DMB21,DMB2X,CURR,Amount in Second Local Currency for Tax Breakdown
+BSEG,DMB22,DMB2X,CURR,Amount in Second Local Currency for Tax Breakdown
+BSEG,DMB23,DMB2X,CURR,Amount in Second Local Currency for Tax Breakdown
+BSEG,DMB31,DMB3X,CURR,Amount in Third Local Currency for Tax Breakdown
+BSEG,DMB32,DMB3X,CURR,Amount in Third Local Currency for Tax Breakdown
+BSEG,DMB33,DMB3X,CURR,Amount in Third Local Currency for Tax Breakdown
+BSEG,DMBE2,DMBE2,CURR,Amount in Second Local Currency
+BSEG,DMBE3,DMBE3,CURR,Amount in Third Local Currency
+BSEG,DMBT1,DMBTX,CURR,Amount in Local Currency for Tax Distribution
+BSEG,DMBT2,DMBTX,CURR,Amount in Local Currency for Tax Distribution
+BSEG,DMBT3,DMBTX,CURR,Amount in Local Currency for Tax Distribution
+BSEG,DMBTR,DMBTR,CURR,Amount in Local Currency
+BSEG,DOCLN,DOCLN6,CHAR,Six-Character Posting Item for Ledger
+BSEG,DTWS1,DTAT16,NUMC,Instruction key 1
+BSEG,DTWS2,DTAT17,NUMC,Instruction key 2
+BSEG,DTWS3,DTAT18,NUMC,Instruction key 3
+BSEG,DTWS4,DTAT19,NUMC,Instruction key 4
+BSEG,EBELN,EBELN,CHAR,Purchasing Document Number
+BSEG,EBELP,EBELP,NUMC,Item Number of Purchasing Document
+BSEG,EGBLD,EGBLD,CHAR,Country of Destination for Delivery of Goods
+BSEG,EGLLD,EGLLD,CHAR,Supplying Country for Delivery of Goods
+BSEG,EGRUP,JV_EGROUP,CHAR,Equity group
+BSEG,ELIKZ,ELIKZ,CHAR,"""Delivery Completed"" Indicator"
+BSEG,EMPFB,EMPFB,CHAR,Payee/Payer
+BSEG,ERFME,ERFME,UNIT,Unit of Entry
+BSEG,ERFMG,ERFMG,QUAN,Quantity in Unit of Entry
+BSEG,ESRNR,ESRNR,CHAR,ISR Subscriber Number
+BSEG,ESRPZ,ESRPZ,CHAR,ISR Check Digit
+BSEG,ESRRE,ESRRE,CHAR,ISR Reference Number
+BSEG,ETEN2,ETENR,NUMC,Delivery Schedule Line Number
+BSEG,ETYPE,JV_ETYPE,CHAR,Equity type
+BSEG,FASTPAY,FMFG_FASTPAY_FLG,CHAR,PPA Fast Pay Indicator
+BSEG,FDGRP,FDGRP,CHAR,Planning Group
+BSEG,FDLEV,FDLEV,CHAR,Planning level
+BSEG,FDTAG,FDTAG,DATS,Planning date
+BSEG,FDWBT,FDWBT,CURR,Planning amount in document currency
+BSEG,FILKD,FILKD,CHAR,Account Number of the Branch
+BSEG,FIPOS,FIPOS,CHAR,Commitment Item
+BSEG,FISTL,FISTL,CHAR,Funds Center
+BSEG,FKBER,FKBER_SHORT,CHAR,Functional Area
+BSEG,FKBER_LONG,FKBER,CHAR,Functional Area
+BSEG,FKONT,FIPLS,NUMC,Financial Budget Item
+BSEG,FWBAS,FWBAS,CURR,Tax Base Amount in Document Currency
+BSEG,FWZUZ,FWZUZ,CURR,Additional Tax in Document Currency
+BSEG,GBETR,GBETR,CURR,Hedged Amount in Foreign Currency
+BSEG,GEBER,BP_GEBER,CHAR,Fund
+BSEG,GITYP,J_1ADTYP_D,CHAR,Distribution Type for Employment Tax
+BSEG,GJAHR,GJAHR,NUMC,Fiscal Year
+BSEG,GLUPM,GLUPM,CHAR,Update Method for FM - FI-CA Integration
+BSEG,GMVKZ,FM_GMVKZ,CHAR,Item is in Execution
+BSEG,GRANT_NBR,GM_GRANT_NBR,CHAR,Grant
+BSEG,GRICD,J_1AGICD_D,CHAR,Activity Code for Gross Income Tax
+BSEG,GRIRG,REGIO,CHAR,"Region (State, Province, County)"
+BSEG,GSBER,GSBER,CHAR,Business Area
+BSEG,GVTYP,GVTYP,CHAR,P&L statement account type
+BSEG,HBKID,HBKID,CHAR,Short Key for a House Bank
+BSEG,HKONT,HKONT,CHAR,General Ledger Account
+BSEG,HKTID,HKTID,CHAR,ID for account details
+BSEG,HRKFT,HRKFT,CHAR,Origin Group as Subdivision of Cost Element
+BSEG,HWBAS,HWBAS,CURR,Tax Base Amount in Local Currency
+BSEG,HWMET,HWMET,CHAR,Method with Which the Local Currency Amount Was Determined
+BSEG,HWZUZ,HWZUZ,CURR,Provision Amount in Local Currency
+BSEG,HZUON,HZUON,CHAR,Assignment Number for Special G/L Accounts
+BSEG,IDXSP,J_1AINDXSP,CHAR,Inflation Index
+BSEG,IMKEY,IMKEY,CHAR,Internal Key for Real Estate Object
+BSEG,INTRENO,VVINTRENO,CHAR,Internal Real Estate Master Data Code
+BSEG,KBLNR,KBLNR_FI,CHAR,Document Number for Earmarked Funds
+BSEG,KBLPOS,KBLPOS,NUMC,Earmarked Funds: Document Item
+BSEG,KIDNO,KIDNO,CHAR,Payment Reference
+BSEG,KKBER,KKBER,CHAR,Credit control area
+BSEG,KLIBT,KLIBT,CURR,Credit Control Amount
+BSEG,KOART,KOART,CHAR,Account Type
+BSEG,KOKRS,KOKRS,CHAR,Controlling Area
+BSEG,KONTL,KONTL_FI,CHAR,Acct assignment string for industry-specific acct assignmnts
+BSEG,KONTT,KONTT_FI,CHAR,Account Assignment Category for Industry Solution
+BSEG,KOSTL,KOSTL,CHAR,Cost Center
+BSEG,KSTAR,KSTAR,CHAR,Cost Element
+BSEG,KSTRG,KSTRG,CHAR,Cost Object
+BSEG,KTOSL,KTOSL,CHAR,Transaction Key
+BSEG,KUNNR,KUNNR,CHAR,Customer Number 1
+BSEG,KURSR,KURSR,DEC,Hedged Exchange Rate
+BSEG,KZBTR,KZBTR_FI,CURR,Original Reduction Amount in Local Currency
+BSEG,LANDL,LANDL,CHAR,Supplying Country
+BSEG,LIFNR,LIFNR,CHAR,Account Number of Vendor or Creditor
+BSEG,LINFV,J_1ALINFVL,DATS,Last Adjustment Date
+BSEG,LNRAN,LNRAN,NUMC,Sequence number of asset line items in fiscal year
+BSEG,LOKKT,ALTKT_SKB1,CHAR,Alternative account number in company code
+BSEG,LSTAR,LSTAR,CHAR,Activity Type
+BSEG,LZBKZ,LZBKZ,CHAR,State Central Bank Indicator
+BSEG,MABER,MABER,CHAR,Dunning Area
+BSEG,MADAT,MADAT,DATS,Last dunned on
+BSEG,MANDT,MANDT,CLNT,Client
+BSEG,MANSP,MANSP,CHAR,Dunning block
+BSEG,MANST,MAHNS_D,NUMC,Dunning level
+BSEG,MATNR,MATNR,CHAR,Material Number
+BSEG,MEASURE,FM_MEASURE,CHAR,Funded Program
+BSEG,MEINS,MEINS,UNIT,Base Unit of Measure
+BSEG,MENGE,MENGE_D,QUAN,Quantity
+BSEG,MSCHL,MSCHL,CHAR,Dunning key
+BSEG,MWART,MWART,CHAR,Tax Type
+BSEG,MWSK1,MWSKX,CHAR,Tax Code for Distribution
+BSEG,MWSK2,MWSKX,CHAR,Tax Code for Distribution
+BSEG,MWSK3,MWSKX,CHAR,Tax Code for Distribution
+BSEG,MWSKZ,MWSKZ,CHAR,Sales Tax Code
+BSEG,MWST2,MWST2,CURR,Tax Amount in Second Local Currency
+BSEG,MWST3,MWST3,CURR,Tax Amount in Third Local Currency
+BSEG,MWSTS,MWSTS,CURR,Tax Amount in Local Currency
+BSEG,NAVFW,NAVFW,CURR,Non-Deductible Input Tax (in Document Currency)
+BSEG,NAVH2,NAVH2,CURR,Non-Deductible Input Tax in Second Local Currency
+BSEG,NAVH3,NAVH3,CURR,Non-Deductible Input Tax in Third Local Currency
+BSEG,NAVHW,NAVHW,CURR,Non-Deductible Input Tax (in Local Currency)
+BSEG,NEBTR,NEBTR,CURR,Net Payment Amount
+BSEG,NPLNR,NPLNR,CHAR,Network Number for Account Assignment
+BSEG,NPREI,NPREI,CURR,New price
+BSEG,OBZEI,OBZEI,NUMC,Number of Line Item in Original Document
+BSEG,PAOBJNR,RKEOBJNR,NUMC,Profitability Segment Number (CO-PA)
+BSEG,PARGB,PARGB,CHAR,Trading partner's business area
+BSEG,PASUBNR,RKESUBNR,NUMC,Profitability segment changes (CO-PA)
+BSEG,PEINH,PEINH,DEC,Price Unit
+BSEG,PENDAYS,PDAYS,INT4,Number of days for penalty charge calculation
+BSEG,PENFC,PENALTY,CURR,Penalty charge amount in document currency
+BSEG,PENLC1,PENALTY1,CURR,Penalty charge amount in first local currency
+BSEG,PENLC2,PENALTY2,CURR,Penalty charge amount in second local currency
+BSEG,PENLC3,PENALTY3,CURR,Penalty Charge Amount in Third Local Currency
+BSEG,PENRC,PENRC,CHAR,Reason for late payment
+BSEG,PERNR,PERNR_D,NUMC,Personnel Number
+BSEG,PEROP_BEG,FM_PEROP_FI_LOW,DATS,Billing Period of Performance Start Date
+BSEG,PEROP_END,FM_PEROP_FI_HIGH,DATS,Billing Period of Performance End Date
+BSEG,PFKBER,SFKBER,CHAR,Partner Functional Area
+ADRT,ADDRNUMBER,AD_ADDRNUM,CHAR,Address number
+ADRT,CLIENT,MANDT,CLNT,Client
+ADRT,COMM_TYPE,AD_COMM,CHAR,Communication Method (Key) (Business Address Services)
+ADRT,CONSNUMBER,AD_CONSNUM,NUMC,Sequence number
+ADRT,DATE_FROM,AD_DATE_FR,DATS,Valid-from date - in current Release only 00010101 possible
+ADRT,LANGU,SPRAS,LANG,Language Key
+ADRT,PERSNUMBER,AD_PERSNUM,CHAR,Person number
+ADRT,REMARK,AD_REMARK2,CHAR,Communication link notes
+EKKO,.INCLU--AP, , ,
+EKKO,.INCLU--AP, , ,
+EKKO,.INCLUDE, , ,
+EKKO,.INCLUDE, , ,
+EKKO,.INCLUDE, , ,
+EKKO,.INCLUDE, , ,
+EKKO,.INCLUDE, , ,
+EKKO,.INCLUDE, , ,
+EKKO,.INCLUDE, , ,
+EKKO,.INCLUDE, , ,
+EKKO,.INCLUDE, , ,
+EKKO,ABGRU,ABDUM,CHAR,Field Not Used
+EKKO,ABSGR,ABSGR,NUMC,Reason for Cancellation
+EKKO,ADDNR,ADDI_BELNR,CHAR,Document number for additional
+EKKO,ADRNR,AD_ADDRNUM,CHAR,Address number
+EKKO,AEDAT,ERDAT,DATS,Date on Which Record Was Created
+EKKO,ANGDT,ANGAB,DATS,Deadline for Submission of Bid/Quotation
+EKKO,ANGNR,ANGNR,CHAR,Quotation Number
+EKKO,AUREL_ALLOW,WRF_POHF_AUREL_ALLOW,CHAR,Take Account of Alloc. Table Relevance
+EKKO,AUSNR,AUSCH,CHAR,Bid invitation number
+EKKO,AUTLF,KMPLF,CHAR,Complete Delivery Stipulated for Each Purchase Order
+EKKO,BEDAT,EBDAT,DATS,Purchasing Document Date
+EKKO,BNDDT,EBNDT,DATS,Binding Period for Quotation
+EKKO,BSAKZ,BSAKZ,CHAR,Control indicator for purchasing document type
+EKKO,BSART,ESART,CHAR,Purchasing Document Type
+EKKO,BSTYP,EBSTYP,CHAR,Purchasing Document Category
+EKKO,BUDG_TYPE,WRF_BUDG_TYPE,CHAR,Budget Type
+EKKO,BUKRS,BUKRS,CHAR,Company Code
+EKKO,BWBDT,BWBDT,DATS,Closing Date for Applications
+EKKO,CHECK_TYPE,WRF_BUDG_OTB_CHECK,CHAR,Type of OTB Check
+EKKO,CONTRACT_ALLOW,WRF_POHF_CONTRACT_ALLOW,CHAR,Take Account of Contracts
+EKKO,CON_DISTR_LEV,WRF_POTB_DISTRIB_LEVEL,CHAR,Distribution Using Target Value or Item Data
+EKKO,CON_OTB_REQ,WRF_POTB_CON_REQ,CHAR,OTB-Relevant Contract
+EKKO,CON_PREBOOK_LEV,WRF_POTB_PREBOOK_LEVEL,CHAR,OTB Indicator Level for Contracts
+EKKO,DELPER_ALLOW,WRF_POHF_DELPER_ALLOW,CHAR,Take Account of Dlvy Period
+EKKO,EBELN,EBELN,CHAR,Purchasing Document Number
+EKKO,EINDT_ALLOW,WRF_POHF_EINDT_ALLOW,CHAR,Take Account of Delivery Date
+EKKO,EKGRP,BKGRP,CHAR,Purchasing Group
+EKKO,EKGRP_ALLOW,WRF_POHF_EKGRP_ALLOW,CHAR,Take Account of Purch. Group
+EKKO,EKORG,EKORG,CHAR,Purchasing Organization
+EKKO,EQ_EINDT,WRF_POHF_EQ_EINDT,DATS,Delivery Date Header: All Items Have Same Delivery Date
+EKKO,EQ_WERKS,WRF_POHF_EQ_EWERK,CHAR,Plant Header: All Items Have Same Receiving Plant
+EKKO,ERNAM,ERNAM,CHAR,Name of Person who Created the Object
+EKKO,EXNUM,EXNUM,CHAR,Number of foreign trade data in MM and SD documents
+EKKO,FIXPO,WRF_POHF_FIXPO,CHAR,Firm Deal Indicator
+EKKO,FIXPO_ALLOW,WRF_POHF_FIXPO_ALLOW,CHAR,Take Account of Fixed-Date Purchases Indicator
+EKKO,FORCE_CNT,/ISDFPS/FORCE_CNT,NUMC,Internal (Version) Counter
+EKKO,FORCE_ID,/ISDFPS/FORCE_ID,CHAR,Internal Key for Force Element
+EKKO,FRGGR,FRGGR,CHAR,Release group
+EKKO,FRGKE,FRGKE,CHAR,Release Indicator: Purchasing Document
+EKKO,FRGRL,FRGRL,CHAR,Release Not Yet Completely Effected
+EKKO,FRGSX,FRGSX,CHAR,Release Strategy
+EKKO,FRGZU,FRGZU,CHAR,Release status
+EKKO,GWLDT,MM_GWLDT,DATS,Warranty Date
+EKKO,IHRAN,IHRAN,DATS,Quotation Submission Date
+EKKO,IHREZ,IHREZ,CHAR,Your Reference
+EKKO,INCO1,INCO1,CHAR,Incoterms (Part 1)
+EKKO,INCO2,INCO2,CHAR,Incoterms (Part 2)
+EKKO,KALSM,KALSM_D,CHAR,"Procedure (Pricing, Output Control, Acct. Det., Costing,...)"
+EKKO,KDATB,KDATB,DATS,Start of Validity Period
+EKKO,KDATE,KDATE,DATS,End of Validity Period
+EKKO,KEY_ID,WRF_BUDG_KEY_ID,NUMC,Unique Number of Budget
+EKKO,KEY_ID_ALLOW,WRF_POHF_KEY_ID_ALLOW,CHAR,Consider Budget
+EKKO,KNUMV,KNUMV,CHAR,Number of the document condition
+EKKO,KONNR,KONNR,CHAR,Number of Principal Purchase Agreement
+EKKO,KORNR,KORNR,CHAR,Correction of miscellaneous provisions
+EKKO,KTWRT,KTWRT,CURR,Cumulative Planned Value
+EKKO,KUFIX,KUFIX,CHAR,Indicator: Fixing of Exchange Rate
+EKKO,KUNNR,KUNNR,CHAR,Customer Number 1
+EKKO,LANDS,LAND1_STML,CHAR,Country for Tax Return
+EKKO,LBLIF,LBLIF,CHAR,Field not used
+EKKO,LIFNR,ELIFN,CHAR,Vendor Account Number
+EKKO,LIFRE,LIFRE,CHAR,Different Invoicing Party
+EKKO,LLIEF,LLIEF,CHAR,Supplying Vendor
+EKKO,LOEKZ,ELOEK,CHAR,Deletion Indicator in Purchasing Document
+EKKO,LOGSY,LOGSYSTEM,CHAR,Logical System
+EKKO,LPHIS,LPHIS,CHAR,Indicator for scheduling agreement release documentation
+EKKO,LPONR,LPONR,NUMC,Last Item Number
+EKKO,MANDT,MANDT,CLNT,Client
+EKKO,MEMORY,MEMER,CHAR,Purchase order not yet complete
+EKKO,OTB_COND_TYPE,WRF_POTB_COND_TYPE,CHAR,OTB Condition Type
+EKKO,OTB_CURR,WRF_POTB_CURRENCY,CUKY,OTB Currency
+EKKO,OTB_LEVEL,WRF_POTB_CHECK_LEVEL,CHAR,OTB Check Level
+EKKO,OTB_REASON,WRF_POTB_STATUS_REASON,CHAR,Reason Indicator for OTB Check Status
+EKKO,OTB_RES_VALUE,WRF_POTB_RES_VALUE,CURR,Reserved Budget for OTB-Relevant Purchasing Document
+EKKO,OTB_SPEC_VALUE,WRF_POTB_SPECIAL_VALUE,CURR,Special Release Budget
+EKKO,OTB_STATUS,WRF_POTB_STATUS,CHAR,OTB Check Status
+EKKO,OTB_VALUE,WRF_POTB_VALUE,CURR,Required Budget
+EKKO,PINCR,PINCR,NUMC,Item Number Interval
+EKKO,POHF_TYPE,WRF_POHF_TYPE,CHAR,Document for Seasonal Purchase Order Processing
+EKKO,PROCSTAT,MEPROCSTATE,CHAR,Purchasing document processing state
+EKKO,PSTYP_ALLOW,WRF_POHF_PSTYP_ALLOW,CHAR,Take Account of Item Categories
+EKKO,REASON_CODE,/SAPPSPRO/_GR_REASON_CODE,CHAR,Goods Receipt Reason Code
+EKKO,RELOC_ID,/ISDFPS/RELOC_ID,CHAR,Relocation ID
+EKKO,RELOC_SEQ_ID,/ISDFPS/RELOC_SEQ_ID,CHAR,Relocation Step ID
+EKKO,RESWK,RESWK,CHAR,Supplying (Issuing) Plant in Stock Transport Order
+EKKO,REVNO,REVNO,CHAR,Version number in Purchasing
+EKKO,RLWRT,RLWRT,CURR,Total value at time of release
+EKKO,SCMPROC,SCMPROC,CHAR,SCM Process That Created the Purchase Order
+EKKO,SPRAS,SPRAS,LANG,Language Key
+EKKO,SPR_RSN_PROFILE,WRF_POTB_SPR_RSN_PROFILE,CHAR,Reason Profile for OTB Special Release
+EKKO,STAFO,STAFO,CHAR,Update group for statistics update
+EKKO,STAKO,STAKO,CHAR,Document with time-dependent conditions
+EKKO,STATU,ESTAK,CHAR,Status of Purchasing Document
+EKKO,STCEG,STCEG,CHAR,VAT Registration Number
+EKKO,STCEG_L,STCEG_L,CHAR,Country of Sales Tax ID Number
+EKKO,SUBMI,SUBMI,CHAR,Collective Number
+EKKO,TELF1,TELF0,CHAR,Vendor's Telephone Number
+EKKO,UNSEZ,UNSEZ,CHAR,Our Reference
+EKKO,UPINC,UPINC,NUMC,Item Number Interval for Subitems
+EKKO,VERKF,EVERK,CHAR,Responsible Salesperson at Vendor's Office
+EKKO,WAERS,WAERS,CUKY,Currency Key
+EKKO,WEAKT,WEAKT,CHAR,Indicator: Goods Receipt Message
+EKKO,WERKS_ALLOW,WRF_POHF_WERKS_ALLOW,CHAR,Take Account of Plants
+EKKO,WKURS,WKURS,DEC,Exchange Rate
+EKKO,ZBD1P,DZBD1P,DEC,Cash Discount Percentage 1
+EKKO,ZBD1T,DZBDET,DEC,Cash (Prompt Payment) Discount Days
+EKKO,ZBD2P,DZBD2P,DEC,Cash Discount Percentage 2
+EKKO,ZBD2T,DZBDET,DEC,Cash (Prompt Payment) Discount Days
+EKKO,ZBD3T,DZBDET,DEC,Cash (Prompt Payment) Discount Days
+EKKO,ZTERM,DZTERM,CHAR,Terms of Payment Key
+EKPO,.INCLU--AP, , ,
+EKPO,.INCLU--AP, , ,
+EKPO,.INCLU--AP, , ,
+EKPO,.INCLU--AP, , ,
+EKPO,.INCLU--AP, , ,
+EKPO,.INCLUDE, , ,
+EKPO,.INCLUDE, , ,
+EKPO,.INCLUDE, , ,
+EKPO,.INCLUDE, , ,
+EKPO,.INCLUDE, , ,
+EKPO,.INCLUDE, , ,
+EKPO,.INCLUDE, , ,
+EKPO,.INCLUDE, , ,
+EKPO,/BEV1/NEDEPFREE,/BEV1/NEDEPFREE,CHAR,Indicator: Dependent Items Are Free of Charge
+EKPO,/BEV1/NEGEN_ITEM,/BEV1/NEGEN_ITEM_FLAG,CHAR,Indicator: Item Is Generated
+EKPO,/BEV1/NESTRUCCAT,/BEV1/NESTRUC_CAT,CHAR,Structure Category for Material Relationship
+EKPO,ABDAT,ABDAT,DATS,Reconciliation Date for Agreed Cumulative Quantity
+EKPO,ABELN,ABELN,CHAR,Allocation Table Number
+EKPO,ABELP,ABELP,NUMC,Item number of allocation table
+EKPO,ABFTZ,ABFTZ,QUAN,Agreed Cumulative Quantity
+EKPO,ABMNG,NORAM,QUAN,Standard release order quantity
+EKPO,ABSKZ,ABSKZ,CHAR,Rejection Indicator
+EKPO,ABUEB,ABUEB,CHAR,Release Creation Profile
+EKPO,ADRN2,ADRN2,CHAR,Number of delivery address
+EKPO,ADRNR,ADRNR_MM,CHAR,Manual address number in purchasing document item
+EKPO,ADVCODE,/ISDFPS/ADVCODE,CHAR,Advice Code
+EKPO,AEDAT,PAEDT,DATS,Purchasing Document Item Change Date
+EKPO,AFNAM,AFNAM,CHAR,Name of Requisitioner/Requester
+EKPO,AGDAT,ANGAB,DATS,Deadline for Submission of Bid/Quotation
+EKPO,AGMEM,AGMEM,CHAR,Internal Comment on Quotation
+EKPO,AKTNR,WAKTION,CHAR,Promotion
+EKPO,ANFNR,ANFNR,CHAR,RFQ Number
+EKPO,ANFPS,ANFPS,NUMC,Item Number of RFQ
+EKPO,ANZPU,ANZPU,QUAN,Number of Points
+EKPO,APOMS,APOMS,CHAR,APO as Planning System
+EKPO,ARSNR,ARSNR,NUMC,Settlement reservation number
+EKPO,ARSPS,ARSPS,NUMC,Item number of the settlement reservation
+EKPO,ATTYP,ATTYP,CHAR,Material Category
+EKPO,AUREL,AUREL,CHAR,Relevant to Allocation Table
+EKPO,BANFN,BANFN,CHAR,Purchase Requisition Number
+EKPO,BEDNR,BEDNR,CHAR,Requirement Tracking Number
+EKPO,BERID,BERID,CHAR,MRP Area
+EKPO,BNFPO,BNFPO,NUMC,Item Number of Purchase Requisition
+EKPO,BONBA,BONBA,CURR,Rebate basis 1
+EKPO,BONUS,EBONU,CHAR,Settlement Group 1 (Purchasing)
+EKPO,BPRME,BBPRM,UNIT,Order Price Unit (Purchasing)
+EKPO,BPUMN,BPUMN,DEC,Denominator for Conv. of Order Price Unit into Order Unit
+EKPO,BPUMZ,BPUMZ,DEC,Numerator for Conversion of Order Price Unit into Order Unit
+EKPO,BRGEW,BRGEW,QUAN,Gross Weight
+EKPO,BRTWR,BBWERT,CURR,Gross order value in PO currency
+EKPO,BSGRU,BSGRU,CHAR,Reason for Ordering
+EKPO,BSTAE,BSTAE,CHAR,Confirmation Control Key
+EKPO,BSTYP,BSTYP,CHAR,Purchasing Document Category
+EKPO,BUKRS,BUKRS,CHAR,Company Code
+EKPO,BWTAR,BWTAR_D,CHAR,Valuation Type
+EKPO,BWTTY,BWTTY_D,CHAR,Valuation Category
+EKPO,CCOMP,MMPUR_CCOMP,CHAR,Posting Logic in the Case of Stock Transfers
+EKPO,CHG_FPLNR,CHG_FPLNR,CHAR,No invoice for this item although not free of charge
+EKPO,CHG_SRV,CHG_SRV,CHAR,Configuration changed
+EKPO,CONS_ORDER,WRF_CONS_ORDER,CHAR,Purchase Order for Consignment
+EKPO,CQU_SAR,CQU_SAR,QUAN,Cumulative Goods Receipts from Redirected Purchase Orders
+EKPO,CUOBJ,CUOBJ,NUMC,Configuration (internal object number)
+EKPO,DRDAT,DRDAT,DATS,Last Transmission
+EKPO,DRUHR,DRUHR,TIMS,Time
+EKPO,DRUNR,DRUNR,NUMC,Sequential Number
+EKPO,EAN11,EAN11,CHAR,International Article Number (EAN/UPC)
+EKPO,EBELN,EBELN,CHAR,Purchasing Document Number
+EKPO,EBELP,EBELP,NUMC,Item Number of Purchasing Document
+EKPO,EBON2,EBON2,CHAR,"Settlement Group 2 (Rebate Settlement, Purchasing)"
+EKPO,EBON3,EBON3,CHAR,"Settlement Group 3 (Rebate Settlement, Purchasing)"
+EKPO,EBONF,EBONY,CHAR,Item Relevant to Subsequent (Period-End Rebate) Settlement
+EKPO,EFFWR,EFFWR,CURR,Effective value of item
+EKPO,EGLKZ,EGLKZ,CHAR,"""Outward Delivery Completed"" Indicator"
+EKPO,EHTYP,EHTYP,CHAR,External Hierarchy Category
+EKPO,EILDT,EILDT,DATS,Start Date for GR-Based Settlement
+EKPO,EKKOL,EKKOG,CHAR,Condition Group with Vendor
+EKPO,ELIKZ,ELIKZ,CHAR,"""Delivery Completed"" Indicator"
+EKPO,EMATN,EMATNR,CHAR,Material Number
+EKPO,EMLIF,EMLIF,CHAR,Vendor to be supplied/who is to receive delivery
+EKPO,EMNFR,EMNFR,CHAR,External manufacturer code name or number
+EKPO,EMPST,EMPST,CHAR,Receiving point
+EKPO,EREKZ,EREKZ,CHAR,Final Invoice Indicator
+EKPO,ETDRK,ETDRK,CHAR,Indicator: Print-relevant schedule lines exist
+EKPO,ETFZ1,ETFZ1,DEC,Firm Zone (Go-Ahead for Production)
+EKPO,ETFZ2,ETFZ2,DEC,Trade-Off Zone (Go-Ahead for Materials Procurement)
+EKPO,EVERS,EVERS,CHAR,Shipping Instructions
+EKPO,EXCPE,EXCPE,NUMC,Acceptance Period
+EKPO,EXLIN,EXLIN,CHAR,Item Number Length
+EKPO,EXSNR,EXSNR,NUMC,External Sorting
+EKPO,FABKZ,FABKZ,CHAR,Indicator: Item Relevant to JIT Delivery Schedules
+EKPO,FFZHI,FFZHI,QUAN,Maximum Cumulative Production Go-Ahead Quantity
+EKPO,FIPOS,FIPOS,CHAR,Commitment Item
+EKPO,FISTL,FISTL,CHAR,Funds Center
+EKPO,FKBER,FKBER,CHAR,Functional Area
+EKPO,FPLNR,IPLNR,CHAR,Invoicing plan number
+EKPO,GEBER,BP_GEBER,CHAR,Fund
+EKPO,GEWEI,EGEWE,UNIT,Unit of Weight
+EKPO,GNETWR,GNETWR,CURR,Currently not used
+EKPO,GRANT_NBR,GM_GRANT_NBR,CHAR,Grant
+EKPO,IDNLF,IDNLF,CHAR,Material Number Used by Vendor
+EKPO,INCO1,INCO1,CHAR,Incoterms (Part 1)
+EKPO,INCO2,INCO2,CHAR,Incoterms (Part 2)
+EKPO,INFNR,INFNR,CHAR,Number of Purchasing Info Record
+EKPO,INSMK,INSMK,CHAR,Stock Type
+EKPO,INSNC,INSNC,CHAR,Quality inspection indicator cannot be changed
+EKPO,IPRKZ,DATTP,CHAR,Period Indicator for Shelf Life Expiration Date
+EKPO,IUID_RELEVANT,IUID_RELEVANT,CHAR,IUID-Relevant
+EKPO,J_1AIDATEP,J_1AIDATEP,DATS,Inflation Index Date
+EKPO,J_1AINDXP,J_1AINDXP,CHAR,Inflation Index
+EKPO,J_1BINDUST,J_1BINDUS3,CHAR,Material CFOP category
+EKPO,J_1BMATORG,J_1BMATORG,CHAR,Origin of the material
+EKPO,J_1BMATUSE,J_1BMATUSE,CHAR,Usage of the material
+EKPO,J_1BNBM,J_1BNBMCO1,CHAR,Brazilian NCM Code
+EKPO,J_1BOWNPRO,J_1BOWNPRO,CHAR,Produced in-house
+EKPO,KANBA,KBNKZ,CHAR,Kanban Indicator
+EKPO,KBLNR,KBLNR,CHAR,Document Number for Earmarked Funds
+EKPO,KBLPOS,KBLPOS,NUMC,Earmarked Funds: Document Item
+EKPO,KNTTP,KNTTP,CHAR,Account Assignment Category
+EKPO,KOLIF,KOLIF,CHAR,Prior Vendor
+EKPO,KONNR,KONNR,CHAR,Number of Principal Purchase Agreement
+EKPO,KO_GSBER,GSBER_GP,CHAR,Business area reported to the partner
+EKPO,KO_PARGB,PARGB_GP,CHAR,assumed business area of the business partner
+EKPO,KO_PPRCTR,PPRCTR,CHAR,Partner Profit Center
+EKPO,KO_PRCTR,PRCTR,CHAR,Profit Center
+EKPO,KTMNG,KTMNG,QUAN,Target Quantity
+EKPO,KTPNR,KTPNR,NUMC,Item Number of Principal Purchase Agreement
+EKPO,KUNNR,EKUNNR,CHAR,Customer
+EKPO,KZABS,KZABS,CHAR,Order Acknowledgment Requirement
+EKPO,KZBWS,KZBWS,CHAR,Valuation of Special Stock
+EKPO,KZFME,KZWSO,CHAR,Units of measure usage
+EKPO,KZKFG,KZCUH,CHAR,Origin of Configuration
+EKPO,KZSTU,MRPRE,CHAR,Firm/Trade-Off Zones Binding with Regard to Mat. Planning
+EKPO,KZTLF,KZTUL,CHAR,Partial Delivery at Item Level (Stock Transfer)
+EKPO,KZVBR,KZVBR,CHAR,Consumption Posting
+EKPO,KZWI1,KZWI1,CURR,Subtotal 1 from pricing procedure for condition
+EKPO,KZWI2,KZWI2,CURR,Subtotal 2 from pricing procedure for condition
+EKPO,KZWI3,KZWI3,CURR,Subtotal 3 from pricing procedure for condition
+EKPO,KZWI4,KZWI4,CURR,Subtotal 4 from pricing procedure for condition
+EKPO,KZWI5,KZWI5,CURR,Subtotal 5 from pricing procedure for condition
+EKPO,KZWI6,KZWI6,CURR,Subtotal 6 from pricing procedure for condition
+EKPO,LABNR,LABNR,CHAR,Order Acknowledgment Number
+EKPO,LBLKZ,LBLKZ,CHAR,Subcontracting vendor
+EKPO,LEBRE,LEBRE,CHAR,Indicator for Service-Based Invoice Verification
+EKPO,LEWED,LEWED,DATS,Latest Possible Goods Receipt
+EKPO,LFRET,LFRET,CHAR,Delivery Type for Returns to Vendors
+EKPO,LGORT,LGORT_D,CHAR,Storage Location
+EKPO,LMEIN,LAGME,UNIT,Base Unit of Measure
+EKPO,LOEKZ,ELOEK,CHAR,Deletion Indicator in Purchasing Document
+EKPO,LTSNR,LTSNR,CHAR,Vendor Subrange
+EKPO,MAHN1,MAHN1,DEC,Number of Days for First Reminder/Expediter
+EKPO,MAHN2,MAHN2,DEC,Number of Days for Second Reminder/Expediter
+EKPO,MAHN3,MAHN3,DEC,Number of Days for Third Reminder/Expediter
+EKPO,MAHNZ,MAHNZ,DEC,Number of Reminders/Expediters
+EKPO,MANDT,MANDT,CLNT,Client
+EKPO,MATKL,MATKL,CHAR,Material Group
+EKPO,MATNR,MATNR,CHAR,Material Number
+EKPO,MEINS,BSTME,UNIT,Purchase Order Unit of Measure
+EKPO,MENGE,BSTMG,QUAN,Purchase Order Quantity
+EKPO,MEPRF,MEPRF,CHAR,Price Determination (Pricing) Date Control
+EKPO,MFRGR,MFRGR,CHAR,Material freight group
+EKPO,MFRNR,MFRNR,CHAR,Number of a Manufacturer
+EKPO,MFRPN,MFRPN,CHAR,Manufacturer Part Number
+EKPO,MFZHI,MFZHI,QUAN,Maximum Cumulative Material Go-Ahead Quantity
+EKPO,MHDRZ,MHDRZ,DEC,Minimum Remaining Shelf Life
+EKPO,MLMAA,CK_ML_MAAC,CHAR,Material ledger activated at material level
+EKPO,MPROF,MPROF,CHAR,Manufacturer Part Profile
+EKPO,MTART,MTART,CHAR,Material Type
+EKPO,MWSKZ,MWSKZ,CHAR,Sales Tax Code
+EKPO,NAVNW,NAVNW,CURR,Non-deductible input tax
+EKPO,NETPR,BPREI,CURR,Net Price in Purchasing Document (in Document Currency)
+EKPO,NETWR,BWERT,CURR,Net Order Value in PO Currency
+EKPO,NFABD,NFABD,DATS,Next JIT Delivery Schedule Transmission
+EKPO,NLABD,NLABD,DATS,Next Forecast Delivery Schedule Transmission
+EKPO,NOTKZ,NOTKZ,CHAR,Exclusion in Outline Agreement Item with Material Class
+EKPO,NOVET,NOVET,CHAR,Item blocked for SD delivery
+EKPO,NRFHG,NRFHG,CHAR,Material qualifies for discount in kind
+EKPO,NTGEW,ENTGE,QUAN,Net Weight
+EKPO,PACKNO,PACKNO,NUMC,Package number
+EKPO,PEINH,EPEIN,DEC,Price Unit
+EKPO,PLIFZ,EPLIF,DEC,Planned Delivery Time in Days
+EKPO,POL_ID,WRF_POHF_POL_ID,CHAR,Order List Item Number
+EKPO,PRDAT,PREDT,DATS,Date of Price Determination
+EKPO,PRIO_REQ,PRIO_REQ,NUMC,Requirement Priority
+EKPO,PRIO_URG,PRIO_URG,NUMC,Requirement Urgency
+EKPO,PRSDR,PRSDR,CHAR,Price Printout
+EKPO,PSTYP,PSTYP,CHAR,Item Category in Purchasing Document
+EKPO,PUNEI,PUNEI,UNIT,Points unit
+EKPO,PUT_BACK,WRF_POHF_PUT_BACK_POG,CHAR,Indicator for Putting Back from Grouped PO Document
+EKPO,RDPRF,RDPRF,CHAR,Rounding Profile
+EKPO,REASON_CODE,/SAPPSPRO/_GR_REASON_CODE,CHAR,Goods Receipt Reason Code
+EKPO,REFSITE,WREFSITE,CHAR,Reference Site For Purchasing
+EKPO,REF_ITEM,WRF_PSCD_REF_ITEM,NUMC,Reference Item for Remaining Qty Cancellation
+EKPO,REPOS,REPOS,CHAR,Invoice Receipt Indicator
+EKPO,RESLO,RESLO,CHAR,Issuing Storage Location for Stock Transport Order
+EKPO,RETPO,RETPO,CHAR,Returns Item
+EKPO,REVLV,REVLV,CHAR,Revision Level
+EKPO,SAISJ,SAISJ,CHAR,Season Year
+EKPO,SAISO,SAISO,CHAR,Season Category
+EKPO,SATNR,SATNR,CHAR,Cross-Plant Configurable Material
+EKPO,SCHPR,SCHPR,CHAR,Indicator: Estimated Price
+EKPO,SIKGR,SIKGR,CHAR,Processing key for sub-items
+EKPO,SKTOF,ESKTOF,CHAR,Item Does Not Qualify for Cash Discount
+EKPO,SOBKZ,SOBKZ,CHAR,Special Stock Indicator
+EKPO,SOURCE_ID,WRF_POHF_SOURCE_ID,CHAR,Origin Profile
+EKPO,SOURCE_KEY,WRF_POHF_SOURCE_KEY,CHAR,Key in Source System
+EKPO,SPE_ABGRU,ABGRU,CHAR,Reason for rejection of quotations and sales orders
+EKPO,SPE_CHNG_SYS,/SPE/INB_CHNG_SYS,CHAR,Last Changer's System Type
+EKPO,SPE_CQ_CTRLTYPE,/SPE/CQ_CONTROL_TYPE,CHAR,CQ Control Type
+EKPO,SPE_CQ_NOCQ,/SPE/CQ_NOCQ,CHAR,No Transmission of Cumulative Quantities in SA Release
+EKPO,SPE_CRM_REF_ITEM,/SPE/REF_POSNR_CRM,CHAR,CRM Reference Sales Order Item Number in TPOP Process
+EKPO,SPE_CRM_REF_SO,/SPE/REF_VBELN_CRM,CHAR,CRM Reference Order Number for TPOP Process
+EKPO,SPE_CRM_SO,/SPE/VBELN_CRM,CHAR,CRM Sales Order Number for TPOP Process
+EKPO,SPE_CRM_SO_ITEM,/SPE/POSNR_CRM,NUMC,CRM Sales Order Item Number in TPOP Process
+BSEG,POPTS,POPTSATZ,DEC,Real estate option rate
+BSEG,POSN2,POSNR_VA,NUMC,Sales Document Item
+BSEG,PPA_EX_IND,EXCLUDE_FLG,CHAR,PPA Exclude Indicator
+BSEG,PPDIF2,PPDIF2,CURR,Realized Exchange Rate Gain/Loss 2.Loc. Curr.(Part Payments)
+BSEG,PPDIF3,PPDIF3,CURR,Realized Exchange Rate Gain/Loss 3.Loc.Curr.(Part Payments)
+BSEG,PPDIFF,PPDIFF,CURR,Realized Exchange Rate Gain/Loss 1.Loc.Curr.(Part Payments)
+BSEG,PPRCT,PPRCTR,CHAR,Partner Profit Center
+BSEG,PRCTR,PRCTR,CHAR,Profit Center
+BSEG,PRODPER,JV_PRODPER,DATS,Production Month (Date to find period and year)
+BSEG,PROJK,PS_PSP_PNR,NUMC,Work Breakdown Structure Element (WBS Element)
+BSEG,PROJN,PROJN,CHAR,Old: Project number : No longer used --> PS_POSNR
+BSEG,PRZNR,CO_PRZNR,CHAR,Business Process
+BSEG,PSALT,PSALT,CHAR,Alternative Price Control
+BSEG,PSEGMENT,FB_PSEGMENT,CHAR,Partner Segment for Segmental Reporting
+BSEG,PSWBT,PSWBT,CURR,Amount for Updating in General Ledger
+BSEG,PSWSL,PSWSL,CUKY,Update Currency for General Ledger Transaction Figures
+BSEG,PYAMT,PYAMT,CURR,Amount in Payment Currency
+BSEG,PYCUR,PYCUR,CUKY,Currency for Automatic Payment
+BSEG,QBSHB,QBSHB,CURR,Withholding Tax Amount (in Document Currency)
+BSEG,QSFBT,QSFBT,CURR,Withholding Tax-Exempt Amount (in Document Currency)
+BSEG,QSSHB,QSSHB,CURR,Withholding Tax Base Amount
+BSEG,QSSKZ,QSSKZ,CHAR,Withholding Tax Code
+BSEG,QSZNR,QSZNR,CHAR,Certificate Number of the Withholding Tax Exemption
+BSEG,RDIF2,RDIF2,CURR,Exchange Rate Difference Realized for Second Local Currency
+BSEG,RDIF3,RDIF3,CURR,Exchange Rate Difference Realized for Third Local Currency
+BSEG,RDIFF,RDIFF,CURR,Exchange Rate Gain/Loss Realized
+BSEG,REBZG,REBZG,CHAR,Number of the Invoice the Transaction Belongs to
+BSEG,REBZJ,REBZJ,NUMC,Fiscal Year of the Relevant Invoice (for Credit Memo)
+BSEG,REBZT,REBZT,CHAR,Follow-On Document Type
+BSEG,REBZZ,REBZZ,NUMC,Line Item in the Relevant Invoice
+BSEG,RECID,JV_RECIND,CHAR,Recovery Indicator
+BSEG,REWRT,REEWR,CURR,Invoice Value Entered (in Local Currency)
+BSEG,REWWR,REFWR,CURR,Invoice value in foreign currency
+BSEG,RFZEI,RFZEI_CC,NUMC,Payment Card Item
+BSEG,RPACQ,RPACQ,NUMC,Period of Acquisition
+BSEG,RSTGR,RSTGR,CHAR,Reason Code for Payments
+BSEG,RYACQ,RYACQ,CHAR,Year of acquisition
+BSEG,SAKNR,SAKNR,CHAR,G/L Account Number
+BSEG,SAMNR,SAMNR,NUMC,Invoice List Number
+BSEG,SCTAX,SCTAX,CURR,Tax portion FI-CA local currency
+BSEG,SECCO,SECCO,CHAR,Section Code
+BSEG,SEGMENT,FB_SEGMENT,CHAR,Segment for Segmental Reporting
+BSEG,SGTXT,SGTXT,CHAR,Item Text
+BSEG,SHKZG,SHKZG,CHAR,Debit/Credit Indicator
+BSEG,SHZUZ,SHZUZ,CHAR,Debit/Credit Addition for Cash Discount
+BSEG,SKFBT,SKFBT,CURR,Amount Eligible for Cash Discount in Document Currency
+BSEG,SKNT2,SKNT2,CURR,Cash Discount Amount in Second Local Currency
+BSEG,SKNT3,SKNT3,CURR,Cash Discount Amount in Third Local Currency
+BSEG,SKNTO,SKNTO,CURR,Cash discount amount in local currency
+BSEG,SPGRC,SPGRC,CHAR,Block.reason: quality
+BSEG,SPGRG,SPGRG,CHAR,Blocking reason: order price quantity
+BSEG,SPGRM,SPGRM,CHAR,Blocking reason: quantity
+BSEG,SPGRP,SPGRP,CHAR,Blocking reason: price
+BSEG,SPGRQ,SPGRQ,CHAR,Manual Blocking Reason
+BSEG,SPGRS,SPGRS,CHAR,Blocking Reason: Item Amount
+BSEG,SPGRT,SPGRT,CHAR,Blocking Reason: Date
+BSEG,SPGRV,SPGRV,CHAR,Blocking reason: project budget
+BSEG,SRTYPE,FM_SRTYPE,CHAR,Type of Additional Receivable
+BSEG,STBUK,STBUK,CHAR,Tax Company Code
+BSEG,STCEG,STCEG,CHAR,VAT Registration Number
+BSEG,STEKZ,CHAR2,CHAR,Version Number Component
+BSEG,STTAX,STTAX,CURR,Tax amount as statistical information in document currency
+BSEG,TBTKZ,TBTKZ,CHAR,Indicator: subsequent debit/credit
+BSEG,TXBFW,TXBFW,CURR,Original Tax Base Amount in Document Currency
+BSEG,TXBH2,TXBH2,CURR,Tax Base/Original Tax Base in Second Local Currency
+BSEG,TXBH3,TXBH3,CURR,Tax Base/Original Tax Base in Third Local Currency
+BSEG,TXBHW,TXBHW,CURR,Original Tax Base Amount in Local Currency
+BSEG,TXDAT,TXDAT,DATS,Date for defining tax rates
+BSEG,TXGRP,TXGRP,NUMC,Group Indicator for Tax Line Items
+BSEG,TXJCD,TXJCD,CHAR,Tax Jurisdiction
+BSEG,UMSKS,UMSKS,CHAR,Special G/L Transaction Type
+BSEG,UMSKZ,UMSKZ,CHAR,Special G/L Indicator
+BSEG,UZAWE,UZAWE,CHAR,Payment Method Supplement
+BSEG,VALUT,VALUT,DATS,Value date
+BSEG,VBEL2,VBELN_VA,CHAR,Sales Document
+BSEG,VBELN,VBELN_VF,CHAR,Billing Document
+BSEG,VBEWA,SBEWART,CHAR,Flow Type
+BSEG,VBUND,RASSC,CHAR,Company ID of trading partner
+BSEG,VERTN,RANL,CHAR,Contract Number
+BSEG,VERTT,RANTYP,CHAR,Contract Type
+BSEG,VNAME,JV_NAME,CHAR,Joint Venture
+BSEG,VORGN,VORGN,CHAR,Transaction Type for General Ledger
+BSEG,VPRSV,VPRSV,CHAR,Price control indicator
+BSEG,VPTNR,JV_PART,CHAR,Partner account number
+BSEG,VRSDT,VRSDT,DATS,Insurance date
+BSEG,VRSKZ,VRSKZ,CHAR,Insurance indicator
+BSEG,WERKS,WERKS_D,CHAR,Plant
+BSEG,WMWST,WMWST,CURR,Tax amount in document currency
+BSEG,WRBT1,WRBTX,CURR,Amount in foreign currency for tax breakdown
+BSEG,WRBT2,WRBTX,CURR,Amount in foreign currency for tax breakdown
+BSEG,WRBT3,WRBTX,CURR,Amount in foreign currency for tax breakdown
+BSEG,WRBTR,WRBTR,CURR,Amount in document currency
+BSEG,WSKTO,WSKTO,CURR,Cash discount amount in document currency
+BSEG,WVERW,WVERW,CHAR,Bill of exchange usage type
+BSEG,XANET,XANET,CHAR,Indicator: Down payment in net procedure ?
+BSEG,XAUTO,XAUTO,CHAR,Indicator: Line item automatically created
+BSEG,XBILK,XBILK,CHAR,Indicator: Account is a balance sheet account?
+BSEG,XCPDD,XCPDD,CHAR,Indicator: Address and bank data set individually
+BSEG,XEGDR,XEGDR,CHAR,Indicator: Triangular deal within the EU ?
+BSEG,XFAKT,XFAKT,CHAR,Indicator: Billing document update successful ?
+BSEG,XHKOM,XHKOM,CHAR,Indicator: G/L account assigned manually ?
+BSEG,XHRES,XHRES,CHAR,Indicator: Resident G/L account?
+BSEG,XINVE,XINVE,CHAR,Indicator: Capital Goods Affected?
+BSEG,XKRES,XKRES,CHAR,Indicator: Can Line Items Be Displayed by Account?
+BSEG,XLGCLR,XLGCLR,CHAR,Clearing Specific to Ledger Groups
+BSEG,XNCOP,XNCOP,CHAR,Indicator: Items cannot be copied?
+BSEG,XNEGP,XNEGP,CHAR,Indicator: Negative posting
+BSEG,XOPVW,XOPVW,CHAR,Indicator: Open item management?
+BSEG,XPANZ,XPANZ,CHAR,Display item
+BSEG,XPYPR,XPYPR,CHAR,Indicator: Payment Order Exists for this Item
+BSEG,XRAGL,XRAGL,CHAR,Indicator: Clearing was Reversed
+BSEG,XREF1,XREF1,CHAR,Business partner reference key
+BSEG,XREF2,XREF2,CHAR,Business partner reference key
+BSEG,XREF3,XREF3,CHAR,Reference key for line item
+BSEG,XSAUF,XSAUF,CHAR,Indicator: Posting to order is statistical
+BSEG,XSERG,XSERG,CHAR,Indicator: Posting to prof.analysis is statistical
+BSEG,XSKRL,XSKRL,CHAR,Indicator: Line item not liable to cash discount?
+BSEG,XSKST,XSKST,CHAR,Indicator: Statistical posting to cost center
+BSEG,XSPRO,XSPRO,CHAR,Indicator: Posting to project is statistical
+BSEG,XUMAN,XUMAN,CHAR,Indicator: Transfer posting from down payment ?
+BSEG,XUMSW,XUMSW,CHAR,Indicator: Sales-related item ?
+BSEG,XZAHL,XZAHL,CHAR,Indicator: Is the posting key used in a payment transaction?
+BSEG,ZBD1P,DZBD1P,DEC,Cash Discount Percentage 1
+BSEG,ZBD1T,DZBD1T,DEC,Cash discount days 1
+BSEG,ZBD2P,DZBD2P,DEC,Cash Discount Percentage 2
+BSEG,ZBD2T,DZBD2T,DEC,Cash discount days 2
+BSEG,ZBD3T,DZBD3T,DEC,Net Payment Terms Period
+BSEG,ZBFIX,DZBFIX,CHAR,Fixed Payment Terms
+BSEG,ZEKKN,DZEKKN,NUMC,Sequential Number of Account Assignment
+BSEG,ZFBDT,DZFBDT,DATS,Baseline Date for Due Date Calculation
+BSEG,ZINKZ,DZINKZ,CHAR,Exempted from interest calculation
+BSEG,ZLSCH,SCHZW_BSEG,CHAR,Payment Method
+BSEG,ZLSPR,DZLSPR,CHAR,Payment Block Key
+BSEG,ZOLLD,DZOLLD,DATS,Customs Date
+BSEG,ZOLLT,DZOLLT,CHAR,Customs Tariff Number
+BSEG,ZTERM,DZTERM,CHAR,Terms of Payment Key
+BSEG,ZUMSK,DZUMSK,CHAR,Target Special G/L Indicator
+BSEG,ZUONR,DZUONR,CHAR,Assignment Number
+BSEG,ZZBUSPARTN,ZZBUSPARTN,CHAR,Business partner
+BSEG,ZZCHAN,ZZCHAN,CHAR,Distribution channel
+BSEG,ZZLOB,ZZLOB,CHAR,BUSINESS LINE
+BSEG,ZZLOCA,ZZLOCA,CHAR,City
+BSEG,ZZPRODUCT,ZZPRODUCT,CHAR,Product group
+BSEG,ZZREGION,ZZREGION,CHAR,Location
+BSEG,ZZSPREG,ZREGION,CHAR,Special Region
+BSEG,ZZSTATE,ZZSTATE,CHAR,State/Province Code
+BSEG,ZZUSERFLD1,ZZUSERFLD1,CHAR,Territory
+BSEG,ZZUSERFLD2,ZZUSERFLD2,CHAR,Owner/Cont.
+BSEG,ZZUSERFLD3,ZZUSERFLD3,CHAR,Vein
+CSSL,AUSEH,AUSEH,UNIT,Output Unit
+CSSL,AUSFK,AUSFK,DEC,Output factor
+CSSL,CCKEY,CCKEY,CHAR,Cost collector key
+CSSL,GJAHR,GJAHR,NUMC,Fiscal Year
+CSSL,KOKRS,KOKRS,CHAR,Controlling Area
+CSSL,KOSTL,KOSTL,CHAR,Cost Center
+CSSL,LATYP,LATYP,CHAR,Activity Type Category
+CSSL,LATYPI,LATYPI,CHAR,Variant Activity Type Category for Actual Postings
+CSSL,LEINH,LEINH,UNIT,Activity Unit
+CSSL,LSTAR,LSTAR,CHAR,Activity Type
+CSSL,MANDT,MANDT,CLNT,Client
+CSSL,OBJNR,J_OBJNR,CHAR,Object number
+EQKT,EQKTU,EQKTU,CHAR,Equipment description in capital letters
+EQKT,EQKTX,KTX01,CHAR,Description of technical object
+EQKT,EQUNR,EQUNR,CHAR,Equipment Number
+EQKT,KZLTX,KZLTA,CHAR,Long Text Indicator
+EQKT,MANDT,MANDT,CLNT,Client
+EQKT,SPRAS,SPRAS,LANG,Language Key
+EQKT,TXASP,KZMLA,CHAR,Primary language indicator for text segment
+EREV,.INCLUDE, , ,
+EREV,BANPR,BANPR_OLD,CHAR,Old processing state in purchasing document before version
+EREV,BSTYP,BSTYP_DCM,CHAR,Purchasing Document Category
+EREV,BUDAT,DCM_BUDAT,DATS,Posting date of version
+EREV,CRNAM,DCM_AFNAM,CHAR,Person requesting change
+EREV,DIFWR,DCM_DIFWR,CURR,Value change due to version
+EREV,EDOKN,EDOKN,CHAR,Object Number in Purchasing
+EREV,EDOKP,EDOKP,NUMC,Purchasing object: item
+EREV,ERDAT,ERDAT,DATS,Date on Which Record Was Created
+EREV,ERNAM,ERNAM,CHAR,Name of Person who Created the Object
+EREV,ERUHR,ERZET,TIMS,Entry time
+EREV,EXTNR,DCM_EXTNR,CHAR,External Change Number of Version
+BSEGC,.INCLUDE, , ,
+BSEGC,.INCLUDE, , ,
+BSEGC,AUDAT,AUDAT_CC,DATS,Payment cards: Authorization date
+BSEGC,AUNUM,AUNUM,CHAR,Payment cards: Authorization number
+BSEGC,AUTIM,AUTIM,TIMS,Payment cards: Authorization time
+BSEGC,AUTRA,AUTRA,CHAR,Payment cards: Authoriz. reference code of clearing house
+BSEGC,AUTWR,AUTWR,CURR,Payment cards: Authorized amount
+BSEGC,BELNR,BELNR_D,CHAR,Accounting Document Number
+BSEGC,BUKRS,BUKRS,CHAR,Company Code
+BSEGC,CCARD_GUID,CCARDEC_GUID,CHAR,Reference to Encrypted Payment Card Data
+BSEGC,CCBTC,CCBTC,CHAR,Payment cards: Settlement run
+BSEGC,CCFOL,CCFOL,CHAR,Payment cards: Payment card suffix
+BSEGC,CCINS,CCINS,CHAR,Payment cards: Card type
+BSEGC,CCNAME,CCNAME,CHAR,Payment cards: Name of cardholder
+BSEGC,CCNUM,CCNUM,CHAR,Payment cards: Card number
+BSEGC,CCTYP,CCTYP,CHAR,Payment cards: Card category
+BSEGC,CCWAE,WAERS,CUKY,Currency Key
+BSEGC,CSOUR,CSOUR,CHAR,Payment cards: Entry mode
+BSEGC,DATAB,DATAB_CC,DATS,Payment cards: Valid from
+BSEGC,DATBI,DATBI_CC,DATS,Payment Cards: Valid To
+BSEGC,GJAHR,GJAHR,NUMC,Fiscal Year
+BSEGC,KUNNR,KUNNR,CHAR,Customer Number 1
+BSEGC,LOCID,LOCID_CC,CHAR,Payment cards: Point of receipt for the transaction
+BSEGC,MANDT,MANDT,CLNT,Client
+BSEGC,MERCH,MERCH,CHAR,Payment cards: Merchant ID at the clearing house
+BSEGC,OPBEL,OPBEL_CC,CHAR,Payment Cards: Document Number of Reopened Receivable
+BSEGC,RCAVA,RCAVA_CC,CHAR,Payment Cards: Result of Address Check (Address Approval)
+BSEGC,RCAVR,RCAVR_CC,CHAR,Payment Cards: Result of Address Check (Address Result)
+BSEGC,RCAVZ,RCAVZ_CC,CHAR,Payment Cards: Result of Address Check (ZIP Code Result)
+BSEGC,RCRSP,RCRSP_CC,CHAR,Payment cards: Result of card check (response code)
+BSEGC,REACT,REACT_CC,CHAR,Payment Cards: Response to Settlement Result
+BSEGC,RFZEI,RFZEI_CC,NUMC,Payment Card Item
+BSEGC,RTEXT,RTEXT_CC,CHAR,Payment cards: Result text
+BSEGC,SETRA,SETRA_CC,CHAR,Payment Cards: Settlement Reference No. of Clearing House
+BSEGC,SETTL,SETTL,CHAR,Payment cards: Settlement carried out
+BSEGC,TRMID,TRMID,CHAR,Payment cards: Terminal
+FAGLFLEXT,.INCLUDE, , ,
+FAGLFLEXT,.INCLUDE, , ,
+FAGLFLEXT,.INCLUDE, , ,
+FAGLFLEXT,.INCLUDE, , ,
+FAGLFLEXT,.INCLUDE, , ,
+FAGLFLEXT,.INCLUDE, , ,
+FAGLFLEXT,.INCLUDE, , ,
+FAGLFLEXT,.INCLUDE, , ,
+FAGLFLEXT,.INCLUDE, , ,
+FAGLFLEXT,.INCLUDE, , ,
+FAGLFLEXT,.INCLUDE, , ,
+FAGLFLEXT,.INCLUDE, , ,
+FAGLFLEXT,.INCLUDE, , ,
+FAGLFLEXT,.INCLUDE, , ,
+FAGLFLEXT,.INCLUDE, , ,
+FAGLFLEXT,.INCLUDE, , ,
+FAGLFLEXT,.INCLUDE, , ,
+FAGLFLEXT,.INCLUDE, , ,
+FAGLFLEXT,.INCLUDE, , ,
+FAGLFLEXT,ACTIV,ACTI1,CHAR,FI-SL Business Transaction
+FAGLFLEXT,AWTYP,AWTYP,CHAR,Reference Transaction
+FAGLFLEXT,COST_ELEM,KSTAR,CHAR,Cost Element
+FAGLFLEXT,DRCRK,SHKZG,CHAR,Debit/Credit Indicator
+FAGLFLEXT,HSL01,HSLXX12,CURR,Total of transactions of the period in local currency
+FAGLFLEXT,HSL02,HSLXX12,CURR,Total of transactions of the period in local currency
+FAGLFLEXT,HSL03,HSLXX12,CURR,Total of transactions of the period in local currency
+FAGLFLEXT,HSL04,HSLXX12,CURR,Total of transactions of the period in local currency
+FAGLFLEXT,HSL05,HSLXX12,CURR,Total of transactions of the period in local currency
+FAGLFLEXT,HSL06,HSLXX12,CURR,Total of transactions of the period in local currency
+FAGLFLEXT,HSL07,HSLXX12,CURR,Total of transactions of the period in local currency
+FAGLFLEXT,HSL08,HSLXX12,CURR,Total of transactions of the period in local currency
+FAGLFLEXT,HSL09,HSLXX12,CURR,Total of transactions of the period in local currency
+FAGLFLEXT,HSL10,HSLXX12,CURR,Total of transactions of the period in local currency
+FAGLFLEXT,HSL11,HSLXX12,CURR,Total of transactions of the period in local currency
+FAGLFLEXT,HSL12,HSLXX12,CURR,Total of transactions of the period in local currency
+FAGLFLEXT,HSL13,HSLXX12,CURR,Total of transactions of the period in local currency
+FAGLFLEXT,HSL14,HSLXX12,CURR,Total of transactions of the period in local currency
+FAGLFLEXT,HSL15,HSLXX12,CURR,Total of transactions of the period in local currency
+FAGLFLEXT,HSL16,HSLXX12,CURR,Total of transactions of the period in local currency
+FAGLFLEXT,HSLVT,HSLVT12,CURR,Balance carried forward in local currency
+FAGLFLEXT,KOKRS,KOKRS,CHAR,Controlling Area
+FAGLFLEXT,KSL01,KSLXX12,CURR,Total of transactions of the period in group currency
+FAGLFLEXT,KSL02,KSLXX12,CURR,Total of transactions of the period in group currency
+FAGLFLEXT,KSL03,KSLXX12,CURR,Total of transactions of the period in group currency
+FAGLFLEXT,KSL04,KSLXX12,CURR,Total of transactions of the period in group currency
+FAGLFLEXT,KSL05,KSLXX12,CURR,Total of transactions of the period in group currency
+FAGLFLEXT,KSL06,KSLXX12,CURR,Total of transactions of the period in group currency
+FAGLFLEXT,KSL07,KSLXX12,CURR,Total of transactions of the period in group currency
+FAGLFLEXT,KSL08,KSLXX12,CURR,Total of transactions of the period in group currency
+FAGLFLEXT,KSL09,KSLXX12,CURR,Total of transactions of the period in group currency
+FAGLFLEXT,KSL10,KSLXX12,CURR,Total of transactions of the period in group currency
+FAGLFLEXT,KSL11,KSLXX12,CURR,Total of transactions of the period in group currency
+FAGLFLEXT,KSL12,KSLXX12,CURR,Total of transactions of the period in group currency
+FAGLFLEXT,KSL13,KSLXX12,CURR,Total of transactions of the period in group currency
+FAGLFLEXT,KSL14,KSLXX12,CURR,Total of transactions of the period in group currency
+FAGLFLEXT,KSL15,KSLXX12,CURR,Total of transactions of the period in group currency
+FAGLFLEXT,KSL16,KSLXX12,CURR,Total of transactions of the period in group currency
+FAGLFLEXT,KSLVT,KSLXX12,CURR,Total of transactions of the period in group currency
+FAGLFLEXT,LOGSYS,LOGSYS,CHAR,Logical system
+FAGLFLEXT,MSL01,MSLXX12,QUAN,Total of the transactions of period in units of measure
+FAGLFLEXT,MSL02,MSLXX12,QUAN,Total of the transactions of period in units of measure
+FAGLFLEXT,MSL03,MSLXX12,QUAN,Total of the transactions of period in units of measure
+FAGLFLEXT,MSL04,MSLXX12,QUAN,Total of the transactions of period in units of measure
+FAGLFLEXT,MSL05,MSLXX12,QUAN,Total of the transactions of period in units of measure
+FAGLFLEXT,MSL06,MSLXX12,QUAN,Total of the transactions of period in units of measure
+FAGLFLEXT,MSL07,MSLXX12,QUAN,Total of the transactions of period in units of measure
+FAGLFLEXT,MSL08,MSLXX12,QUAN,Total of the transactions of period in units of measure
+FAGLFLEXT,MSL09,MSLXX12,QUAN,Total of the transactions of period in units of measure
+FAGLFLEXT,MSL10,MSLXX12,QUAN,Total of the transactions of period in units of measure
+FAGLFLEXT,MSL11,MSLXX12,QUAN,Total of the transactions of period in units of measure
+FAGLFLEXT,MSL12,MSLXX12,QUAN,Total of the transactions of period in units of measure
+FAGLFLEXT,MSL13,MSLXX12,QUAN,Total of the transactions of period in units of measure
+FAGLFLEXT,MSL14,MSLXX12,QUAN,Total of the transactions of period in units of measure
+FAGLFLEXT,MSL15,MSLXX12,QUAN,Total of the transactions of period in units of measure
+FAGLFLEXT,MSL16,MSLXX12,QUAN,Total of the transactions of period in units of measure
+FAGLFLEXT,MSLVT,MSLVT12,QUAN,Balance carried forward of quantity
+FAGLFLEXT,OBJNR00,G_OBJNR,INT4,Object number for table group
+FAGLFLEXT,OBJNR01,G_OBJNR,INT4,Object number for table group
+FAGLFLEXT,OBJNR02,G_OBJNR,INT4,Object number for table group
+FAGLFLEXT,OBJNR03,G_OBJNR,INT4,Object number for table group
+FAGLFLEXT,OBJNR04,G_OBJNR,INT4,Object number for table group
+FAGLFLEXT,OBJNR05,G_OBJNR,INT4,Object number for table group
+FAGLFLEXT,OBJNR06,G_OBJNR,INT4,Object number for table group
+FAGLFLEXT,OBJNR07,G_OBJNR,INT4,Object number for table group
+FAGLFLEXT,OBJNR08,G_OBJNR,INT4,Object number for table group
+FAGLFLEXT,OSL01,OSLXX12,CURR,Total transactions for the period in the fourth currency
+FAGLFLEXT,OSL02,OSLXX12,CURR,Total transactions for the period in the fourth currency
+FAGLFLEXT,OSL03,OSLXX12,CURR,Total transactions for the period in the fourth currency
+FAGLFLEXT,OSL04,OSLXX12,CURR,Total transactions for the period in the fourth currency
+FAGLFLEXT,OSL05,OSLXX12,CURR,Total transactions for the period in the fourth currency
+FAGLFLEXT,OSL06,OSLXX12,CURR,Total transactions for the period in the fourth currency
+FAGLFLEXT,OSL07,OSLXX12,CURR,Total transactions for the period in the fourth currency
+FAGLFLEXT,OSL08,OSLXX12,CURR,Total transactions for the period in the fourth currency
+FAGLFLEXT,OSL09,OSLXX12,CURR,Total transactions for the period in the fourth currency
+FAGLFLEXT,OSL10,OSLXX12,CURR,Total transactions for the period in the fourth currency
+FAGLFLEXT,OSL11,OSLXX12,CURR,Total transactions for the period in the fourth currency
+FAGLFLEXT,OSL12,OSLXX12,CURR,Total transactions for the period in the fourth currency
+FAGLFLEXT,OSL13,OSLXX12,CURR,Total transactions for the period in the fourth currency
+FAGLFLEXT,OSL14,OSLXX12,CURR,Total transactions for the period in the fourth currency
+FAGLFLEXT,OSL15,OSLXX12,CURR,Total transactions for the period in the fourth currency
+FAGLFLEXT,OSL16,OSLXX12,CURR,Total transactions for the period in the fourth currency
+FAGLFLEXT,OSLVT,OSLVT12,CURR,Balance carried forward in fourth currency
+FAGLFLEXT,PPRCTR,PPRCTR,CHAR,Partner Profit Center
+FAGLFLEXT,PRCTR,PRCTR,CHAR,Profit Center
+FAGLFLEXT,PSEGMENT,FB_PSEGMENT,CHAR,Partner Segment for Segmental Reporting
+FAGLFLEXT,RACCT,RACCT,CHAR,Account Number
+FAGLFLEXT,RASSC,RASSC,CHAR,Company ID of trading partner
+FAGLFLEXT,RBUKRS,BUKRS,CHAR,Company Code
+FAGLFLEXT,RBUSA,GSBER,CHAR,Business Area
+FAGLFLEXT,RCLNT,MANDT,CLNT,Client
+FAGLFLEXT,RCNTR,KOSTL,CHAR,Cost Center
+FAGLFLEXT,RFAREA,FKBER,CHAR,Functional Area
+FAGLFLEXT,RLDNR,FAGL_RLDNR,CHAR,Ledger in General Ledger Accounting
+FAGLFLEXT,RMVCT,RMVCT,CHAR,Transaction Type
+FAGLFLEXT,RPMAX,RPMAX,NUMC,Period
+FAGLFLEXT,RRCTY,RRCTY,CHAR,Record Type
+FAGLFLEXT,RTCUR,RTCUR,CUKY,Currency Key
+FAGLFLEXT,RUNIT,MEINS,UNIT,Base Unit of Measure
+FAGLFLEXT,RVERS,RVERS,CHAR,Version
+FAGLFLEXT,RYEAR,GJAHR,NUMC,Fiscal Year
+FAGLFLEXT,SBUSA,PARGB,CHAR,Trading partner's business area
+FAGLFLEXT,SCNTR,SKOST,CHAR,Sender cost center
+FAGLFLEXT,SEGMENT,FB_SEGMENT,CHAR,Segment for Segmental Reporting
+FAGLFLEXT,SFAREA,SFKBER,CHAR,Partner Functional Area
+FAGLFLEXT,TIMESTAMP,TIMESTAMP,DEC,UTC Time Stamp in Short Form (YYYYMMDDhhmmss)
+FAGLFLEXT,TSL01,TSLXX12,CURR,Total of transactions of the period in transaction currency
+FAGLFLEXT,TSL02,TSLXX12,CURR,Total of transactions of the period in transaction currency
+FAGLFLEXT,TSL03,TSLXX12,CURR,Total of transactions of the period in transaction currency
+BKPF,.INCLU--AP, , ,
+BKPF,.INCLU--AP, , ,
+BKPF,.INCLU--AP, , ,
+BKPF,.INCLU--AP, , ,
+BKPF,.INCLU--AP, , ,
+BKPF,.INCLUDE, , ,
+BKPF,.INCLUDE, , ,
+BKPF,.INCLUDE, , ,
+BKPF,ADISC,J_1ADISC,CHAR,Indicator: entry represents a discount document
+BKPF,AEDAT,AEDAT_BKPF,DATS,Date of the Last Document Change by Transaction
+BKPF,ARCID,EXTID_BKPF,CHAR,Extract ID Document Header
+BKPF,AUSBK,AUSBK,CHAR,Source Company Code
+BKPF,AWKEY,AWKEY,CHAR,Reference Key
+BKPF,AWSYS,LOGSYSTEM,CHAR,Logical System
+BKPF,AWTYP,AWTYP,CHAR,Reference Transaction
+BKPF,BASW2,CURSR,CHAR,Source Currency for Currency Translation
+BKPF,BASW3,CURSR,CHAR,Source Currency for Currency Translation
+BKPF,BATCH,LOTKZ,CHAR,Lot Number for Documents
+BKPF,BELNR,BELNR_D,CHAR,Accounting Document Number
+BKPF,BKTXT,BKTXT,CHAR,Document Header Text
+BKPF,BLART,BLART,CHAR,Document Type
+BKPF,BLDAT,BLDAT,DATS,Document Date in Document
+BKPF,BLIND,FM_BLIND,CHAR,Budgetary Ledger Indicator
+BKPF,BRNCH,J_1ABRNCH,CHAR,Branch Number
+BKPF,BSTAT,BSTAT_D,CHAR,Document Status
+BKPF,BUDAT,BUDAT,DATS,Posting Date in the Document
+BKPF,BUKRS,BUKRS,CHAR,Company Code
+BKPF,BVORG,BVORG,CHAR,Number of Cross-Company Code Posting Transaction
+BKPF,CCINS,CCINS_30F,CHAR,Payment cards: Card type
+BKPF,CCNUM,CCNUM_30F,CHAR,Payment cards: Card number
+BKPF,CPUDT,CPUDT,DATS,Day On Which Accounting Document Was Entered
+BKPF,CPUTM,CPUTM,TIMS,Time of Entry
+BKPF,CURT2,CURT2,CHAR,Currency Type of Second Local Currency
+BKPF,CURT3,CURT3,CHAR,Currency Type of Third Local Currency
+BKPF,DBBLG,DBBLG,CHAR,Recurring Entry Document Number
+BKPF,DOKID,DOKID_BKPF,CHAR,Document Name in the Archive System
+BKPF,DUEFL,DUEFL_BKPF,CHAR,Status of Data Transfer into Subsequent Release
+BKPF,EXCLUDE_FLAG,EXCLUDE_FLG,CHAR,PPA Exclude Indicator
+BKPF,FIKRS,FIKRS,CHAR,Financial Management Area
+BKPF,FM_UMART,FM_UMART,CHAR,Type of Payment Transfer
+BKPF,FRATH,FRATH,CURR,Unplanned delivery costs
+BKPF,GJAHR,GJAHR,NUMC,Fiscal Year
+BKPF,GLVOR,GLVOR,CHAR,Business Transaction
+BKPF,GRPID,GRPID_BKPF,CHAR,Batch Input Session Name
+BKPF,HWAE2,HWAE2,CUKY,Currency Key of Second Local Currency
+BKPF,HWAE3,HWAE3,CUKY,Currency Key of Third Local Currency
+BKPF,HWAER,HWAER,CUKY,Local Currency
+BKPF,IBLAR,IBLAR,CHAR,Internal Document Type for Document Control
+BKPF,INTDATE,FM_INTDATE,DATS,Interest Calc. Date
+BKPF,INTFORM,FM_INTFORM,CHAR,Interest Formula
+BKPF,KNUMV,KNUMV,CHAR,Number of the document condition
+BKPF,KURS2,KURS2,DEC,Exchange Rate for the Second Local Currency
+BKPF,KURS3,KURS3,DEC,Exchange Rate for the Third Local Currency
+BKPF,KURSF,KURSF,DEC,Exchange rate
+BKPF,KUTY2,KURST,CHAR,Exchange Rate Type
+BKPF,KUTY3,KURST,CHAR,Exchange Rate Type
+BKPF,KZKRS,KZKRS,DEC,Group Currency Exchange Rate
+BKPF,KZWRS,KZWRS,CUKY,Currency Key for the Group Currency
+BKPF,LDGRP,FAGL_LDGRP,CHAR,Ledger Group
+BKPF,LOTKZ,PSO_LOTKZ,CHAR,Lot Number for Requests
+BKPF,MANDT,MANDT,CLNT,Client
+BKPF,MONAT,MONAT,NUMC,Fiscal Period
+BKPF,NUMPG,J_1ANOPG,NUMC,Number of pages of invoice
+BKPF,OFFSET_REFER_DAT,FMFG_REFERRED_OFFSET_DAT,DATS,Date Record Referred to Treasury
+BKPF,OFFSET_STATUS,FMFG_OFFSET_STATUS,CHAR,Treasury Offset Status
+BKPF,PENRC,PENRC,CHAR,Reason for late payment
+BKPF,PPNAM,PPNAM,CHAR,Name of User Who Parked this Document
+BKPF,PROPMANO,RE_MANDAT,CHAR,Real Estate Management Mandate
+BKPF,PSOAK,PSOAK,CHAR,Reason
+BKPF,PSOBT,PSOBT,DATS,Posting Day
+BKPF,PSODT,AEDAT,DATS,Changed On
+BKPF,PSOFN,PSOFN,CHAR,IS-PS: File number
+BKPF,PSOKS,PSOKS,CHAR,Region
+BKPF,PSOSG,PSOSG,CHAR,Reason for reversal - IS-PS requests
+BKPF,PSOTM,PSOTM,TIMS,Last changed at
+BKPF,PSOTY,PSOTY_D,CHAR,Document category payment requests
+BKPF,PSOZL,PSOZL,CHAR,Actual posting
+BKPF,REINDAT,REINDAT,DATS,Invoice Receipt Date
+BKPF,RLDNR,FAGL_RLDNR,CHAR,Ledger in General Ledger Accounting
+BKPF,SAMPLED,SAMPLED,CHAR,Sampled Invoice by Payment Certification
+BKPF,SNAME,UNAME,CHAR,User Name
+BKPF,SSBLK,SSBLK,CHAR,Payment Statistical Sampling Block
+BKPF,STBLG,STBLG,CHAR,Reverse Document Number
+BKPF,STGRD,STGRD,CHAR,Reason for Reversal
+BKPF,STJAH,STJAH,NUMC,Reverse document fiscal year
+BKPF,STODT,STODT,DATS,Planned Date for the Reverse Posting
+BKPF,TCODE,TCODE,CHAR,Transaction Code
+BKPF,TXKRS,TXKRS_BKPF,DEC,Exchange Rate for Taxes
+BKPF,UMRD2,UMRD2,CHAR,Translation Date Type for Second Local Currency
+BKPF,UMRD3,UMRD3,CHAR,Translation Date Type for Third Local Currency
+BKPF,UPDDT,UPDDT,DATS,Date of the Last Document Update
+BKPF,USNAM,USNAM,CHAR,User Name
+BKPF,VATDATE,VATDATE,DATS,Tax Reporting Date
+BKPF,WAERS,WAERS,CUKY,Currency Key
+BKPF,WWERT,WWERT_D,DATS,Translation Date
+BKPF,XBLNR,XBLNR1,CHAR,Reference Document Number
+BKPF,XBLNR_ALT,XBLNR_ALT,CHAR,Alternative Reference Number
+BKPF,XMWST,XMWST,CHAR,Calculate tax automatically
+BKPF,XNETB,XNETB,CHAR,Indicator: Document posted net ?
+BKPF,XREF1_HD,XREF1_HD,CHAR,Reference Key 1 Internal for Document Header
+BKPF,XREF2_HD,XREF2_HD,CHAR,Reference Key 2 Internal for Document Header
+BKPF,XREVERSAL,XREVERSAL,CHAR,Specifies whether doc. is reversal doc. or reversed doc.
+BKPF,XRUEB,XRUEB,CHAR,Indicator: Document is posted to a previous period
+BKPF,XSNET,XSNET,CHAR,G/L account amounts entered exclude tax
+BKPF,XSTOV,XSTOV,CHAR,Indicator: Document is flagged for reversal
+BKPF,XUSVR,XUSVR_BKPF,CHAR,Indicator: US taxes changed at detail level ?
+BKPF,XWVOF,XWVOF,CHAR,Indicator: Customer bill of exchange payment before due date
+EORD,AUTET,AUTET,CHAR,Source List Usage in Materials Planning
+EORD,BDATU,ORDBI,DATS,Source List Record Valid To
+EORD,EBELN,EVRTN,CHAR,Agreement Number
+EORD,EBELP,EVRTP,NUMC,Agreement Item
+EORD,EKORG,EKORG,CHAR,Purchasing Organization
+EORD,EMATN,EMATN,CHAR,Material Number Corresponding to Manufacturer Part Number
+EORD,EORTP,EORTP,CHAR,Category of Source List Record
+EORD,ERDAT,ERDAT,DATS,Date on Which Record Was Created
+EORD,ERNAM,ERNAM,CHAR,Name of Person who Created the Object
+EORD,FEBEL,FEBEL,CHAR,Fixed Outline Purchase Agreement Item
+EORD,FLIFN,FLIFN,CHAR,Indicator: Fixed vendor
+EORD,FRESW,FRESW,CHAR,Fixed issuing plant in case of stock transport order
+EORD,LIFNR,ELIFN,CHAR,Vendor Account Number
+EORD,LOGSY,LOGSYSTEM,CHAR,Logical System
+EORD,MANDT,MANDT,CLNT,Client
+EORD,MATNR,MATNR,CHAR,Material Number
+EORD,MEINS,BSTME,UNIT,Purchase Order Unit of Measure
+EORD,NOTKZ,ORDSP,CHAR,Blocked Source of Supply
+EORD,RESWK,BEWRK,CHAR,Plant from Which Material is Procured
+EORD,SOBKZ,SOBKZ,CHAR,Special Stock Indicator
+EORD,VDATU,ORDAB,DATS,Source List Record Valid From
+EORD,VRTYP,BSTYP,CHAR,Purchasing Document Category
+EORD,WERKS,EWERK,CHAR,Plant
+EORD,ZEORD,DZEORD,NUMC,Number of Source List Record
+JSTO,CHGKZ,J_CHGKZ,CHAR,Indicator: Change documents are active
+JSTO,CHGNR,J_CHGNR,NUMC,Change number
+JSTO,MANDT,MANDT,CLNT,Client
+JSTO,OBJNR,J_OBJNR,CHAR,Object number
+JSTO,OBTYP,J_OBTYP,CHAR,Object Category
+JSTO,STSMA,J_STSMA,CHAR,Status Profile
+KNB4,AGN01,AGNXX,CURR,Gross Total of Cleared Items with Cash Discount Not Taken
+KNB4,AGN02,AGNXX,CURR,Gross Total of Cleared Items with Cash Discount Not Taken
+KNB4,AGN03,AGNXX,CURR,Gross Total of Cleared Items with Cash Discount Not Taken
+KNB4,AGN04,AGNXX,CURR,Gross Total of Cleared Items with Cash Discount Not Taken
+KNB4,AGN05,AGNXX,CURR,Gross Total of Cleared Items with Cash Discount Not Taken
+KNB4,AGN06,AGNXX,CURR,Gross Total of Cleared Items with Cash Discount Not Taken
+KNB4,AGN07,AGNXX,CURR,Gross Total of Cleared Items with Cash Discount Not Taken
+KNB4,AGN08,AGNXX,CURR,Gross Total of Cleared Items with Cash Discount Not Taken
+KNB4,AGN09,AGNXX,CURR,Gross Total of Cleared Items with Cash Discount Not Taken
+KNB4,AGN10,AGNXX,CURR,Gross Total of Cleared Items with Cash Discount Not Taken
+KNB4,AGN11,AGNXX,CURR,Gross Total of Cleared Items with Cash Discount Not Taken
+KNB4,AGN12,AGNXX,CURR,Gross Total of Cleared Items with Cash Discount Not Taken
+KNB4,AGN13,AGNXX,CURR,Gross Total of Cleared Items with Cash Discount Not Taken
+KNB4,AGN14,AGNXX,CURR,Gross Total of Cleared Items with Cash Discount Not Taken
+KNB4,AGN15,AGNXX,CURR,Gross Total of Cleared Items with Cash Discount Not Taken
+KNB4,AGN16,AGNXX,CURR,Gross Total of Cleared Items with Cash Discount Not Taken
+KNB4,AGS01,AGSXX,CURR,Gross Total of Cleared Items without Cash Discount Loss
+KNB4,AGS02,AGSXX,CURR,Gross Total of Cleared Items without Cash Discount Loss
+KNB4,AGS03,AGSXX,CURR,Gross Total of Cleared Items without Cash Discount Loss
+KNB4,AGS04,AGSXX,CURR,Gross Total of Cleared Items without Cash Discount Loss
+KNB4,AGS05,AGSXX,CURR,Gross Total of Cleared Items without Cash Discount Loss
+KNB4,AGS06,AGSXX,CURR,Gross Total of Cleared Items without Cash Discount Loss
+KNB4,AGS07,AGSXX,CURR,Gross Total of Cleared Items without Cash Discount Loss
+KNB4,AGS08,AGSXX,CURR,Gross Total of Cleared Items without Cash Discount Loss
+KNB4,AGS09,AGSXX,CURR,Gross Total of Cleared Items without Cash Discount Loss
+KNB4,AGS10,AGSXX,CURR,Gross Total of Cleared Items without Cash Discount Loss
+KNB4,AGS11,AGSXX,CURR,Gross Total of Cleared Items without Cash Discount Loss
+KNB4,AGS12,AGSXX,CURR,Gross Total of Cleared Items without Cash Discount Loss
+KNB4,AGS13,AGSXX,CURR,Gross Total of Cleared Items without Cash Discount Loss
+KNB4,AGS14,AGSXX,CURR,Gross Total of Cleared Items without Cash Discount Loss
+KNB4,AGS15,AGSXX,CURR,Gross Total of Cleared Items without Cash Discount Loss
+KNB4,AGS16,AGSXX,CURR,Gross Total of Cleared Items without Cash Discount Loss
+KNB4,ANZ01,ANZXX,DEC,Number of Incoming Payments during the Period
+KNB4,ANZ02,ANZXX,DEC,Number of Incoming Payments during the Period
+KNB4,ANZ03,ANZXX,DEC,Number of Incoming Payments during the Period
+KNB4,ANZ04,ANZXX,DEC,Number of Incoming Payments during the Period
+KNB4,ANZ05,ANZXX,DEC,Number of Incoming Payments during the Period
+KNB4,ANZ06,ANZXX,DEC,Number of Incoming Payments during the Period
+KNB4,ANZ07,ANZXX,DEC,Number of Incoming Payments during the Period
+KNB4,ANZ08,ANZXX,DEC,Number of Incoming Payments during the Period
+KNB4,ANZ09,ANZXX,DEC,Number of Incoming Payments during the Period
+KNB4,ANZ10,ANZXX,DEC,Number of Incoming Payments during the Period
+KNB4,ANZ11,ANZXX,DEC,Number of Incoming Payments during the Period
+AEDT,AEDAT,CC_AEDAT,DATS,Date of Last Change
+AEDT,AEDTN,CC_AEDTN,CHAR,Alternative date external key
+AEDT,AEDTO,CC_AEDTO,CHAR,Indicator: Objects allocated
+AEDT,AEDTZ,AEDTZ,NUMC,Engineering change management: alternative date counter
+AEDT,AENAM,CC_AENAM,CHAR,Name of person who changed object
+AEDT,AENNR,AENNR,CHAR,Change Number
+AEDT,ANDAT,CC_ANDAT,DATS,Date record created on
+AEDT,ANNAM,CC_ANNAM,CHAR,User who created record
+AEDT,DATUV,CC_CCDAT,DATS,Valid-From Date
+AEDT,MANDT,MANDT,CLNT,Client
+DRAT,DKTXT,DKTXT,CHAR,Document description
+DRAT,DKTXT_UC,DKTXT_UC,CHAR,DMS: short texts in capital letters
+DRAT,DOKAR,DOKAR,CHAR,Document Type
+DRAT,DOKNR,DOKNR,CHAR,Document number
+DRAT,DOKTL,DOKTL_D,CHAR,Document Part
+DRAT,DOKVR,DOKVR,CHAR,Document Version
+DRAT,LANGU,CVLANG,LANG,Language
+DRAT,LTXIN,LTXIN,CHAR,Indicator: long text exists
+DRAT,MANDT,MANDT,CLNT,Client
+DRAW,ADATUM,ADATUM,DATS,Output date for document
+DRAW,AENNR,DAENR,CHAR,Change Number
+DRAW,BEGRU,BEGRU,CHAR,Authorization Group
+DRAW,CADKZ,CADKZ,CHAR,CAD Indicator
+DRAW,CM_FIXED,DMS_CM_FIXED,CHAR,Document fixed
+DRAW,CM_RELEVANCE,DE_CM_RELEVANCE_FLAG,CHAR,Relevant for Configuration Management
+DRAW,DAPPL,DAPPL,CHAR,Application
+DRAW,DAPPL1,DAPPL,CHAR,Application
+DRAW,DOKAR,DOKAR,CHAR,Document Type
+DRAW,DOKNR,DOKNR,CHAR,Document number
+DRAW,DOKNR_VL,DOKNR_VL,CHAR,Document Number of Source Document
+DRAW,DOKST,DOKST,CHAR,Document Status
+DRAW,DOKTL,DOKTL_D,CHAR,Document Part
+DRAW,DOKTL_VL,DOKTL_VL,CHAR,Document part of source document
+DRAW,DOKVR,DOKVR,CHAR,Document Version
+DRAW,DOKVR_VL,DOKVR_VL,CHAR,Document version of source document
+DRAW,DTTRG,DTTRG,CHAR,Name of Data Carrier
+DRAW,DTTRG1,DTTRG,CHAR,Name of Data Carrier
+DRAW,DWNAM,DWNAM,CHAR,Name of person responsible
+DRAW,FILELEN,ORLN,NUMC,File length of original
+DRAW,FILELEN1,ORLN,NUMC,File length of original
+DRAW,FILEP,FILEP,CHAR,Original of document
+DRAW,FILEP1,FILEP,CHAR,Original of document
+DRAW,LABOR,LABOR,CHAR,Laboratory/design office
+DRAW,LOEDK,LOEDK,CHAR,Deletion indicator
+DRAW,MANDT,MANDT,CLNT,Client
+DRAW,MRK_DTTRG,DTTRG,CHAR,Name of Data Carrier
+DRAW,MRK_DTTRG1,DTTRG,CHAR,Name of Data Carrier
+DRAW,MRK_FILEP,FILEP,CHAR,Original of document
+DRAW,MRK_FILEP1,FILEP,CHAR,Original of document
+DRAW,PREAR,PREAR,CHAR,Document type of the superior document
+DRAW,PRENR,PRENR,CHAR,Document number of superior document
+DRAW,PRETL,PRETL,CHAR,Document Part of Superior Document
+DRAW,PREVR,PREVR,CHAR,Document version of superior document
+DRAW,RES1,RESDRAW,CHAR,Reserve field DRAW
+DRAW,RES2,RESDRAW,CHAR,Reserve field DRAW
+DRAW,RES3,RESDRAW,CHAR,Reserve field DRAW
+DRAW,RES4,RESDRAW,CHAR,Reserve field DRAW
+DRAW,VPRIOR,VPRIOR,NUMC,Processing priority
+DRAW,VRLDAT,VRLDAT,DATS,Due Date
+DRAW,WERKA,WERKA,CHAR,Plant
+EINA,ANZPU,ANZPU,QUAN,Number of Points
+EINA,ERDAT,ERDAT,DATS,Date on Which Record Was Created
+EINA,ERNAM,ERNAM,CHAR,Name of Person who Created the Object
+EINA,IDNLF,IDNLF,CHAR,Material Number Used by Vendor
+EINA,INFNR,INFNR,CHAR,Number of Purchasing Info Record
+EINA,KOLIF,KOLIF,CHAR,Prior Vendor
+EINA,LIFAB,LIFAB,DATS,Available (Deliverable) From
+EINA,LIFBI,LIFBI,DATS,Available (Deliverable) Until
+EINA,LIFNR,ELIFN,CHAR,Vendor Account Number
+EINA,LMEIN,MEINS,UNIT,Base Unit of Measure
+EINA,LOEKZ,ILOEA,CHAR,Purchasing info: General data flagged for deletion
+EINA,LTSNR,LTSNR,CHAR,Vendor Subrange
+EINA,LTSSF,LTSSF,NUMC,Sort Sequence Number
+EINA,MAHN1,MAHN1,DEC,Number of Days for First Reminder/Expediter
+EINA,MAHN2,MAHN2,DEC,Number of Days for Second Reminder/Expediter
+EINA,MAHN3,MAHN3,DEC,Number of Days for Third Reminder/Expediter
+EINA,MANDT,MANDT,CLNT,Client
+EINA,MATKL,MATKL,CHAR,Material Group
+EINA,MATNR,MATNR,CHAR,Material Number
+EINA,MEINS,BSTME,UNIT,Purchase Order Unit of Measure
+EINA,MFRNR,MFRNR1,CHAR,Manufacturer
+EINA,PUNEI,PUNEI,UNIT,Points unit
+EINA,REGIO,REGIO,CHAR,"Region (State, Province, County)"
+EINA,RELIF,RELIF,CHAR,Regular Vendor
+EINA,RUECK,W_RUECKNV,CHAR,Return Agreement
+EINA,SORTL,SORTI,CHAR,Sort Term for Non-Stock Info Records
+EINA,TELF1,TELF0,CHAR,Vendor's Telephone Number
+EINA,TXZ01,EINATX,CHAR,Short Text for Purchasing Info Record
+EINA,UMREN,UMBSN,DEC,Denominator for Conversion of Order Unit to Base Unit
+EINA,UMREZ,UMBSZ,DEC,Numerator for Conversion of Order Unit to Base Unit
+EINA,URZDT,URZDT,DATS,Certificate of Origin Valid Until
+EINA,URZLA,ULAND,CHAR,Country of Issue of Certificate of Origin
+EINA,URZNR,URZNR,CHAR,Certificate Number
+EINA,URZTP,URZTP,CHAR,Certificate Category
+EINA,URZZT,URZZT,CHAR,Number
+EINA,VABME,VABME,CHAR,Variable Purchase Order Unit Active
+EINA,VERKF,VERKF,CHAR,Salesperson Responsible in the Event of Queries
+EINA,WGLIF,WGLIF,CHAR,Vendor Material Group
+EINE,.INCLU--AP, , ,
+EINE,.INCLUDE, , ,
+EINE,ABSKZ,ABSKZ,CHAR,Rejection Indicator
+EINE,AMOAM,AMOAM,QUAN,Amortized actual quantity
+EINE,AMOAW,AMOAW,CURR,Amortized actual value
+EINE,AMOBM,AMOBM,QUAN,Amortized planned quantity
+EINE,AMOBW,AMOBW,CURR,Amortized planned value
+EINE,AMODB,AMODB,DATS,Amortization period to
+EINE,AMODV,AMODV,DATS,Amortization period from
+EINE,AMORS,AMORS,CHAR,Indicator: Amortization reset
+EINE,ANFNR,ANFNR,CHAR,RFQ Number
+EINE,ANFPS,ANFPS,NUMC,Item Number of RFQ
+EINE,ANGDT,ANGDT,DATS,Quotation Validity Date
+EINE,ANGNR,ANGNR,CHAR,Quotation Number
+EINE,APLFZ,PLIFZ,DEC,Planned Delivery Time in Days
+EINE,BONUS,WRBON,CHAR,Indicator: Volume-Based Rebate
+EINE,BPRME,BBPRM,UNIT,Order Price Unit (Purchasing)
+EINE,BPUMN,BPUMN,DEC,Denominator for Conv. of Order Price Unit into Order Unit
+EINE,BPUMZ,BPUMZ,DEC,Numerator for Conversion of Order Price Unit into Order Unit
+EINE,BSTAE,BSTAE,CHAR,Confirmation Control Key
+EINE,BSTMA,MAXBM,QUAN,Maximum Purchase Order Quantity
+EINE,BSTYP,BSTYP,CHAR,Purchasing Document Category
+EINE,BWTAR,BWTAR_D,CHAR,Valuation Type
+EINE,DATLB,DATLB,DATS,Date of Last PO or Sched. Agreement Document in Info Record
+EINE,EBELN,EBELN,CHAR,Purchasing Document Number
+EINE,EBELP,EBELP,NUMC,Item Number of Purchasing Document
+EINE,EBON2,EBON2,CHAR,"Settlement Group 2 (Rebate Settlement, Purchasing)"
+EINE,EBON3,EBON3,CHAR,"Settlement Group 3 (Rebate Settlement, Purchasing)"
+EINE,EBONF,EBONF,CHAR,Item Not Relevant to Subseq. (Period-End Rebate) Settlement
+EINE,EBONU,EBONU,CHAR,Settlement Group 1 (Purchasing)
+EINE,EFFPR,EFFPR,CURR,Effective Price in Purchasing Info Record
+EINE,EKGRP,BKGRP,CHAR,Purchasing Group
+EINE,EKKOL,EKKOG,CHAR,Condition Group with Vendor
+EINE,EKORG,EKORG,CHAR,Purchasing Organization
+EINE,ERDAT,ERDAT,DATS,Date on Which Record Was Created
+EINE,ERNAM,ERNAM,CHAR,Name of Person who Created the Object
+EINE,ESOKZ,ESOKZ,CHAR,Purchasing info record category
+EINE,EVERS,EVERS,CHAR,Shipping Instructions
+EINE,EXPRF,EXPRF,CHAR,Export/Import Procedure for Foreign Trade
+EINE,INCO1,INCO1,CHAR,Incoterms (Part 1)
+EINE,INCO2,INCO2,CHAR,Incoterms (Part 2)
+EINE,INFNR,INFNR,CHAR,Number of Purchasing Info Record
+EINE,IPRKZ,DATTP,CHAR,Period Indicator for Shelf Life Expiration Date
+EINE,J_1BNBM,J_1BNBMCO1,CHAR,Brazilian NCM Code
+EINE,KZABS,KZABS,CHAR,Order Acknowledgment Requirement
+EINE,LOEKZ,ILOEE,CHAR,Purch. info: Purch. organization data flagged for deletion
+EINE,MANDT,MANDT,CLNT,Client
+EINE,MEGRU,MEGRU,CHAR,Unit of Measure Group
+EINE,MEPRF,MEPRF,CHAR,Price Determination (Pricing) Date Control
+EINE,MGBON,MGBON,CHAR,Indicator: Quantity-Based Volume Rebate
+EINE,MHDRZ,MHDRZ,DEC,Minimum Remaining Shelf Life
+EINE,MINBM,MINBM,QUAN,Minimum Purchase Order Quantity
+EINE,MTXNO,MTXNO,CHAR,Material Master Record PO Text Not Relevant
+EINE,MWSKZ,MWSKZ,CHAR,Sales Tax Code
+EINE,NETPR,IPREI,CURR,Net Price in Purchasing Info Record
+EINE,NORBM,NORBM,QUAN,Standard Purchase Order Quantity
+EINE,PEINH,EPEIN,DEC,Price Unit
+EINE,PRDAT,PRGBI,DATS,Price Valid Until
+EINE,RDPRF,RDPRF,CHAR,Rounding Profile
+EINE,SKTOF,ESKTOF,CHAR,Item Does Not Qualify for Cash Discount
+EINE,SPE_CRE_REF_DOC,/SPE/CRE_REF_DOC,CHAR,Create Purchase Order for Delivery Without Reference
+EINE,STAGING_TIME,WRF_PSCD_MST,DEC,Staging Time in Days
+EINE,TRANSPORT_CHAIN,WRF_PSCD_TC_ID,CHAR,Transportation Chain
+EINE,UEBTK,UEBTK,CHAR,Indicator: Unlimited Overdelivery Allowed
+EINE,UEBTO,UEBTO,DEC,Overdelivery Tolerance Limit
+EINE,UNTTO,UNTTO,DEC,Underdelivery Tolerance Limit
+EINE,VERID,VERID,CHAR,Production Version
+EINE,WAERS,WAERS,CUKY,Currency Key
+EINE,WEBRE,WEBRE,CHAR,Indicator: GR-Based Invoice Verification
+EINE,WERKS,EWERK,CHAR,Plant
+EINE,XERSN,XERSN,CHAR,No Evaluated Receipt Settlement (ERS)
+LFM1,.INCLU--AP, , ,
+LFM1,.INCLUDE, , ,
+LFM1,.INCLUDE, , ,
+LFM1,ABUEB,ABUEB,CHAR,Release Creation Profile
+LFM1,ACTIVITY_PROFIL,WRF_PCTR_ACT_PROF,CHAR,Activity Profile for PO Controlling
+LFM1,AGREL,AGREL,CHAR,Indicator: Relevant for agency business
+LFM1,BLIND,BLIND,CHAR,Indicator: Doc. index compilation active for purchase orders
+LFM1,BOIND,BOIND,CHAR,Indicator: index compilation for subseq. settlement active
+LFM1,BOLRE,BOLRE,CHAR,Indicator: vendor subject to subseq. settlement accounting
+LFM1,BOPNR,BOPNR,CHAR,Restriction Profile for PO-Based Load Building
+LFM1,BSTAE,BSTAE,CHAR,Confirmation Control Key
+LFM1,EIKTO,EIKTO_M,CHAR,Our account number with the vendor
+LFM1,EKGRP,EKGRP,CHAR,Purchasing Group
+LFM1,EKORG,EKORG,CHAR,Purchasing Organization
+LFM1,ERDAT,ERDAT,DATS,Date on Which Record Was Created
+LFM1,ERNAM,ERNAM,CHAR,Name of Person who Created the Object
+LFM1,EXPVZ,EXPVZ,CHAR,Mode of Transport for Foreign Trade
+LFM1,INCO1,INCO1,CHAR,Incoterms (Part 1)
+LFM1,INCO2,INCO2,CHAR,Incoterms (Part 2)
+LFM1,KALSK,KALSK,CHAR,Group for Calculation Schema (Vendor)
+LFM1,KZABS,KZABS,CHAR,Order Acknowledgment Requirement
+LFM1,KZAUT,KZAUT,CHAR,Automatic Generation of Purchase Order Allowed
+LFM1,KZRET,KZRET,CHAR,Indicates whether vendor is returns vendor
+LFM1,LEBRE,LEBRE,CHAR,Indicator for Service-Based Invoice Verification
+LFM1,LFABC,LFABC,CHAR,ABC indicator
+LFM1,LFRHY,LFRHY,CHAR,Planning cycle
+LFM1,LIBES,LIBES,CHAR,Order entry by vendor
+LFM1,LIFNR,ELIFN,CHAR,Vendor Account Number
+LFM1,LIPRE,LIPRE,CHAR,"Price marking, vendor"
+LFM1,LISER,LISER,CHAR,Rack-jobbing: vendor
+LFM1,LOEVM,LOEVM_M,CHAR,Delete flag for vendor at purchasing level
+LFM1,MANDT,MANDT,CLNT,Client
+LFM1,MEGRU,MEGRU,CHAR,Unit of Measure Group
+LFM1,MEPRF,MEPRF,CHAR,Price Determination (Pricing) Date Control
+LFM1,MINBW,MINBW,CURR,Minimum order value
+LFM1,MRPPP,MRPPP_W,CHAR,Planning calendar
+LFM1,NRGEW,NRGEW,CHAR,Indicator whether discount in kind granted
+LFM1,PAPRF,WVMI_PAPRF,CHAR,Profile for transferring material data via IDoc PROACT
+LFM1,PLIFZ,PLIFZ,DEC,Planned Delivery Time in Days
+LFM1,PRFRE,PRFRE_LH,CHAR,"Indicator: ""relev. to price determination (vend. hierarchy)"
+LFM1,RDPRF,RDPRF,CHAR,Rounding Profile
+LFM1,SKRIT,SKRIT,CHAR,Vendor sort criterion for materials
+LFM1,SPERM,SPERM_M,CHAR,Purchasing block at purchasing organization level
+LFM1,STAGING_TIME,WRF_PSCD_MST,DEC,Staging Time in Days
+LFM1,TELF1,TELFE,CHAR,Vendor's telephone number
+LFM1,TRANSPORT_CHAIN,WRF_PSCD_TC_ID,CHAR,Transportation Chain
+LFM1,UMSAE,UMSAE,CHAR,Comparison/agreement of business volumes necessary
+LFM1,VENSL,VENSL,DEC,Vendor service level
+LFM1,VERKF,EVERK,CHAR,Responsible Salesperson at Vendor's Office
+LFM1,VSBED,VSBED,CHAR,Shipping Conditions
+LFM1,WAERS,BSTWA,CUKY,Purchase order currency
+LFM1,WEBRE,WEBRE,CHAR,Indicator: GR-Based Invoice Verification
+LFM1,XERSR,XERSR,CHAR,Automatic evaluated receipt settlement for return items
+LFM1,XERSY,XERSY,CHAR,Evaluated Receipt Settlement (ERS)
+LFM1,XNBWY,XNBWY,CHAR,Revaluation allowed
+LFM1,ZOLLA,DZOLLS,CHAR,Customs Office: Office of Exit/Entry for Foreign Trade
+LFM1,ZTERM,DZTERM,CHAR,Terms of Payment Key
+LFM2,.INCLU--AP, , ,
+LFM2,.INCLUDE, , ,
+LFM2,.INCLUDE, , ,
+LFM2,ABUEB,ABUEB,CHAR,Release Creation Profile
+LFM2,BOIND,BOIND_UNUSED,CHAR,Field Not Used (Subsequent Settlement)
+LFM2,BOLRE,BOLRE_UNUSED,CHAR,Field Not Used (Subsequent Settlement)
+LFM2,BOPNR,BOPNR,CHAR,Restriction Profile for PO-Based Load Building
+LFM2,BSTAE,BSTAE,CHAR,Confirmation Control Key
+LFM2,DISPO,DISPO,CHAR,MRP Controller (Materials Planner)
+LFM2,EKGRP,EKGRP,CHAR,Purchasing Group
+LFM2,EKORG,EKORG,CHAR,Purchasing Organization
+LFM2,ERDAT,ERDAT,DATS,Date on Which Record Was Created
+LFM2,ERNAM,ERNAM,CHAR,Name of Person who Created the Object
+LFM2,EXPVZ,EXPVZ,CHAR,Mode of Transport for Foreign Trade
+LFM2,INCO1,INCO1,CHAR,Incoterms (Part 1)
+LFM2,INCO2,INCO2,CHAR,Incoterms (Part 2)
+LFM2,KALSK,KALSK,CHAR,Group for Calculation Schema (Vendor)
+LFM2,KZABS,KZABS,CHAR,Order Acknowledgment Requirement
+LFM2,KZAUT,KZAUT,CHAR,Automatic Generation of Purchase Order Allowed
+LFM2,LEBRE,LEBRE,CHAR,Indicator for Service-Based Invoice Verification
+LFM2,LFABC,LFABC,CHAR,ABC indicator
+LFM2,LFRHY,LFRHY,CHAR,Planning cycle
+LFM2,LIBES,LIBES,CHAR,Order entry by vendor
+LFM2,LIFNR,LIFNR,CHAR,Account Number of Vendor or Creditor
+LFM2,LIPRE,LIPRE,CHAR,"Price marking, vendor"
+LFM2,LISER,LISER,CHAR,Rack-jobbing: vendor
+LFM2,LOEVM,LOEVM_M,CHAR,Delete flag for vendor at purchasing level
+LFM2,LTSNR,LTSNR,CHAR,Vendor Subrange
+LFM2,MANDT,MANDT,CLNT,Client
+LFM2,MEGRU,MEGRU,CHAR,Unit of Measure Group
+LFM2,MEPRF,MEPRF,CHAR,Price Determination (Pricing) Date Control
+LFM2,MINBW,MINBW,CURR,Minimum order value
+LFM2,MRPPP,MRPPP_W,CHAR,Planning calendar
+LFM2,PAPRF,WVMI_PAPRF,CHAR,Profile for transferring material data via IDoc PROACT
+LFM2,PLIFZ,PLIFZ,DEC,Planned Delivery Time in Days
+LFM2,RDPRF,RDPRF,CHAR,Rounding Profile
+LFM2,SPERM,SPERM_M,CHAR,Purchasing block at purchasing organization level
+LFM2,STAGING_TIME,WRF_PSCD_MST,DEC,Staging Time in Days
+LFM2,TELF1,TELFE,CHAR,Vendor's telephone number
+LFM2,TRANSPORT_CHAIN,WRF_PSCD_TC_ID,CHAR,Transportation Chain
+LFM2,UMSAE,UMSAE_UNUSED,CHAR,Field Not Used (Subsequent Settlement)
+LFM2,VERKF,EVERK,CHAR,Responsible Salesperson at Vendor's Office
+LFM2,WAERS,BSTWA,CUKY,Purchase order currency
+LFM2,WEBRE,WEBRE,CHAR,Indicator: GR-Based Invoice Verification
+LFM2,WERKS,WERKS_D,CHAR,Plant
+LFM2,XERSR,XERSR,CHAR,Automatic evaluated receipt settlement for return items
+LFM2,XERSY,XERSY,CHAR,Evaluated Receipt Settlement (ERS)
+LFM2,XNBWY,XNBWY,CHAR,Revaluation allowed
+LFM2,ZOLLA,DZOLLS,CHAR,Customs Office: Office of Exit/Entry for Foreign Trade
+LFM2,ZTERM,DZTERM,CHAR,Terms of Payment Key
+LIKP,.INCLU--AP, , ,
+LIKP,.INCLU--AP, , ,
+LIKP,.INCLU--AP, , ,
+LIKP,.INCLUDE, , ,
+LIKP,.INCLUDE, , ,
+LIKP,.INCLUDE, , ,
+LIKP,/BEV1/LULEINH,/BEV1/LULEINH,NUMC,Loading Units
+LIKP,/BEV1/RPCONT,/BEV1/RPONTAIN,DEC,Number Category 3
+LIKP,/BEV1/RPFAESS,/BEV1/RPFAESSER,DEC,Number Category 1
+LIKP,/BEV1/RPFLGNR,/DSD/RP_SEQUENCENR,NUMC,Loading Sequence Number in the Tour
+LIKP,/BEV1/RPKIST,/BEV1/RPKISTEN,DEC,Number Category 2
+LIKP,/BEV1/RPSONST,/BEV1/RPSONST,DEC,Number Category 4
+LIKP,ABLAD,ABLAD,CHAR,Unloading Point
+LIKP,ABSSC,ABSSCHE_CM,CHAR,Payment guarantee procedure
+LIKP,AEDAT,AEDAT,DATS,Changed On
+LIKP,AENAM,AENAM,CHAR,Name of Person Who Changed Object
+LIKP,AKKUR,AKKUR,DEC,Exchange rate for letter-of-credit procg in foreign trade
+LIKP,AKPRZ,AKPRZ,DEC,Depreciation percentage for financial document processing
+LIKP,AKWAE,AKWAE,CUKY,Currency key for letter-of-credit procg in foreign trade
+LIKP,AMTBL,AMTBL_CM,CURR,Released credit value of the document
+LIKP,ANZPK,ANZPK,NUMC,Total number of packages in delivery
+LIKP,AULWE,AULWE,CHAR,Route Schedule
+LIKP,AUTLF,AUTLF,CHAR,Complete delivery defined for each sales order?
+LIKP,BEROT,BEROT,CHAR,Picked items location
+LIKP,BLDAT,BLDAT,DATS,Document Date in Document
+LIKP,BOLNR,BOLNR,CHAR,Bill of lading
+LIKP,BORGR_GRP,BORGR_GRP,CHAR,Inbound Dely Group: Multi-Level Goods Receipt Automotive
+LIKP,BTGEW,GSGEW,QUAN,Total Weight
+LIKP,BZIRK,BZIRK,CHAR,Sales district
+LIKP,CMFRE,CMFRE,DATS,Release date of the document determined by credit management
+LIKP,CMNGV,CMNGV,DATS,Next date
+LIKP,CMWAE,WAERS_CM,CUKY,Currency key of credit control area
+LIKP,COMMN,COMMN,CHAR,Communication number for Q-API interface
+LIKP,CONT_DG,ADGE_NCDG,CHAR,Indicator: Document contains dangerous goods
+LIKP,CTLPC,CTLPC_CM,CHAR,Credit management: Risk category
+LIKP,DIRTA,LVS_DIRTA,CHAR,Automatic TO Creation Immediately After TR Generation
+LIKP,ERDAT,ERDAT,DATS,Date on Which Record Was Created
+LIKP,ERNAM,ERNAM,CHAR,Name of Person who Created the Object
+LIKP,ERZET,ERZET,TIMS,Entry time
+LIKP,EXNUM,EXNUM,CHAR,Number of foreign trade data in MM and SD documents
+LIKP,EXPKZ,EXPKZ,CHAR,Export indicator
+LIKP,FAKSK,FAKSK,CHAR,Billing block in SD document
+LIKP,FKAIV,FKAIV,CHAR,Billing type for intercompany billing
+LIKP,FKARV,FKARV,CHAR,Proposed billing type for a delivery-related billing doc.
+LIKP,FKDAT,FKDAT,DATS,Billing date for billing index and printout
+LIKP,FKDIV,FKDIV,DATS,Billing date for intercompany billing
+LIKP,FOLAR,LFART,CHAR,Delivery Type
+LIKP,GEWEI,GEWEI,UNIT,Weight Unit
+LIKP,GRULG,GRULG,CHAR,Weight group for delivery (To group)
+LIKP,GRUPP,GRUPP_CM,CHAR,Customer Credit Group
+LIKP,HANDLE,TSEGGUID_LIKP,CHAR,Worldwide unique key for LIKP-VBELN
+LIKP,IMWRK,IMWRK,CHAR,Delivery has Status 'In Plant'
+LIKP,INCO1,INCO1,CHAR,Incoterms (Part 1)
+LIKP,INCO2,INCO2,CHAR,Incoterms (Part 2)
+LIKP,KALSM,KALSM_D,CHAR,"Procedure (Pricing, Output Control, Acct. Det., Costing,...)"
+LIKP,KALSM_CH,KALSMA_CH,CHAR,Search procedure for batch determination
+LIKP,KALSP,KALSP,CHAR,Shipping: Pricing procedure
+LIKP,KDGRP,KDGRP,CHAR,Customer group
+LIKP,KKBER,KKBER,CHAR,Credit control area
+LIKP,KLIEF,KLIEF,CHAR,Correction delivery
+LIKP,KNFAK,KNFAK,CHAR,Customer factory calendar
+LIKP,KNKLI,KNKLI,CHAR,Customer's account number with credit limit reference
+LIKP,KNUMP,KNUMP,CHAR,Number of document condition - pricing
+LIKP,KNUMV,KNUMV,CHAR,Number of the document condition
+LIKP,KODAT,KODAT,DATS,Picking Date
+LIKP,KOUHR,KOUHR,TIMS,"Picking time (local time, with reference to a plant)"
+LIKP,KUNAG,KUNAG,CHAR,Sold-to party
+LIKP,KUNIV,KUNIV,CHAR,Customer number for intercompany billing
+LIKP,KUNNR,KUNWE,CHAR,Ship-to party
+LIKP,KZAZU,KZAZU_D,CHAR,Order Combination Indicator
+LIKP,KZWAB,KZWAB,CHAR,Indicator for controlling goods movement
+LIKP,LCNUM,LCNUM,CHAR,Financial doc. processing: Internal financial doc. number
+LIKP,LDDAT,LDDAT,DATS,Loading Date
+LIKP,LDUHR,LDUHR,TIMS,Loading Time (Local Time Relating to a Shipping Point)
+LIKP,LFART,LFART,CHAR,Delivery Type
+LIKP,LFDAT,LFDAT_V,DATS,Delivery Date
+LIKP,LFUHR,LFUHR,TIMS,Time of delivery
+LIKP,LGBZO,LGBZO,CHAR,Staging Area for Warehouse Complex
+LIKP,LGNUM,LGNUM,CHAR,Warehouse Number / Warehouse Complex
+LIKP,LGTOR,LGTOR,CHAR,Door for Warehouse Number
+LIKP,LIFEX,LIFEX,CHAR,External Identification of Delivery Note
+LIKP,LIFNR,ELIFN,CHAR,Vendor Account Number
+LIKP,LIFSK,LIFSK,CHAR,Delivery block (document header)
+EREV,FGDAT,FGDAT,DATS,Date of release
+EREV,FGNAM,FGNAM,CHAR,Name of person effecting release
+EREV,FGUHR,FGUHR,TIMS,Time of release
+EREV,LOEKZ,ELOEK,CHAR,Deletion Indicator in Purchasing Document
+EREV,MANDT,MANDT,CLNT,Client
+EREV,NETWR,BWERT,CURR,Net Order Value in PO Currency
+EREV,OKDAT,OKDAT,DATS,Date of buyer approval
+EREV,OKNAM,OKNAM,CHAR,Name of approving buyer
+EREV,OKUHR,OKUHR,TIMS,Time of buyer approval
+EREV,REVNO,REVNO,CHAR,Version number in Purchasing
+EREV,REVOK,DCM_REVOK,CHAR,"Status ""version completed"""
+EREV,RSCOD,RSCOD,CHAR,Reason for change
+EREV,STREV,STREV,CHAR,Version status
+EREV,TXZ01,TXZ01_DCM,CHAR,Description of version
+EREV,WAERS,WAERS,CUKY,Currency Key
+ESSR,.INCLUDE, , ,
+ESSR,.INCLUDE, , ,
+ESSR,ABNUM,ABNUM,INT4,Maintenance Plan Call Number
+ESSR,AEDAT,AEDAT,DATS,Changed On
+ESSR,AENAM,AENAM,CHAR,Name of Person Who Changed Object
+ESSR,BANFN,BANFN_ESSR,CHAR,Purchase Requisition Number
+ESSR,BKTXT,BKTXT_SRV,CHAR,Document Header Text
+ESSR,BLDAT,BLDAT_SRV,DATS,Document Date in Document
+ESSR,BNFPO,BNFPO_ESSR,NUMC,Item number of purchase requisition
+ESSR,BUDAT,BUDAT_SRV,DATS,Posting Date in the Document
+ESSR,CUOBJ,CUOBJ,NUMC,Configuration (internal object number)
+ESSR,DLORT,DLORT,CHAR,Location Where Service Was Performed
+ESSR,EBELN,EBELN,CHAR,Purchasing Document Number
+ESSR,EBELP,EBELP,NUMC,Item Number of Purchasing Document
+ESSR,ERDAT,ERDAT,DATS,Date on Which Record Was Created
+ESSR,ERNAM,ERNAM,CHAR,Name of Person who Created the Object
+ESSR,FINAL,FINAL,CHAR,Indicator: Final Entry Sheet
+ESSR,FKNUM,FKNUM,CHAR,Shipment Cost Number
+ESSR,FKPOS,FKPOS,NUMC,Shipment costs item
+ESSR,FRGGR,FRGGR,CHAR,Release group
+ESSR,FRGKL,FRGKL,CHAR,Release indicator: Entry sheet
+ESSR,FRGRL,FRGRL,CHAR,Release Not Yet Completely Effected
+ESSR,FRGSX,FRGSX,CHAR,Release Strategy
+ESSR,FRGZU,FRGZU,CHAR,Release status
+ESSR,F_LOCK,F_LOCK,CHAR,Block Release of Entry Sheet
+ESSR,KNTTP,KNTTP,CHAR,Account Assignment Category
+ESSR,KZABN,KZABN,CHAR,Acceptance indicator
+ESSR,KZVBR,KZVBR,CHAR,Consumption Posting
+ESSR,LBLDT,LBLDT,DATS,Price Reference Date of Entry Sheet
+ESSR,LBLNE,LBLNE1,CHAR,External Entry Sheet Number
+ESSR,LBLNI,LBLNI,CHAR,Entry Sheet Number
+ESSR,LEMIN,SRVRET,CHAR,Returns Indicator
+ESSR,LOEKZ,LOEKZ_ESSR,CHAR,Deletion indicator in entry sheet
+ESSR,LWERT,LWERT,CURR,Value of Services
+ESSR,LZBIS,LZBIS,DATS,End of period
+ESSR,LZVON,LZVON,DATS,Period
+ESSR,MANDT,MANDT,CLNT,Client
+ESSR,NAVNW,NAVNW_SRV,CURR,Non-deductible input tax
+ESSR,NETWR,NETWR_ESSR,CURR,Net Value of Entry Sheet
+ESSR,PACKNO,PACKNO,NUMC,Package number
+ESSR,PWFR,MC_PWFR,DEC,Points score for on-time delivery
+ESSR,PWWE,MC_PWWE,DEC,Points score for quality of services
+ESSR,SBNAMAG,SBNAMAG,CHAR,Person Responsible (Internally)
+ESSR,SBNAMAN,SBNAMAN,CHAR,Person Responsible (Externally)
+ESSR,SPEC_NO,SPEC_NO,CHAR,Number of a Set of Model Service Specifications
+ESSR,TXZ01,TXZ01_ESSR,CHAR,Short Text of Service Entry Sheet
+ESSR,UNPLV,UNPLV,CURR,Portion Unplanned Value Without Reference to Contract
+ESSR,USER1,ESSR_D,CHAR,Technical Reference Field for External Entry Sheet Number
+ESSR,USER2,USR_ESSR,CHAR,User field: Service entry sheet
+ESSR,UWERT,NETWR_UNG,CURR,Portion from Unplanned Services
+ESSR,WAERS,WAERS,CUKY,Currency Key
+ESSR,WAPOS,WAPOS,CHAR,Maintenance item
+ESSR,WARPL,WARPL,CHAR,Maintenance Plan
+ESSR,XBLNR,XBLNR_SRV1,CHAR,Reference Document Number
+PLFH,AENNR,AENNR,CHAR,Change Number
+PLFH,BZOFFB,BZOFFB,CHAR,Reference date to start of production resource/tool usage
+PLFH,BZOFFE,BZOFFE,CHAR,Reference date for end of production resource/tool usage
+PLFH,DATUC,AEDAT,DATS,Changed On
+PLFH,DATUI,ANDAT,DATS,Date record created on
+PLFH,DATUV,DATUV,DATS,Valid-From Date
+PLFH,EHOFFB,EHOFFB,UNIT,Offset unit for start of prod. resource/tool usage
+PLFH,EHOFFE,EHOFFE,UNIT,Offset unit for end of production resource/tool usage
+PLFH,EWEINH,EWEINH,UNIT,Usage value unit of the production resource/tool
+PLFH,EWFORM,CF_EWFORM,CHAR,Formula for calculating the total usage value of PRT
+PLFH,EWVGW,EWVGW,QUAN,Standard usage value for production resources/tools
+PLFH,GP_KRIT1,PLOBJ,CHAR,Planning object
+PLFH,KNOBJ,KNOBJ,NUMC,Number of Object with Assigned Dependencies
+PLFH,KTSCH,CF_KTSCH,CHAR,Standard text key for production resources/tools
+PLFH,KZKBL,KZKBL,CHAR,Indicator: Create load records for prod. resources/tools
+PLFH,LOEKZ,LKENZ,CHAR,Deletion Indicator
+PLFH,MANDT,MANDT,CLNT,Client
+PLFH,MGEINH,MGEINH,UNIT,Quantity unit of production resource/tool
+PLFH,MGFORM,CF_MGFORM,CHAR,Formula for calculating the total quantity of PRT
+PLFH,MGVGW,MGVGW,QUAN,Standard value for the PRT quantity
+PLFH,OBJCT,OBJCT_D,CHAR,Object of a task list
+PLFH,OBJID,CR_OBJID,NUMC,Object ID of the resource
+PLFH,OBJTY,CR_OBJTY,CHAR,Object types of the CIM resource
+PLFH,OFFSTB,OFFSTB,QUAN,Offset to start of production resource/tool usage
+PLFH,OFFSTE,OFFSTE,QUAN,Offset to finish of production resource/tool usage
+PLFH,PARKZ,PARKZ,CHAR,Indicator: inactive changes
+PLFH,PLNAL,PLNAL,CHAR,Group Counter
+PLFH,PLNFL,PLNFOLGE,CHAR,Sequence
+PLFH,PLNKN,PLNKN,NUMC,Number of the task list node
+PLFH,PLNNR,PLNNR,CHAR,Key for Task List Group
+PLFH,PLNTY,PLNTY,CHAR,Task List Type
+PLFH,PSNFH,PSNFH,NUMC,Item Number for Production Resource/Tool
+PLFH,PZLFH,PZLFH,NUMC,Item counter for production resources/tools
+PLFH,STEUF,STEUF,CHAR,Control key for management of production resources/tools
+PLFH,TECHV,TECHV,CHAR,Technical status from
+PLFH,TXTSP,SPRAS,LANG,Language Key
+PLFH,TXTZ1,TXTZ1,CHAR,First line of text for production resources/tools
+PLFH,USERC,AENAM,CHAR,Name of Person Who Changed Object
+PLFH,USERI,ANNAM,CHAR,User who created record
+PLFH,ZAEHL,CIM_COUNT,NUMC,Internal counter
+PROJ,.INCLU--AP, , ,
+PROJ,.INCLU--AP, , ,
+PROJ,.INCLUDE, , ,
+PROJ,.INCLUDE, , ,
+PROJ,.INCLUDE, , ,
+PROJ,.INCLUDE, , ,
+PROJ,.INCLUDE, , ,
+PROJ,ABGSL,ABGR_SCHL,CHAR,Results Analysis Key
+PROJ,AEDAT,UPDAT,DATS,Date on which object was last changed
+PROJ,AEDTE,PS_AEDTE,DATS,Date of last scheduling of the overall network (basic dates)
+PROJ,AEDTP,PS_AEDTP,DATS,Date of last scheduling of the overall network (forecast)
+PROJ,AENAM,AENAM,CHAR,Name of Person Who Changed Object
+PROJ,ASTNA,PS_ASTNA,CHAR,Applicant
+PROJ,ASTNR,PS_ASTNR,NUMC,Applicant number
+PROJ,AUTOD,PS_AUTOD,CHAR,Automatic value transfer from WBS element to project def.
+PROJ,BERBU,PS_BERBU,CHAR,Authorization key for project budget
+PROJ,BERKO,PS_BERKO,CHAR,Authorization key for costs and revenues
+PROJ,BERST,PS_BERST,CHAR,Authorization key for project master data
+PROJ,BERTR,PS_BERTR,CHAR,Authorization key for project dates (WBS)
+PROJ,BESTA,PS_BESTAND,CHAR,Project stock
+PROJ,BPROF,BP_BPROFIL,CHAR,Budget Profile
+PROJ,DPPPROF,AD01PROFNR,CHAR,Dynamic Item Processor Profile
+PROJ,EPROG,PS_EPROG,DATS,Forecast finish date for project definition
+PROJ,ERDAT,ERDAT,DATS,Date on Which Record Was Created
+PROJ,ERNAM,ERNAM,CHAR,Name of Person who Created the Object
+PROJ,ETYPE,JV_ETYPE,CHAR,Equity type
+PROJ,EWPLF,PS_EWPLF,NUMC,Planning method for project forecast dates
+PROJ,FERC_IND,FE_IND,CHAR,Regulatory indicator
+PROJ,FLGVRG,PS_FLGVRG,CHAR,Indicator: Bottom-up calculation with activity dates
+PROJ,FMPRF,PSFM_PRF,CHAR,Payment plan profile
+PROJ,FUNC_AREA,FKBER,CHAR,Functional Area
+PROJ,GRTOP,GRONTOP,CHAR,Indicator: Automatic requirements grouping
+PROJ,IMPRF,IM_PROFIL,CHAR,Investment measure profile
+PROJ,INACT,PS_INACT,CHAR,Indicator: Project definition inactive
+PROJ,JIBCL,JV_JIBCL,CHAR,JIB/JIBE Class
+PROJ,JIBSA,JV_JIBSA,CHAR,JIB/JIBE Subclass A
+PROJ,KALID,FABKL,CHAR,Factory calendar key
+PROJ,KIMSK,PS_KIMSK,CHAR,Selection mask for WBS element short IDs
+PROJ,KOSTL,KOSTL,CHAR,Cost Center
+PROJ,KTRG,KSTRG,CHAR,Cost Object
+PROJ,KZBWS,KZBWS,CHAR,Valuation of Special Stock
+PROJ,KZERB,PS_KZERB,CHAR,Indicator: Project summarization via master data charact.
+PROJ,LOEVM,LOEVM,CHAR,Deletion Indicator
+PROJ,LOGSYSTEM,LOGSYSTEM,CHAR,Logical System
+PROJ,MANDT,MANDT,CLNT,Client
+PROJ,NZANZ,NETZOBERFL,CHAR,Indicator: Network header visible to end user
+PROJ,OBJNR,J_OBJNR,CHAR,Object number
+PROJ,OTYPE,JV_OTYPE,CHAR,Joint Venture Object Type
+PROJ,PARGR,PARGR,CHAR,Partner Determination Procedure
+PROJ,PGPRF,PGPROFID,CHAR,Distribution profile
+PROJ,PLFAZ,PS_PLFAZ,DATS,Project planned start date
+PROJ,PLINT,PLINT,CHAR,Indicator for Integrated Planning
+PROJ,PLNAW,PLNAW,CHAR,Application of the task list
+PROJ,PLSEZ,PS_PLSEZ,DATS,Project planned finish date
+PROJ,POST1,PS_POST1,CHAR,PS: Short description (1st text line)
+PROJ,POSTU,PS_POSTU,CHAR,PS: Short description (1st text line) in all caps
+PROJ,PPROF,BP_PPROFIL,CHAR,Planning profile
+PROJ,PRCTR,PRCTR,CHAR,Profit Center
+PROJ,PROFL,PROFIDPROJ,CHAR,Project Profile
+PROJ,PROJ_STATUS,ACTCMB_DELE,INT1,Status Combination
+PROJ,PSPID,PS_PSPID,CHAR,Project Definition
+PROJ,PSPID_EDIT,PS_PSPID_EDIT,CHAR,Project Number (External) Edited
+PROJ,PSPNR,PS_INTNR,NUMC,Project definition (internal)
+PROJ,PWHIE,PS_PWHIE,CUKY,WBS currency (project definition)
+PROJ,RECID,JV_RECIND,CHAR,Recovery Indicator
+PROJ,SCHTYP,PS_SCHED_TYPE,CHAR,Scheduling scenario
+PROJ,SCOPE,SCOPE_CV,CHAR,Object Class
+PROJ,SCPRF,PS_SCHDPRF,CHAR,Profile for WBS scheduling
+FAGLFLEXT,TSL04,TSLXX12,CURR,Total of transactions of the period in transaction currency
+FAGLFLEXT,TSL05,TSLXX12,CURR,Total of transactions of the period in transaction currency
+FAGLFLEXT,TSL06,TSLXX12,CURR,Total of transactions of the period in transaction currency
+FAGLFLEXT,TSL07,TSLXX12,CURR,Total of transactions of the period in transaction currency
+FAGLFLEXT,TSL08,TSLXX12,CURR,Total of transactions of the period in transaction currency
+FAGLFLEXT,TSL09,TSLXX12,CURR,Total of transactions of the period in transaction currency
+FAGLFLEXT,TSL10,TSLXX12,CURR,Total of transactions of the period in transaction currency
+FAGLFLEXT,TSL11,TSLXX12,CURR,Total of transactions of the period in transaction currency
+FAGLFLEXT,TSL12,TSLXX12,CURR,Total of transactions of the period in transaction currency
+FAGLFLEXT,TSL13,TSLXX12,CURR,Total of transactions of the period in transaction currency
+FAGLFLEXT,TSL14,TSLXX12,CURR,Total of transactions of the period in transaction currency
+FAGLFLEXT,TSL15,TSLXX12,CURR,Total of transactions of the period in transaction currency
+FAGLFLEXT,TSL16,TSLXX12,CURR,Total of transactions of the period in transaction currency
+FAGLFLEXT,TSLVT,TSLVT12,CURR,Balance carried forward in transaction currency
+TVKO,.INCLU--AP, , ,
+TVKO,.INCLUDE, , ,
+TVKO,ADRNR,ADRNR,CHAR,Address
+TVKO,BOAVO,BOAVO,CHAR,Rebate processing active in the sales organization
+TVKO,BSART,BSART,CHAR,Order Type (Purchasing)
+TVKO,BSTYP,BSTYP,CHAR,Purchasing Document Category
+TVKO,BUKRS,VKBUK,CHAR,Company code of the sales organization
+TVKO,BWART,BWARTWE,CHAR,Movement Type (Inventory Management)
+TVKO,EKGRP,EKGRP,CHAR,Purchasing Group
+TVKO,EKORG,EKORG,CHAR,Purchasing Organization
+TVKO,J_1ANUTIME,J_1ANUTIME,CHAR,Time of numbering for deliveries
+TVKO,KUNNR,KUNIV,CHAR,Customer number for intercompany billing
+TVKO,LGORT,LGORT_D,CHAR,Storage Location
+TVKO,LIFNR,LIFNR,CHAR,Account Number of Vendor or Creditor
+TVKO,MANDT,MANDT,CLNT,Client
+TVKO,MAXBI,MAXBI,NUMC,Maximum Number of Items in Billing Document
+TVKO,MWSKZ,J_1AMWSKZ,CHAR,Tax code for SD documents
+TVKO,PLAUEZ,/SAPHT/SW_PLAUEZ,CHAR,Unit for price protection
+TVKO,PLAUFZ,/SAPHT/SW_PLAUFZ,NUMC,Price protection period
+TVKO,TXNAM_ADR,TXNAM_ADR,CHAR,Text name for form text module short address
+TVKO,TXNAM_FUS,TXNAM_FUS,CHAR,Text name for formula text module footer lines
+TVKO,TXNAM_GRU,TXNAM_GRU,CHAR,Text name for form text module: Greeting
+TVKO,TXNAM_KOP,TXNAM_KOP,CHAR,Text name for form text module letter header
+TVKO,TXNAM_SDB,TXNAM_SDB,CHAR,Text names for layout-set module SDS sender
+TVKO,VKOAU,VKOAU,CHAR,Reference sales org.for sales doc.types (by sales area)
+TVKO,VKOKL,VKOKL,CHAR,Sales organization calendar
+TVKO,VKORG,VKORG,CHAR,Sales Organization
+TVKO,WAERS,WAERS_V,CUKY,Statistics currency
+TVKO,WERKS,WERKS_D,CHAR,Plant
+TVKO,XSTCEG,XSTCEG,CHAR,Determining the VAT registration number
+TVZBT,MANDT,MANDT,CLNT,Client
+TVZBT,SPRAS,SPRAS,LANG,Language Key
+TVZBT,VTEXT,DZTERM_BEZ,CHAR,Description of terms of payment
+TVZBT,ZTERM,DZTERM,CHAR,Terms of Payment Key
+VBAK,.INCLU--AP, , ,
+VBAK,.INCLU--AP, , ,
+VBAK,.INCLU--AP, , ,
+VBAK,.INCLU--AP, , ,
+VBAK,ABDIS,ABDIS,CHAR,MRP for delivery schedule types
+VBAK,ABHOB,ABHOZ,TIMS,Pick up time
+VBAK,ABHOD,ABHOD,DATS,Pick up date
+VBAK,ABHOV,ABHOZ,TIMS,Pick up time
+VBAK,ABRUF_PART,ABRUF_PART,CHAR,Check partner authorizations
+VBAK,ABRVW,ABRVW,CHAR,Usage Indicator
+VBAK,AEDAT,AEDAT,DATS,Changed On
+VBAK,AGRZR,AGRZR,NUMC,Accrual period for order-related billing docs.to be accrued
+VBAK,AMTBL,AMTBL_CM,CURR,Released credit value of the document
+VBAK,ANGDT,ANGDT_V,DATS,Quotation/Inquiry is valid from
+VBAK,AUART,AUART,CHAR,Sales Document Type
+VBAK,AUDAT,AUDAT,DATS,Document Date (Date Received/Sent)
+VBAK,AUFNR,AUFNR,CHAR,Order Number
+VBAK,AUGRU,AUGRU,CHAR,Order reason (reason for the business transaction)
+VBAK,AUTLF,AUTLF,CHAR,Complete delivery defined for each sales order?
+VBAK,AWAHR,AWAHR_AK,NUMC,Sales probability
+VBAK,BNAME,BNAME_V,CHAR,Name of orderer
+VBAK,BNDDT,BNDDT,DATS,Date until which bid/quotation is binding (valid-to date)
+VBAK,BSARK,BSARK,CHAR,Customer purchase order type
+VBAK,BSTDK,BSTDK,DATS,Customer purchase order date
+VBAK,BSTNK,BSTNK,CHAR,Customer purchase order number
+VBAK,BSTZD,BSTZD,CHAR,Purchase order number supplement
+VBAK,BUKRS_VF,BUKRS_VF,CHAR,Company code to be billed
+VBAK,CMFRE,CMFRE,DATS,Release date of the document determined by credit management
+VBAK,CMNGV,CMNGV,DATS,Next date
+VBAK,CMNUP,CMNUP,DATS,Date of next credit check of document
+VBAK,CMWAE,WAERS_CM,CUKY,Currency key of credit control area
+VBAK,CONT_DG,ADGE_NCDG,CHAR,Indicator: Document contains dangerous goods
+VBAK,CRM_GUID,CHAR70,CHAR,"Character field, length 70"
+VBAK,CTLPC,CTLPC_CM,CHAR,Credit management: Risk category
+VBAK,DAT_FZAU,DAT_FZAU,DATS,Cml delivery order qty date
+VBAK,ENQUEUE_GRP,ENQUEUE_GRP,CHAR,Block master contr. until all lower level contracts updated
+VBAK,ERDAT,ERDAT,DATS,Date on Which Record Was Created
+VBAK,ERNAM,ERNAM,CHAR,Name of Person who Created the Object
+VBAK,ERZET,ERZET,TIMS,Entry time
+VBAK,FAKSK,FAKSK,CHAR,Billing block in SD document
+VBAK,FKARA,FKARA,CHAR,Proposed billing type for an order-related billing document
+VBAK,FMBDAT,MBDAT,DATS,Material Staging/Availability Date
+VBAK,GRUPP,GRUPP_CM,CHAR,Customer Credit Group
+VBAK,GSBER,GSBER,CHAR,Business Area
+VBAK,GSKST,GSKST,CHAR,Business area from cost center
+VBAK,GUEBG,GUEBG,DATS,"Valid-from date (outline agreements, product proposals)"
+VBAK,GUEEN,GUEEN,DATS,"Valid-to date (outline agreements, product proposals)"
+VBAK,GWLDT,GWLDT,DATS,Guarantee date
+VBAK,HANDLE,TSEGGUID_VBAK,CHAR,International unique key for VBAK-VBELN
+VBAK,HB_CONT_REASON,HB_CONT,CHAR,Contingency  data
+VBAK,HB_EXPDATE,HB_EXP,DATS,Expiration date
+VBAK,HB_RESDATE,HB_RES,DATS,Resolution date
+VBAK,HITYP_PR,HITYP_PR,CHAR,Hierarchy type for pricing
+VBAK,IHREZ,IHREZ,CHAR,Your Reference
+VBAK,KALCD,KALCD,CHAR,Procedure for Campaign Determination
+VBAK,KALSM,KALSMASD,CHAR,Sales and Distribution: Pricing Procedure in Pricing
+VBAK,KALSM_CH,KALSMA_CH,CHAR,Search procedure for batch determination
+VBAK,KKBER,KKBER,CHAR,Credit control area
+VBAK,KNKLI,KNKLI,CHAR,Customer's account number with credit limit reference
+VBAK,KNUMA,KNUMA,CHAR,Agreement (various conditions grouped together)
+VBAK,KNUMV,KNUMV,CHAR,Number of the document condition
+VBAK,KOKRS,KOKRS,CHAR,Controlling Area
+VBAK,KOSTL,KOSTL,CHAR,Cost Center
+VBAK,KTEXT,KTEXT_V,CHAR,Search term for product proposal
+VBAK,KUNNR,KUNAG,CHAR,Sold-to party
+VBAK,KURST,KURST,CHAR,Exchange Rate Type
+VBAK,KVGR1,KVGR1,CHAR,Customer group 1
+VBAK,KVGR2,KVGR2,CHAR,Customer group 2
+VBAK,KVGR3,KVGR3,CHAR,Customer group 3
+VBAK,KVGR4,KVGR4,CHAR,Customer group 4
+VBAK,KVGR5,KVGR5,CHAR,Customer group 5
+VBAK,LANDTX,LANDTX,CHAR,Tax departure country
+VBAK,LIFSK,LIFSK,CHAR,Delivery block (document header)
+VBAK,LOGSYSB,LOGSYSB,CHAR,Logical system with which document was created
+VBAK,MAHDT,MAHDT,DATS,Last customer contact date
+VBAK,MAHZA,MAHZA,DEC,Number of contacts from the customer
+VBAK,MANDT,MANDT,CLNT,Client
+VBAK,MTLAUR,HB_MTLAUR,CHAR,Marker for Low Income Housing
+VBAK,MULTI,CMPC_MULT_CAMPAIGN,CHAR,Multiple Campaigns/Trade Promotions Active Indicator
+VBAK,NETWR,NETWR_AK,CURR,Net Value of the Sales Order in Document Currency
+VBAK,OBJNR,OBJKO,CHAR,Object number at header level
+VBAK,PHASE,HB_SPHSE,CHAR,Sales Phase
+VBAK,PROLI,ADGE_PROLI,CHAR,Dangerous Goods Management Profile in SD Documents
+VBAK,PS_PSP_PNR,PS_PSP_PNR,NUMC,Work Breakdown Structure Element (WBS Element)
+VBAK,QMNUM,QMNUM,CHAR,Notification No
+VBAK,RPLNR,RPLNR,CHAR,Number of payment card plan type
+VBAK,SBGRP,SBGRP_CM,CHAR,Credit representative group for credit management
+VBAK,SCHEME_GRP,SCHEME_GRP,CHAR,Referencing requirement: Procedure
+VBAK,SMENR,HB_SMENR,CHAR,Number of Sales Unit
+VBAK,SPART,SPART,CHAR,Division
+VBAK,STAFO,STAFO,CHAR,Update group for statistics update
+VBAK,STAGE,HB_STAGE,INT4,Construction Stage
+VBAK,STCEG_L,LAND1TX,CHAR,Tax destination country
+VBAK,STWAE,STWAE,CUKY,Statistics currency
+VBAK,SUBMI,SUBMI_SD,CHAR,Collective number (SD)
+VBAK,SWENR,HB_SWENR,CHAR,Business  Entity Number
+VBAK,TAXK1,TAXK1_AK,CHAR,Alternative tax classification
+VBAK,TAXK2,TAXK2,CHAR,Tax classification 2 for customer
+VBAK,TAXK3,TAXK3,CHAR,Tax classification 3 for customer
+VBAK,TAXK4,TAXK4,CHAR,Tax Classification 4 Customer
+VBAK,TAXK5,TAXK5,CHAR,Tax classification 5 for customer
+VBAK,TAXK6,TAXK6,CHAR,Tax classification 6 for customer
+VBAK,TAXK7,TAXK7,CHAR,Tax classification 7 for customer
+VBAK,TAXK8,TAXK8,CHAR,Tax classification 8 for customer
+VBAK,TAXK9,TAXK9,CHAR,Tax classification 9 for customer
+VBAK,TELF1,TELF1_VP,CHAR,Telephone Number
+VBAK,TRVOG,TRVOG,CHAR,Transaction group
+VBAK,UPD_TMSTMP,TIMESTAMPL,DEC,UTC Time Stamp in Long Form (YYYYMMDDhhmmssmmmuuun)
+VBAK,VBELN,VBELN_VA,CHAR,Sales Document
+VBAK,VBELN_GRP,VBELN_GRP,CHAR,Mster contract number
+VBAK,VBKLA,VBKLA,CHAR,Original system with release and transaction control
+VBAK,VBKLT,VBKLT,CHAR,SD document indicator
+VBAK,VBTYP,VBTYP,CHAR,SD document category
+VBAK,VDATU,EDATU_VBAK,DATS,Requested delivery date
+VBAK,VGBEL,VGBEL,CHAR,Document number of the reference document
+VBAK,VGTYP,VBTYP_V,CHAR,Document category of preceding SD document
+VBAK,VKBUR,VKBUR,CHAR,Sales Office
+VBAK,VKGRP,VKGRP,CHAR,Sales Group
+VBAK,VKORG,VKORG,CHAR,Sales Organization
+VBAK,VPRGR,PRGRS_VBAK,CHAR,Proposed date type
+VBAK,VSBED,VSBED,CHAR,Shipping Conditions
+VBAK,VSNMR_V,VSNMR_V,CHAR,Sales document version number
+VBAK,VTWEG,VTWEG,CHAR,Distribution Channel
+VBAK,VZEIT,EZEIT_VBAK,TIMS,Proposed schedule line time (local with ref. to sales org.)
+VBAK,WAERK,WAERK,CUKY,SD Document Currency
+VBAK,XBLNR,XBLNR_V1,CHAR,Reference Document Number
+VBAK,XEGDR,XEGDR,CHAR,Indicator: Triangular deal within the EU ?
+PROJ,SMPRF,SIM_PROFIL,CHAR,Simulation profile
+PROJ,SPART,SPART,CHAR,Division
+PROJ,SPROG,PS_SPROG,DATS,Forecast start date of project definition
+PROJ,SPSNR,PS_ISPSP,NUMC,Current number for standard project
+PROJ,STORT,PS_STORT,CHAR,Location
+PROJ,STSPD,PS_STSPD,CHAR,Status profile for project definition
+PROJ,STSPR,PS_STSPR,CHAR,Status profile for WBS element
+PROJ,TRMEQ,PS_TRMEQ,CHAR,Indicator: WBS dates detailed by activity dates
+PROJ,TXJCD,TXJCD,CHAR,Tax Jurisdiction
+PROJ,TXTSP,SPRAS,LANG,Language Key
+PROJ,VBUKR,PS_VBUKR,CHAR,Company code for the project
+PROJ,VERNA,PS_VERNA,CHAR,Name of responsible person (Project manager)
+PROJ,VERNR,PS_VERNR,NUMC,Number of the responsible person (project manager)
+PROJ,VGPLF,PS_VGPLF,NUMC,Planning method for project basic dates
+PROJ,VGSBR,PS_VGSBR,CHAR,Business area for the project
+PROJ,VKOKR,PS_VKOKR,CHAR,Controlling area for the project
+PROJ,VKORG,VKORG,CHAR,Sales Organization
+PROJ,VNAME,JV_NAME,CHAR,Joint Venture
+PROJ,VPKSTU,SEU_LEVEL,NUMC,Node level
+PROJ,VPROF,PROFIDNZPL,CHAR,Network profile
+PROJ,VTWEG,VTWEG,CHAR,Distribution Channel
+PROJ,WERKS,WERKS_D,CHAR,Plant
+PROJ,XSTAT,PS_XSTAT,CHAR,Statistical WBS element
+PROJ,ZFILE1EXTE,CHAR3,CHAR,3-Byte field
+PROJ,ZFILE1NAME,CHAR20,CHAR,Char 20
+PROJ,ZFILE2EXTE,CHAR3,CHAR,3-Byte field
+PROJ,ZFILE2NAME,CHAR20,CHAR,Char 20
+PROJ,ZFILE3EXTE,CHAR3,CHAR,3-Byte field
+PROJ,ZFILE3NAME,CHAR20,CHAR,Char 20
+PROJ,ZFILEPATH,CHAR40,CHAR,Character field of length 40
+PROJ,ZSCHM,PS_ZSCHM,CHAR,Interest Profile for Project/Order Interest Calculation
+PROJ,ZTEHT,PS_ZTEHT,UNIT,Time unit in time scheduling
+PROJ,ZUORD,PS_ZUORD,NUMC,Network assignment
+VBLB,ABART,ABART,CHAR,Release type
+VBLB,ABEFZ,ABKFZ,QUAN,Cumulative Quantity Received by Customer
+VBLB,ABFDA,ABFDA,DATS,Start of production go-ahead
+VBLB,ABFDE,ABFDE,DATS,End of production go-ahead
+VBLB,ABHOR,ABHOR,DATS,JIT horizon
+VBLB,ABLLI,ABLLI,NUMC,Last internal release order number
+VBLB,ABMDA,ABMDA,DATS,Start of material go-ahead
+VBLB,ABMDE,ABMDE,DATS,End of material go-ahead
+VBLB,ABRAB,ABRAB,DATS,Dlv. sched. valid from
+VBLB,ABRBI,ABRBI,DATS,SA rel. valid to
+VBLB,ABRDT,ABRDT,DATS,Delivery Schedule Date
+VBLB,ABRDT_ORG,ABRDT_ORG,DATS,Delivery schedule date of creation
+VBLB,ABRLI,ABRLI,NUMC,Internal delivery schedule number
+VBLB,AEDAT,AEDAT,DATS,Changed On
+VBLB,AKFFZ,AKFFZ,QUAN,Actual cumulative production go-ahead quantity
+VBLB,AKLFZ,AKLFZ,QUAN,Actual cumulative delivery go-ahead quantity
+VBLB,AKMFZ,AKMFZ,QUAN,Actual cumulative material go-ahead quantity
+VBLB,CYDAT,CYDAT,DATS,Date on which cumulative received quantity set to zero
+VBLB,CYEFZ,CYEFZ,QUAN,Cumulative quantity reached on date zero setting made
+VBLB,DOCNUM,EDI_DOCNUM,NUMC,IDoc number
+VBLB,EDLDT,EDLDT,DATS,Date of last delivery sent by external agent to customer
+VBLB,EDLLS,LFEDL,CHAR,Last dlv. note sent by ext. service agent to the customer
+VBLB,ERDAT,ERDAT,DATS,Date on Which Record Was Created
+VBLB,ERNAM,ERNAM,CHAR,Name of Person who Created the Object
+VBLB,ERZEI,ERZET,TIMS,Entry time
+VBLB,FFEIN,FFEIN,CHAR,Production go-ahead - Unit validity period
+VBLB,FFLAUF,FFLAUF,NUMC,Production go-ahead  - validity period
+VBLB,GJKUN,GJKUN,NUMC,Customer fiscal year
+VBLB,HIFFZ,HIFFZ,QUAN,Highest cumulative production go-ahead quantity
+VBLB,HIFFZLI,HIFFZLI,NUMC,Internal schedule no.for highest prod.go-ahead cml.qty
+VBLB,HILFZ,HILFZ,QUAN,Highest delivery go-ahead cumulative quantity
+VBLB,HILFZLI,HILFZLI,NUMC,Internal schedule number for highest dlv.go-ahead cml.qty
+VBLB,HIMFZ,HIMFZ,QUAN,Highest cumulative material go-ahead quantity
+VBLB,HIMFZLI,HIMFZLI,NUMC,Internal schedule number for highest mat.go-ahead cml.qty
+VBLB,KRITB,KRITB,CHAR,Key for high priority stock
+VBLB,LABKY,BSTAS,CHAR,Requirements status key
+VBLB,LABNK,LABNK,CHAR,Customer number for forecast / JIT dlv. sched.
+VBLB,LFDKD,LFDKD,DATS,Date of last delivery posted by the customer
+VBLB,LFMAIS,LFMAIS,CHAR,Last pick-up sheet sent by the customer
+VBLB,LFMKD,LFMKD,QUAN,Last delivery quantity received by the customer
+VBLB,LFNKD,LFNKD,CHAR,Last delivery confirmed by the customer
+VBLB,MAIDT,MAIDT,DATS,Date of last pick-up sheet
+VBLB,MANDT,MANDT,CLNT,Client
+VBLB,MFEIN,MFEIN,CHAR,Material go-ahead - unit validity period
+VBLB,MFLAUF,MFLAUF,NUMC,Material go-ahead - validity period
+VBLB,POSNR,POSNR_VA,NUMC,Sales Document Item
+VBLB,TERSL,TERSL,CHAR,Date key for schedule line dates
+VBLB,UMVKN,UMVKN,DEC,Denominator (Divisor) for Conversion of Sales Qty into SKU
+VBLB,UMVKZ,UMVKZ,DEC,Numerator (factor) for conversion of sales quantity into SKU
+VBLB,USR01,USR01_D,CHAR,Additional data field 1 for delivery schedules
+VBLB,USR02,USR02_D,CHAR,Additional data field 2 for delivery schedules
+VBLB,USR03,USR03_D,CHAR,Additional data field 3 for delivery schedules
+VBLB,USR04,USR04_D,CHAR, Additional data field 4 for delivery schedules
+VBLB,USR05,USR05_D,CHAR,Additional data field 5 for delivery schedules
+VBLB,VBELN,VBELN_VA,CHAR,Sales Document
+VBLB,VBRST,VBRST,CHAR,Customer point of consumption
+VBLB,VJKUN,VJKUN,NUMC,Customer fiscal year which is not yet closed
+ADRC,ADDRESS_ID,AD_ADDR_ID,CHAR,(Not supported) Physical address ID
+ADRC,ADDRNUMBER,AD_ADDRNUM,CHAR,Address number
+ADRC,ADDRORIGIN,AD_ORIGINA,CHAR,(Not Supported) Address Data Source (Key)
+ADRC,ADDR_GROUP,AD_GROUP,CHAR,Address Group (Key) (Business Address Services)
+ADRC,BUILDING,AD_BLDNG,CHAR,Building (Number or Code)
+ADRC,CHCKSTATUS,AD_CHECKST,CHAR,City file test status
+ADRC,CITY1,AD_CITY1,CHAR,City
+ADRC,CITY2,AD_CITY2,CHAR,District
+ADRC,CITYH_CODE,AD_CITYHNM,CHAR,Different city for city/street file
+ADRC,CITYP_CODE,AD_CITYPNM,CHAR,District code for City and Street file
+ADRC,CITY_CODE,AD_CITYNUM,CHAR,City code for city/street file
+ADRC,CITY_CODE2,AD_CIT2NUM,CHAR,City PO box code (City file)
+ADRC,CLIENT,MANDT,CLNT,Client
+ADRC,COUNTRY,LAND1,CHAR,Country Key
+ADRC,DATE_FROM,AD_DATE_FR,DATS,Valid-from date - in current Release only 00010101 possible
+ADRC,DATE_TO,AD_DATE_TO,DATS,Valid-to date in current Release only 99991231 possible
+ADRC,DEFLT_COMM,AD_COMM,CHAR,Communication Method (Key) (Business Address Services)
+ADRC,DONT_USE_P,AD_NO_USEP,CHAR,PO Box Address Undeliverable Flag
+ADRC,DONT_USE_S,AD_NO_USES,CHAR,Street Address Undeliverable Flag
+ADRC,EXTENSION1,AD_EXTENS1,CHAR,Extension (only for data conversion) (e.g. data line)
+ADRC,EXTENSION2,AD_EXTENS2,CHAR,Extension (only for data conversion) (e.g. telebox)
+ADRC,FAX_EXTENS,AD_FXXTNS1,CHAR,First fax no.: extension
+ADRC,FAX_NUMBER,AD_FXNMBR1,CHAR,First fax no.: dialling code+number
+ADRC,FLAGCOMM10,AD_FLGCM10,CHAR,Flag: Printer maintained
+ADRC,FLAGCOMM11,AD_FLGCM11,CHAR,Flag: SSF maintained
+ADRC,FLAGCOMM12,AD_FLGCM12,CHAR,Flag: URI/FTP address maintained
+ADRC,FLAGCOMM13,AD_FLGCM13,CHAR,Flag: Pager address maintained
+ADRC,FLAGCOMM2,AD_FLGCM02,CHAR,Flag: Telephone number(s) maintained
+ADRC,FLAGCOMM3,AD_FLGCM03,CHAR,Flag: Fax number(s) maintained
+ADRC,FLAGCOMM4,AD_FLGCM04,CHAR,Flag: Teletex number(s) maintained
+ADRC,FLAGCOMM5,AD_FLGCM05,CHAR,Flag: Telex number(s) maintained
+ADRC,FLAGCOMM6,AD_FLGCM06,CHAR,Indicator: E-Mail Address(es) Maintained
+ADRC,FLAGCOMM7,AD_FLGCM07,CHAR,Flag: RML (remote mail) addresse(s) maintained
+ADRC,FLAGCOMM8,AD_FLGCM08,CHAR,Flag: X.400 addresse(s) maintained
+ADRC,FLAGCOMM9,AD_FLGCM09,CHAR,Flag: RFC destination(s) maintained
+ADRC,FLAGGROUPS,AD_FLGGP,CHAR,Flag: There are more address group assignments
+ADRC,FLOOR,AD_FLOOR,CHAR,Floor in building
+ADRC,HOME_CITY,AD_CITY3,CHAR,City (different from postal city)
+ADRC,HOUSE_NUM1,AD_HSNM1,CHAR,House Number
+ADRC,HOUSE_NUM2,AD_HSNM2,CHAR,House number supplement
+ADRC,HOUSE_NUM3,AD_HSNM3,CHAR,(Not supported) House Number Range
+ADRC,LANGU,SPRAS,LANG,Language Key
+ADRC,LANGU_CREA,AD_LANGUCR,LANG,Address record creation original language
+ADRC,LOCATION,AD_LCTN,CHAR,Street 5
+ADRC,MC_CITY1,AD_MC_CITY,CHAR,City name in upper case for search help
+ADRC,MC_NAME1,AD_MC_NAME,CHAR,Name (field NAME1) in upper case for matchcode
+ADRC,MC_STREET,AD_MC_STRT,CHAR,Street name in upper case for search help
+ADRC,NAME1,AD_NAME1,CHAR,Name 1
+ADRC,NAME2,AD_NAME2,CHAR,Name 2
+ADRC,NAME3,AD_NAME3,CHAR,Name 3
+ADRC,NAME4,AD_NAME4,CHAR,Name 4
+ADRC,NAME_CO,AD_NAME_CO,CHAR,c/o name
+ADRC,NAME_TEXT,AD_NAMETXT,CHAR,Converted name field (with form of address)
+ADRC,NATION,AD_NATION,CHAR,International address version ID
+ADRC,PCODE1_EXT,AD_PST1XT,CHAR,"(Not Supported)City Postal Code Extension, e.g. ZIP+4+2 Code"
+ADRC,PCODE2_EXT,AD_PST2XT,CHAR,(Not Supported) PO Box Postal Code Extension
+ADRC,PCODE3_EXT,AD_PST3XT,CHAR,(Not Supported) Major Customer Postal Code Extension
+ADRC,PERS_ADDR,AD_PRSADDR,CHAR,Flag: This is a personal address
+ADRC,POSTALAREA,AD_PSTLAR,CHAR,(Not Supported) Post Delivery District
+ADRC,POST_CODE1,AD_PSTCD1,CHAR,City postal code
+ADRC,POST_CODE2,AD_PSTCD2,CHAR,PO Box postal code
+ADRC,POST_CODE3,AD_PSTCD3,CHAR,Company postal code (for large customers)
+ADRC,PO_BOX,AD_POBX,CHAR,PO Box
+ADRC,PO_BOX_CTY,AD_POBXCTY,CHAR,PO box country
+ADRC,PO_BOX_LOC,AD_POBXLOC,CHAR,PO Box city
+ADRC,PO_BOX_NUM,AD_POBXNUM,CHAR,Flag: PO Box without number
+ADRC,PO_BOX_REG,AD_POBXREG,CHAR,"Region for PO Box (Country, State, Province, ...)"
+ADRC,REGIOGROUP,REGIOGROUP,CHAR,Regional structure grouping
+ADRC,REGION,REGIO,CHAR,"Region (State, Province, County)"
+ADRC,ROOMNUMBER,AD_ROOMNUM,CHAR,Room or Appartment Number
+ADRC,SORT1,AD_SORT1,CHAR,Search Term 1
+ADRC,SORT2,AD_SORT2,CHAR,Search Term 2
+ADRC,SORT_PHN,AD_SRTPHN,CHAR,(Not Supported) Phonetic Search Sort Field
+ADRC,STREET,AD_STREET,CHAR,Street
+ADRC,STREETABBR,AD_STRABBR,CHAR,(Not Supported) Abbreviation of Street Name
+ADRC,STREETCODE,AD_STRNUM,CHAR,Street Number for City/Street File
+ADRC,STR_SUPPL1,AD_STRSPP1,CHAR,Street 2
+ADRC,STR_SUPPL2,AD_STRSPP2,CHAR,Street 3
+LIKP,LISPL,LNSPL_LIKP,CHAR,Delivery within one warehouse
+LIKP,LOC_GUID,LOC_GUID16,RAW,Akkreditiv (GUID)
+LIKP,LPRIO,LPRIO,NUMC,Delivery Priority
+LIKP,LSTEL,LSTEL,CHAR,Loading Point
+LIKP,MANDT,MANDT,CLNT,Client
+LIKP,NETWR,NETWR_AK,CURR,Net Value of the Sales Order in Document Currency
+LIKP,NTGEW,NTGEW_15,QUAN,Net weight
+LIKP,PERFK,PERFK,CHAR,Invoice dates (calendar identification)
+LIKP,PIOIV,PIOIV,CHAR,Date for intercompany billing
+LIKP,PODAT,PODAT,DATS,Date (proof of delivery)
+LIKP,POTIM,POTIM,TIMS,Confirmation time
+LIKP,PRINTER_PROFILE,DRUCK_PROFIL_ID,CHAR,Description of print profile
+LIKP,PROLI,ADGE_PROLI,CHAR,Dangerous Goods Management Profile in SD Documents
+LIKP,PRVBE,PRVBE,CHAR,Supply Area
+LIKP,ROUTA,ROUTE,CHAR,Route
+LIKP,ROUTE,ROUTE,CHAR,Route
+LIKP,SAKES,GTS_SAKES,CHAR,SAP Global Trade Services: Storage Status of Delivery
+LIKP,SBGRP,SBGRP_CM,CHAR,Credit representative group for credit management
+LIKP,SDABW,SDABW,CHAR,Special processing indicator
+LIKP,SPAIV,SPAIV,CHAR,Division for intercompany billing
+LIKP,SPE_ACC_APP_STS,/SPE/RET_ACC_APP_STS,CHAR,Delivery Confirmation Status
+LIKP,SPE_BILLING_IND,/SPE/DE_BILLING_IND,CHAR,EWM Billing Indicator
+LIKP,SPE_CARRIER_IND,/SPE/DE_CARRIER_IND,CHAR,Change Indicator for the Carrier
+LIKP,SPE_CHNG_SYS,/SPE/INB_CHNG_SYS,CHAR,Last Changer's System Type
+LIKP,SPE_GEOROUTE,/SPE/DE_ROUTE_ID,CHAR,Description of a Geographical Route
+LIKP,SPE_GEOROUTEIND,/SPE/DE_ROUTE_IND,CHAR,Change Indicator for the Route
+LIKP,SPE_GTS_REL,/SPE/DE_LEG_GTS_CODE,CHAR,Goods Traffic Type
+LIKP,SPE_GTS_RT_CDE,/SPE/DE_ROUTE_GTS_CODE,CHAR,Route Code for SAP Global Trade Services
+LIKP,SPE_INV_BFR_GI,/SPE/INV_BFR_GI,CHAR,Invoice Creation Before Goods Issue
+LIKP,SPE_LE_SCENARIO,/SPE/LE_SCENARIO,CHAR,Scenario Logistic Execution
+LIKP,SPE_LIFEX_TYPE,/SPE/DE_LIFEX_TYPE,CHAR,Type of External Identification
+LIKP,SPE_LOC_SEQ,/SPE/RET_LOC_SEQ_D,CHAR,Sequence of Intermediate Locations in Returns Process
+LIKP,SPE_LOEKZ,LOEKZ_BK,CHAR,Document deletion indicator
+LIKP,SPE_ORIG_SYS,/SPE/INB_ORIGIN_SYS,CHAR,Original System Type
+LIKP,SPE_PRO_NUMBER,/SPE/PRO_NUMBER,CHAR,Partner Identification : Progressive Identification Number
+LIKP,SPE_QI_STATUS,/SPE/RET_QI_STATUS,CHAR,Status of Quality Inspection for Returns Deliveries
+LIKP,SPE_RED_IND,/SPE/RED_IND,CHAR,SPE indicator if redirecting has occured
+LIKP,SPE_REL_TMSTMP,/SPE/DE_RELEASE_TMSTMP,DEC,Release Time Stamp
+LIKP,SPE_RET_CANC,/SPE/RET_CANC,CHAR,Returns: Flag showing that an ASN is cancelled
+LIKP,SPE_REV_VLSTK,VLSTK,CHAR,Distribution Status (Decentralized Warehouse Processing)
+LIKP,SPE_SHP_INF_STS,/SPE/RET_SHP_INF_STS,CHAR,Shipment Information Status
+LIKP,SPE_TTYPE,/SPE/TTYPE,CHAR,Means of Transport
+LIKP,SPE_UNIT_SYSTEM,/SPE/DE_UNIT_SYSTEM,CHAR,Measurement Unit System
+LIKP,SPE_WAUHR_IST,WAUHR,TIMS,"Time of Goods Issue (Local, Relating to a Plant)"
+LIKP,SPE_WAZONE_IST,TZNZONE,CHAR,Time Zone
+LIKP,STAFO,STAFO,CHAR,Update group for statistics update
+LIKP,STCUR,STCUR,DEC,Exchange rate for statistics
+LIKP,STWAE,STWAE,CUKY,Statistics currency
+LIKP,STZKL,STZKL,DEC,Not Currently in Use
+LIKP,STZZU,STZZU,DEC,not currently in use
+LIKP,TCODE,TCODE,CHAR,Transaction Code
+LIKP,TDDAT,TDDAT_D,DATS,Transportation Planning Date
+LIKP,TDUHR,TDUHR,TIMS,"Transp. Planning Time (Local, Relating to a Shipping Point)"
+LIKP,TERNR,AUFNR,CHAR,Order Number
+LIKP,TPGRP,TPGRP,CHAR,not currently in use
+LIKP,TPQUA,TPQUA,CHAR,not currently in use
+LIKP,TPSID,TPSID,CHAR,ID for external transport system
+LIKP,TRAGR,TRAGR,CHAR,Transportation Group
+LIKP,TRAID,TRAID,CHAR,Means of Transport ID
+LIKP,TRATY,TRATY,CHAR,Means-of-Transport Type
+LIKP,TRMTYP,TRMTYP,CHAR,Means of Transport
+LIKP,TRSPG,TRSPG,CHAR,Shipment Blocking Reason
+LIKP,TSEGFL,TSEGEXISTS,CHAR,Time segment exists
+LIKP,TSEGTP,TSEGTPLLIK,CHAR,Event group time segment delivery header
+LIKP,TZONIS,TSEGZONISS,CHAR,Time zone of delivering location
+LIKP,TZONRC,TSEGZONREC,CHAR,Time zone of recipient location
+LIKP,VBEAK,VBEAK,DEC,Shipping processing time for the entire document
+LIKP,VBELN,VBELN_VL,CHAR,Delivery
+LIKP,VBTYP,VBTYP,CHAR,SD document category
+LIKP,VBUND,VBUND,CHAR,Company ID
+LIKP,VERUR,VERUR_VL,CHAR,Distribution delivery
+LIKP,VERURSYS,VERURSYS,CHAR,Distribution delivery: Original system
+LIKP,VGANZ,SHP_VGANZ,INT4,Number of Delivery Items with Precedessor in Other System
+LIKP,VKBUR,VKBUR,CHAR,Sales Office
+LIKP,VKOIV,VKOIV,CHAR,Sales organization for intercompany billing
+LIKP,VKORG,VKORG,CHAR,Sales Organization
+LIKP,VLSTK,VLSTK,CHAR,Distribution Status (Decentralized Warehouse Processing)
+LIKP,VOLEH,VOLEH,UNIT,Volume unit
+LIKP,VOLUM,VOLUM_15,QUAN,Volume
+LIKP,VSART,VSARTTR,CHAR,Shipping type
+LIKP,VSBED,VSBED,CHAR,Shipping Conditions
+LIKP,VSTEL,VSTEL,CHAR,Shipping Point/Receiving Point
+LIKP,VTWIV,VTWIV,CHAR,Distribution channel for intercompany billing
+LIKP,WADAT,WADAK,DATS,Planned goods movement date
+LIKP,WADAT_IST,WADAT_IST,DATS,Actual Goods Movement Date
+LIKP,WAERK,WAERK,CUKY,SD Document Currency
+LIKP,WAUHR,WAUHR,TIMS,"Time of Goods Issue (Local, Relating to a Plant)"
+LIKP,WERKS,EMPFW,CHAR,Receiving plant for deliveries
+LIKP,XABLN,XABLN,CHAR,Goods Receipt/Issue Slip Number
+LIKP,XBLNR,XBLNR_LIKP,CHAR,Reference Document Number
+LIKP,XWOFF,XWOFF,CHAR,Calculation of val. open
+LIKP,ZUKRL,DZUKRL,CHAR,Combination criteria for delivery
+KONH,AKTNR,WAKTION,CHAR,Promotion
+KONH,DATAB,DATAB,DATS,Valid-From Date
+KONH,DATBI,DATBI,DATS,Valid To Date
+KONH,ERDAT,ERDAT,DATS,Date on Which Record Was Created
+KONH,ERNAM,ERNAM,CHAR,Name of Person who Created the Object
+KONH,KAPPL,KAPPL,CHAR,Application
+KONH,KNUMA_AG,KNUMA_AG,CHAR,Sales deal
+KONH,KNUMA_BO,KNUMA_BO,CHAR,Agreement (subsequent settlement)
+KONH,KNUMA_PI,KNUMA_PI,CHAR,Promotion
+KONH,KNUMA_SD,KNUMA_SD,CHAR,Standard agreement
+KONH,KNUMA_SQ,KNUMA_SQ,CHAR,Sales quote
+KONH,KNUMH,KNUMH,CHAR,Condition record number
+KONH,KOSRT,KOSRT,CHAR,Search term for conditions
+KONH,KOTABNR,KOTABNR,NUMC,Condition table
+KONH,KSCHL,KSCHA,CHAR,Condition type
+KONH,KVEWE,KVEWE,CHAR,Usage of the condition table
+KONH,KZUST,KZUST,CHAR,Responsibility in SD for condition/material
+KONH,LICDT,LICDT,DATS,Date license granted
+KONH,LICNO,LICNO,CHAR,Tax exemption license number
+KONH,MANDT,MANDT,CLNT,Client
+KONH,VADAT,VADAT_KO,CHAR,Variable Data Part
+KONH,VAKEY,VAKEY,CHAR,Variable key 100 bytes
+KOTN010,DATAB,KODATAB,DATS,Validity start date of the condition record
+KOTN010,DATBI,KODATBI,DATS,Validity end date of the condition record
+KOTN010,KAPPL,KAPPL,CHAR,Application
+KOTN010,KNUMH,KNUMH,CHAR,Condition record number
+KOTN010,KSCHL,KSCHN,CHAR,Discount type
+KOTN010,KUNNR,KUNNR_V,CHAR,Customer number
+KOTN010,MANDT,MANDT,CLNT,Client
+KOTN010,MATNR,MATNR,CHAR,Material Number
+KOTN010,VKORG,VKORG,CHAR,Sales Organization
+KOTN010,VTWEG,VTWEG,CHAR,Distribution Channel
+VITMOA,.INCLUDE, , ,
+VITMOA,.INCLUDE, , ,
+VITMOA,.INCLUDE, , ,
+VITMOA,.INCLUDE, , ,
+VITMOA,.INCLUDE, , ,
+VITMOA,.INCLUDE, , ,
+VITMOA,.INCLUDE, , ,
+VITMOA,ADDOBJNR,RERAADDOBJNR,CHAR,Object Number for Additional Account Assignment
+VITMOA,COMMITMENTITEM,RERACOMMITMENTITEM,CHAR,Commitment Item
+VITMOA,FUNCTIONALAREA,RERAFUNCTIONALAREA,CHAR,Functional Area
+VITMOA,FUND,RERAFUND,CHAR,Fund
+VITMOA,FUNDSCENTER,RERAFUNDSCENTER,CHAR,Funds Center
+VITMOA,GRANTNUMBER,RERAGRANTNUMBER,CHAR,Grant
+VITMOA,GSBER,GSBER,CHAR,Business Area
+VITMOA,INTRENO,RECAINTRENO,CHAR,Internal Key of Real Estate Object
+VITMOA,MANDT,MANDT,CLNT,Client
+VITMOA,MEASURE,RERAMEASURE,CHAR,Program in Funds Management
+VITMOA,PRCTR,PRCTR,CHAR,Profit Center
+VITMOA,TERMNO,RETMTERMNO,CHAR,Term Number
+VITMOA,TERMTYPE,RETMTERMTYPE,CHAR,Term Category
+VITMOA,TXJCD,TXJCD,CHAR,Tax Jurisdiction
+VITMOA,VALIDFROM,RETMTERMVALIDFROM,DATS,Valid-From Date of Term
+VITMOA,VALIDTO,RETMTERMVALIDTO,DATS,Valid-To Date of Term
+VBAK,ZUONR,ORDNR_V,CHAR,Assignment number
+VBAK,ZZAUFNR_POSNR,CO_POSNR,NUMC,Order Item Number
+VBAK,ZZKATR4,KATR4,CHAR,Attribute 4
+VBAK,ZZ_WE_PSTLZ,AD_PSTCD1,CHAR,City postal code
+ADRC,STR_SUPPL3,AD_STRSPP3,CHAR,Street 4
+ADRC,TAXJURCODE,AD_TXJCD,CHAR,Tax Jurisdiction
+ADRC,TEL_EXTENS,AD_TLXTNS1,CHAR,First Telephone No.: Extension
+ADRC,TEL_NUMBER,AD_TLNMBR1,CHAR,First telephone no.: dialling code+number
+ADRC,TIME_ZONE,AD_TZONE,CHAR,Address time zone
+ADRC,TITLE,AD_TITLE,CHAR,Form-of-Address Key
+ADRC,TRANSPZONE,LZONE,CHAR,Transportation zone to or from which the goods are delivered
+ADRCT,ADDRNUMBER,AD_ADDRNUM,CHAR,Address number
+ADRCT,CLIENT,MANDT,CLNT,Client
+ADRCT,DATE_FROM,AD_DATE_FR,DATS,Valid-from date - in current Release only 00010101 possible
+ADRCT,LANGU,SPRAS,LANG,Language Key
+ADRCT,NATION,AD_NATION,CHAR,International address version ID
+ADRCT,REMARK,AD_REMARK1,CHAR,Address notes
+ADRP,ADDR_COMP,AD_ADDRCOM,CHAR,(not used)
+ADRP,ADDR_PERS,AD_ADDRPER,CHAR,(not used)
+ADRP,CLIENT,MANDT,CLNT,Client
+ADRP,CONVERTED,AD_NAMCONV,CHAR,Status of Field 'Full Name' NAME_TEXT
+ADRP,DATE_FROM,AD_DATE_FR,DATS,Valid-from date - in current Release only 00010101 possible
+ADRP,DATE_TO,AD_DATE_TO,DATS,Valid-to date in current Release only 99991231 possible
+ADRP,FLAGGROUPS,AD_FLGGP_P,CHAR,Flag: There are other person group assignments
+ADRP,FLPERSCOMM,AD_FLPCOMM,CHAR,Flag: Person has personal comm. numbers (apart from Tel.)
+ADRP,FLPERSTEL,AD_FLPTEL,CHAR,Flag: person has personal telephone numbers
+ADRP,INITIALS,AD_INITS,CHAR,"""Middle Initial"" or personal initials"
+ADRP,LANGU,SPRAS,LANG,Language Key
+ADRP,LANGU_CREA,AD_LANGUCR,LANG,Address record creation original language
+ADRP,MC_NAME2,AD_MC_NAM2,CHAR,NAME2 field in upper case for matchcode
+ADRP,MC_NAMEFIR,AD_MC_NMFI,CHAR,First name in upper case for search help
+ADRP,MC_NAMELAS,AD_MC_NMLA,CHAR,Last name in upper-case for search help
+ADRP,NAMCOUNTRY,AD_NAMCTRY,CHAR,Country for name format rule
+ADRP,NAME2,AD_NAME2_P,CHAR,Name of person at birth
+ADRP,NAMEFORMAT,AD_FORMAT,CHAR,Name format
+ADRP,NAMEMIDDLE,AD_NAMEMID,CHAR,Middle name or second forename of a person
+ADRP,NAME_FIRST,AD_NAMEFIR,CHAR,First name
+ADRP,NAME_LAST,AD_NAMELAS,CHAR,Last name
+ADRP,NAME_LAST2,AD_NAMLAS2,CHAR,Second surname of a person
+ADRP,NAME_TEXT,AD_NAMTEXT,CHAR,Full Name of Person
+ADRP,NATION,AD_NATION,CHAR,International address version ID
+ADRP,NICKNAME,AD_NICKNAM,CHAR,Nickname or name used
+ADRP,PERSNUMBER,AD_PERSNUM,CHAR,Person number
+ADRP,PERSORIGIN,AD_ORIGINP,CHAR,Personal data source (key)
+ADRP,PERS_GROUP,AD_GROUP_P,CHAR,Person Group (Key) (Business Address Services)
+ADRP,PREFIX1,AD_PREFIX,CHAR,Name Prefix (Key)
+ADRP,PREFIX2,AD_PREFIX2,CHAR,2nd name prefix (key)
+ADRP,PROFESSION,AD_PROFESS,CHAR,Profession
+ADRP,SEX,AD_SEX,CHAR,Gender key
+ADRP,SORT1,AD_SORT1,CHAR,Search Term 1
+ADRP,SORT2,AD_SORT2,CHAR,Search Term 2
+ADRP,SORT_PHN,AD_SRTPHN,CHAR,(Not Supported) Phonetic Search Sort Field
+ADRP,TITLE,AD_TITLE,CHAR,Form-of-Address Key
+ADRP,TITLE_ACA1,AD_TITLE1,CHAR,Academic Title: Key
+ADRP,TITLE_ACA2,AD_TITLE2,CHAR,Second academic title (key)
+ADRP,TITLE_SPPL,AD_TITLES,CHAR,"Name supplement, e.g. noble title (key)"
+BP001,.INCLU--AP, , ,
+BP001,.INCLU--AP, , ,
+BP001,.INCLUDE, , ,
+BP001,.INCLUDE, , ,
+BP001,.INCLUDE, , ,
+BP001,.INCLUDE, , ,
+BP001,.INCLUDE, , ,
+BP001,.INCLUDE, , ,
+BP001,.INCLUDE, , ,
+BP001,.INCLUDE, , ,
+BP001,.INCLUDE, , ,
+BP001,ADRKIND,BU_ADRKIND,CHAR,Address Type
+BP001,BALANCE_FL,BP_BAL_FLG,CHAR,Balance Sheet Display
+BP001,BAL_SH_CUR,BP_BAL_CUR,CUKY,Balance Sheet Currency
+BP001,BANKL,BANKK,CHAR,Bank Keys
+BP001,BANKS,BANKS,CHAR,Bank country key
+BP001,BANK_DEL_D,BP_BANK_DEL_D,DATS,Termination Date for Business Relations with the Bank
+BP001,BP_SORT,BP_PHONSTRING,CHAR,Phonetic Search Term
+BP001,CALENDARID,BP_CAL_ID,CHAR,Factory calendar
+BP001,CAP_INCR_A,BP_CA_IN_A,CURR,Amount of last capital increase
+BP001,CAP_INCR_Y,BP_CA_IN_Y,NUMC,Year of Last Capital Increase
+BP001,CHILDREN,BP_CHILDRN,DEC,Number of Children Belonging to the Business Partner
+BP001,CLIENT,MANDT,CLNT,Client
+BP001,CNTRY_COMP,BP_CNTR_HD,CHAR,Country of Organization's Registered Office
+BP001,COMP_HEAD,BP_COMP_HD,CHAR,Registered Office
+BP001,COUNTRY_REP,BP_CNTR_REP,CHAR,Country for Reporting
+BP001,DYING_PLACE,BP_DYING_PLACE,CHAR,Place of Death
+BP001,GROUP_D,BP_GROUP_D,CHAR,Target Group
+BP001,GROUP_FEATURE,BP_GROUP_FEATURE,CHAR,Grouping Characteristic
+BP001,HR_ORG_REF,HR_ORG_REF,CHAR,HR Org. Link
+BP001,INCOME_CUR,BP_INC_CUR,CUKY,Currency of Net Income
+BP001,LAST_CUST_CONT,BP_LAST_CUST_CONTACT,DATS,Date of Last Customer Contact
+BP001,MAX_FILE_SIZE,BP_BCA_DTE_CARD_MAX_FILE_SIZE,INT4,Maximum Size for Ordering File
+BP001,MEM_HOUSE,BP_MEM_HOU,DEC,Number of People Living in the Household
+BP001,MIN_RESERV,BP_MIN_RSV,CHAR,Bank Subject to Minimum Reserve Requirement
+BP001,MO_INC_M,BP_M_INC_M,NUMC,Calendar Month of Monthly Net Income
+BP001,MO_INC_Y,BP_M_INC_Y,NUMC,Year of Monthly Net Income
+BP001,MO_NET_INC,BP_MO_INC,CURR,Monthly Net Income of Business Partner
+BP001,NET_INCOME,BP_NET_INC,CURR,Net Annual Income
+BP001,NET_INC_Y,BP_N_INC_Y,NUMC,Year of Annual Net Income
+BP001,PARTNER,BU_PARTNER,CHAR,Business Partner Number
+BP001,PAR_REL,BP_PAR_REL,CHAR,Business Partner Released
+BP001,PERS_NR,BP_PERS_NR,CHAR,Personnel Number
+BP001,PROPRTY_ST,BP_PROPRTY_OLD,NUMC,Marital property regime
+BP001,REGIO,BP_REGIO_HD,CHAR,Region of Registered Office
+BP001,SORT_PHON,BP_SORT_PH,CHAR,OBSOLETE: Sort Field for Phonetic Search
+BP001,STAFF_GRP,BP_STAFF_G,CHAR,Employee Group
+BP001,STAFF_REF,BP_STAFF_R,CHAR,Employee
+BP001,STATE,BP_CNTR_ST,CHAR,Citizenship
+BP001,TITLE_LET,BP_TITL_LT,NUMC,Salutation
+BP001,UNW_CUSTOMER,BP_UNW_CUSTOMER,CHAR,Undesirable Customer
+BP001,UNW_REASON,BP_UNW_REASON,CHAR,Reason for Undesirability
+BP001,UNW_REMARK,BP_UNW_REMARK,CHAR,Comment on Undesirability
+BP001,VBUND,RASSC,CHAR,Company ID of trading partner
+BP001,VIP,BP_VIP_PARTNER,CHAR,VIP Business Partner
+BP001,XUBNAME,XUBNAME,CHAR,User Name in User Master Record
+BP011,.INCLUDE, , ,
+BP011,EMPLOYER,BU_EMPLO,CHAR,Employer of business partner
+BP011,EMPLOYMENT,BP_EMPLOYM_OLD,NUMC,Employment Status
+BP011,EMPL_SINCE,EMPL_DATE,DATS,Employed from
+BP011,EMPL_UNTIL,BP_EMP_UNT,DATS,Employed Until
+BP011,EMP_SECTOR,EMP_SECTOR,CHAR,Industry; Only Relevant for Real Estate Business Partner
+BP011,EMP_SECTOR_ZGP,BU_IND_SECTOR,CHAR,Industry
+BP011,JOBGR_ZGP,BU_JOBGR,CHAR,Occupation/group
+BP011,MANDT,MANDT,CLNT,Client
+BP011,PARTNR,BP_PARTNR_NEW,CHAR,Business Partner Number
+BP011,PROFESSION,BP_PROFESSION_OLD,CHAR,Employment; Only Relevant for Real Estate Business Partner
+PLMZ,AEDAT,CIM_AEDAT,DATS,Change date for which no change record is created
+PLMZ,AENAM,AENAM,CHAR,Name of Person Who Changed Object
+PLMZ,AENNR,AENNR,CHAR,Change Number
+PLMZ,ANDAT,ANDAT,DATS,Date record created on
+PLMZ,ANNAM,ANNAM,CHAR,User who created record
+PLMZ,AOBAR,AOBAR,CHAR,Type of relationship
+PLMZ,BEIKZ,BEIKZ,CHAR,Material Provision Indicator
+PLMZ,DATUV,DATUV,DATS,Valid-From Date
+PLMZ,DAUER,AOBDAUER,QUAN,Time interval between relationships
+PLMZ,DISP,DISP_PLUS_1,CHAR,Relevancy to Materials Planning/Generation of Purchase Req.
+PLMZ,DMENG,DKMPMG,QUAN,Average component quantity
+PLMZ,FLGEX,FLGEX,CHAR,Indicator: External procurement
+PLMZ,GP_FREET,LINTX,CHAR,Line text: SOP
+PLMZ,GP_KRIT1,PLOBJ,CHAR,Planning object
+PLMZ,GP_MATNR,MATNR,CHAR,Material Number
+PLMZ,GP_UVORN,UVORN,CHAR,Suboperation
+PLMZ,GP_WERKS,WERKS_D,CHAR,Plant
+PLMZ,IMEIN,KMPME,UNIT,Component unit of measure
+PLMZ,IMENG,KMPMG,QUAN,Component quantity
+PLMZ,KANTE,KANTE_K,NUMC,Path in exploded BOM tree
+PLMZ,KNTTP,KNTTP,CHAR,Account Assignment Category
+PLMZ,LGORT,LGORT_RES,CHAR,Storage location storage resource
+PLMZ,LOEKZ,LKENZ,CHAR,Deletion Indicator
+PLMZ,MANDT,MANDT,CLNT,Client
+PLMZ,PARKZ,PARKZ,CHAR,Indicator: inactive changes
+PLMZ,PLNAL,PLNAL,CHAR,Group Counter
+PLMZ,PLNFL,PLNFOLGE,CHAR,Sequence
+PLMZ,PLNKN,CIM_PLNKN,NUMC,Task list node number for operation
+PLMZ,PLNNR,PLNNR,CHAR,Key for Task List Group
+PLMZ,PLNTY,PLNTY,CHAR,Task List Type
+PLMZ,PRODFLOWID,PRDFLID,CHAR,Product Flow Indicator
+PLMZ,REFKN,PLNKN,NUMC,Number of the task list node
+PLMZ,RGEKZ,RGEKZ,CHAR,Indicator: Backflush
+PLMZ,STLAL,STALT,CHAR,Alternative BOM
+PLMZ,STLAL_W,STALT,CHAR,Alternative BOM
+PLMZ,STLKN,KNTNR,NUMC,Node Number
+PLMZ,STLNR,STNUM,CHAR,Bill of material
+PLMZ,STLNR_W,STNUM,CHAR,Bill of material
+PLMZ,STLST,AUFST,NUMC,Order level
+PLMZ,STLTY,STLTY,CHAR,BOM category
+PLMZ,STLTY_W,STLTY,CHAR,BOM category
+PLMZ,STLWG,AUFWG,NUMC,Order path
+PLMZ,STRECKE,STRECKE,CHAR,Ind.: Third-party requisition
+PLMZ,TECHV,TECHV,CHAR,Technical status from
+PLMZ,VORAB,VORABKZ,CHAR,Ind: Preliminary order
+PLMZ,WERK_STL,WERKS_D,CHAR,Plant
+PLMZ,ZAEHL,CIM_COUNT,NUMC,Internal counter
+PLMZ,ZEINH,AOBDAUEH,UNIT,Unit for the time interval between relationships
+PLMZ,ZUDIV,DZUDIV,NUMC,Integral divisor for cutting measures
+PLMZ,ZUMEI,DZUMEI,UNIT,Unit for cutting measures
+PLMZ,ZUMS1,DZUMS1,QUAN,Cutting measure 1
+PLMZ,ZUMS2,DZUMS2,QUAN,Cutting measure 2
+PLMZ,ZUMS3,DZUMS3,QUAN,Cutting measure 3
+PLMZ,ZUONR,CIM_ZUORD,NUMC,No. for material comp. allocation to task list
+EKPO,SPE_EWM_DTC,/SPE/EWM_DTC,CHAR,EWM Delivery Based Tolerance Check
+EKPO,SPE_INSMK_SRC,/SPE/INSMK_SRC,CHAR,Stock Type of Source Storage Location in STO
+EKPO,SPINF,SPINF,CHAR,Indicator: Update Info Record
+EKPO,SRV_BAS_COM,SRV_BAS_COM,CHAR,Service-Based Commitment
+EKPO,SSQSS,QSSPUR,CHAR,Control Key for Quality Management in Procurement
+EKPO,STAFO,STAFO,CHAR,Update group for statistics update
+EKPO,STAPO,STAPO,CHAR,Item is statistical
+EKPO,STATU,ASTAT,CHAR,RFQ status
+EKPO,STATUS,EPSTATU,CHAR,Status of Purchasing Document Item
+EKPO,TECHS,TECHS,CHAR,Parameter Variant/Standard Variant
+EKPO,TWRKZ,TWRKZ,CHAR,Partial Invoice Indicator
+EKPO,TXJCD,TXJCD,CHAR,Tax Jurisdiction
+EKPO,TXZ01,TXZ01,CHAR,Short Text
+EKPO,TZONRC,TSEGZONREC,CHAR,Time zone of recipient location
+EKPO,UEBPO,UEBPO,NUMC,Higher-Level Item in Purchasing Documents
+EKPO,UEBTK,UEBTK,CHAR,Indicator: Unlimited Overdelivery Allowed
+EKPO,UEBTO,UEBTO,DEC,Overdelivery Tolerance Limit
+EKPO,UMREN,UMBSN,DEC,Denominator for Conversion of Order Unit to Base Unit
+EKPO,UMREZ,UMBSZ,DEC,Numerator for Conversion of Order Unit to Base Unit
+EKPO,UMSOK,UMSOK,CHAR,Special Stock Indicator for Physical Stock Transfer
+EKPO,UNTTO,UNTTO,DEC,Underdelivery Tolerance Limit
+EKPO,UPTYP,UPTYP,CHAR,"Subitem Category, Purchasing Document"
+EKPO,UPVOR,UPVOR,CHAR,Subitems Exist
+EKPO,USEQU,USEQU,CHAR,Quota arrangement usage
+EKPO,VOLEH,VOLEH,UNIT,Volume unit
+EKPO,VOLUM,VOLUM,QUAN,Volume
+EKPO,VORAB,VORAB,CHAR,Advance procurement: project stock
+EKPO,VRTKZ,VRTKZ,CHAR,Distribution Indicator for Multiple Account Assignment
+EKPO,WEBAZ,WEBAZ,DEC,Goods Receipt Processing Time in Days
+EKPO,WEBRE,WEBRE,CHAR,Indicator: GR-Based Invoice Verification
+EKPO,WEORA,WEORA,CHAR,Acceptance At Origin
+EKPO,WEPOS,WEPOS,CHAR,Goods Receipt Indicator
+EKPO,WERKS,EWERK,CHAR,Plant
+EKPO,WEUNB,WEUNB,CHAR,"Goods Receipt, Non-Valuated"
+EKPO,XCONDITIONS,XCONDITIONS,CHAR,Conditions for item although no invoice
+EKPO,XERSY,XERSY,CHAR,Evaluated Receipt Settlement (ERS)
+EKPO,XOBLR,XOBLR,CHAR,Item affects commitments
+EKPO,ZGTYP,QZGTYP,CHAR,Certificate Type
+EKPO,ZWERT,DZWERT,CURR,Target Value for Outline Agreement in Document Currency
+JITCU,ABRVW,ABRVW,CHAR,Usage Indicator
+JITCU,CUSTO,JIT_CUSTO,CHAR,JIT Customer
+JITCU,DON_PROFIL,JIT_DON_PROFIL,CHAR,Control Profile for Summarized JIT Calls (SumJC)
+JITCU,FPROF,JIT_FPROF,CHAR,Determ.profile for comp.group
+JITCU,IMPAC,JIT_IMPAC,CHAR,Signal Monitor Active
+JITCU,KNREF,KNREF,CHAR,"Customer description of partner (plant, storage location)"
+JITCU,KUNNR,KUNAG,CHAR,Sold-to party
+JITCU,LPROF,JIT_LPROF,CHAR,Control Profile for the Delivery Creation
+JITCU,MANDT,MANDT,CLNT,Client
+JITCU,MTMOD,JIT_MAINT_MODE,CHAR,Maintenance Mode Sequenced JIT Calls
+JITCU,TZONE,JIT_TZONE,CHAR,Time zone of customer plant
+JITCU,VATYP,JIT_VATYP,CHAR,Proposal call type
+TCURR,FCURR,FCURR_CURR,CUKY,From currency
+TCURR,FFACT,FFACT_CURR,DEC,"Ratio for the ""From"" Currency Units"
+TCURR,GDATU,GDATU_INV,CHAR,Date As of Which the Exchange Rate Is Effective
+TCURR,KURST,KURST_CURR,CHAR,Exchange Rate Type
+TCURR,MANDT,MANDT,CLNT,Client
+TCURR,TCURR,TCURR_CURR,CUKY,To-currency
+TCURR,TFACT,TFACT_CURR,DEC,"Ratio for the ""To"" Currency Units"
+TCURR,UKURS,UKURS_CURR,DEC,Exchange Rate
+WRF4,ABTNR,ABTNR,CHAR,Department number
+WRF4,EMPST,EMPST,CHAR,Receiving point
+WRF4,FLVAR,FLVAR,CHAR,Area schema
+WRF4,LAYVR,LAYVAR,CHAR,Layout
+WRF4,LOCNR,KUNNR,CHAR,Customer Number 1
+WRF4,MANDT,MANDT,CLNT,Client
+WRF4,VERFE,VERFE_WWS,UNIT,Sales area (floor space) unit
+WRF4,VERFL,VERFL_WWS,QUAN,Sales area (floor space)
+BUT020,.INCLUDE, , ,
+BUT020,.INCLUDE, , ,
+BUT020,.INCLUDE, , ,
+BUT020,ADDRESS_GUID,BU_ADDRESS_GUID,RAW,GUID of a Business Partner Address
+BUT020,ADDRNUMBER,AD_ADDRNUM,CHAR,Address number
+BUT020,ADDR_MOVE_DATE,BU_ADDR_MOVE_DATE,DEC,Date of Move for Address Moves
+BUT020,ADDR_VALID_FROM,BU_ADDR_VALID_FROM,DEC,Validity Start of a Business Partner Address
+BUT020,ADDR_VALID_TO,BU_ADDR_VALID_TO,DEC,Validity End of a Business Partner Address
+BUT020,ADEXT,BU_ADEXT,CHAR,Address number in external system
+BUT020,CLIENT,MANDT,CLNT,Client
+BUT020,DATE_FROM,BU_DATE_OBSOLETE,DATS,Date Obsolete
+BUT020,GUID,SYSUUID_C,CHAR,UUID in character form
+BUT020,MOVE_ADDR,BU_MOVE_ADDR,CHAR,Number of Move Target Address for Address Moves
+BUT020,NATION,AD_NATION,CHAR,International address version ID
+BUT020,PARTNER,BU_PARTNER,CHAR,Business Partner Number
+BUT020,XDFADR,BU_XDFADR,CHAR,Indicator: Address is standard address
+RPSCO,ABKAT,ABKAT,NUMC,Category for Variance/Results Analysis
+RPSCO,ACPOS,ACPOS,CHAR,Value category
+RPSCO,BELTP,BP_INOUT,NUMC,Debit type
+RPSCO,GEBER,BP_GEBER,CHAR,Fund
+RPSCO,GJAHR,GJAHR,NUMC,Fiscal Year
+RPSCO,LEDNR,BP_LEDNR,CHAR,Budget/Planning Ledger
+RPSCO,MANDT,MANDT,CLNT,Client
+RPSCO,OBJNR,BP_OBJEKT,CHAR,Object number
+RPSCO,PERBL,PERBL,NUMC,Period block
+RPSCO,TRGKZ,BP_TRGKZ,CHAR,Object indicator
+RPSCO,TWAER,TWAER,CUKY,Transaction Currency
+RPSCO,VERSN,BP_VERSION,CHAR,Planning/budgeting version
+RPSCO,VORGA,BP_VORGANG,CHAR,Budget Type Budgeting/Planning
+RPSCO,WLP00,BP_WPL,CURR,Period value in ledger currency
+RPSCO,WLP01,BP_WPL,CURR,Period value in ledger currency
+RPSCO,WLP02,BP_WPL,CURR,Period value in ledger currency
+RPSCO,WLP03,BP_WPL,CURR,Period value in ledger currency
+RPSCO,WLP04,BP_WPL,CURR,Period value in ledger currency
+RPSCO,WLP05,BP_WPL,CURR,Period value in ledger currency
+RPSCO,WLP06,BP_WPL,CURR,Period value in ledger currency
+RPSCO,WLP07,BP_WPL,CURR,Period value in ledger currency
+RPSCO,WLP08,BP_WPL,CURR,Period value in ledger currency
+RPSCO,WLP09,BP_WPL,CURR,Period value in ledger currency
+RPSCO,WLP10,BP_WPL,CURR,Period value in ledger currency
+RPSCO,WLP11,BP_WPL,CURR,Period value in ledger currency
+RPSCO,WLP12,BP_WPL,CURR,Period value in ledger currency
+RPSCO,WLP13,BP_WPL,CURR,Period value in ledger currency
+RPSCO,WLP14,BP_WPL,CURR,Period value in ledger currency
+RPSCO,WLP15,BP_WPL,CURR,Period value in ledger currency
+RPSCO,WLP16,BP_WPL,CURR,Period value in ledger currency
+RPSCO,WRTTP,CO_WRTTP,CHAR,Value Type
+RPSCO,WTP00,BP_WJT,CURR,Annual value in transaction currency
+RPSCO,WTP01,BP_WJT,CURR,Annual value in transaction currency
+RPSCO,WTP02,BP_WJT,CURR,Annual value in transaction currency
+RPSCO,WTP03,BP_WJT,CURR,Annual value in transaction currency
+RPSCO,WTP04,BP_WJT,CURR,Annual value in transaction currency
+RPSCO,WTP05,BP_WJT,CURR,Annual value in transaction currency
+RPSCO,WTP06,BP_WJT,CURR,Annual value in transaction currency
+RPSCO,WTP07,BP_WJT,CURR,Annual value in transaction currency
+RPSCO,WTP08,BP_WJT,CURR,Annual value in transaction currency
+RPSCO,WTP09,BP_WJT,CURR,Annual value in transaction currency
+RPSCO,WTP10,BP_WJT,CURR,Annual value in transaction currency
+RPSCO,WTP11,BP_WJT,CURR,Annual value in transaction currency
+RPSCO,WTP12,BP_WJT,CURR,Annual value in transaction currency
+RPSCO,WTP13,BP_WJT,CURR,Annual value in transaction currency
+RPSCO,WTP14,BP_WJT,CURR,Annual value in transaction currency
+RPSCO,WTP15,BP_WJT,CURR,Annual value in transaction currency
+RPSCO,WTP16,BP_WJT,CURR,Annual value in transaction currency
+T052,KOART,KOART_Z,CHAR,Account Type of the Customer/Vendor
+T052,MANDT,MANDT,CLNT,Client
+T052,TXN08,TXN08,CHAR,Number of the standard text
+T052,XCHPB,XCHPB,CHAR,Transfer payment block when changing terms of payment?
+T052,XCHPM,XCHPM,CHAR,Transfer payment method when changing terms of payment?
+T052,XSCRC,XSCRC,CHAR,Recurring Entries: Add Terms of Payment from Master Record
+T052,XSPLT,XSPLT,CHAR,Indicator: Term for installment payment
+T052,XZBRV,XZBRV_052,CHAR,Print terms of payment in RV papers
+T052,ZDART,DZDART,CHAR,Date Type
+T052,ZFAEL,DZFAEL,NUMC,Calendar Day for the Baseline Date for Payment
+T052,ZLSCH,DZLSCH,CHAR,Payment Method
+T052,ZMONA,DZMONA,NUMC,Additional Months
+T052,ZPRZ1,DZPROZ,DEC,Cash Discount Percentage Rate
+T052,ZPRZ2,DZPROZ,DEC,Cash Discount Percentage Rate
+T052,ZSCHF,DZSCHF_052,CHAR,Payment Block (Default Value)
+T052,ZSMN1,DZSMN1_052,NUMC,Additional Months for Special Condition (Term 1)
+T052,ZSMN2,DZSMN2_052,NUMC,Additional Months for Special Condition (Term 2)
+T052,ZSMN3,DZSMN3_052,NUMC,Additional Months for Special Condition (Term 3)
+T052,ZSTG1,DZSTG1_052,NUMC,Due Date for Special Condition
+T052,ZSTG2,DZSTG1_052,NUMC,Due Date for Special Condition
+T052,ZSTG3,DZSTG1_052,NUMC,Due Date for Special Condition
+T052,ZTAG1,DZTAGE,NUMC,Days from Baseline Date for Payment
+T052,ZTAG2,DZTAGE,NUMC,Days from Baseline Date for Payment
+T052,ZTAG3,DZTAGE,NUMC,Days from Baseline Date for Payment
+T052,ZTAGG,DZTAGG_052,NUMC,Day Limit
+T052,ZTERM,DZTERM,CHAR,Terms of Payment Key
+KNB4,ANZ12,ANZXX,DEC,Number of Incoming Payments during the Period
+KNB4,ANZ13,ANZXX,DEC,Number of Incoming Payments during the Period
+KNB4,ANZ14,ANZXX,DEC,Number of Incoming Payments during the Period
+KNB4,ANZ15,ANZXX,DEC,Number of Incoming Payments during the Period
+KNB4,ANZ16,ANZXX,DEC,Number of Incoming Payments during the Period
+KNB4,AUFZD,AUFZD,DATS,Date as from when the payment history was recorded
+KNB4,BUKRS,BUKRS,CHAR,Company Code
+KNB4,JAH01,KALJAHR,NUMC,Calendar Year
+KNB4,JAH02,KALJAHR,NUMC,Calendar Year
+KNB4,JAH03,KALJAHR,NUMC,Calendar Year
+KNB4,JAH04,KALJAHR,NUMC,Calendar Year
+KNB4,JAH05,KALJAHR,NUMC,Calendar Year
+KNB4,JAH06,KALJAHR,NUMC,Calendar Year
+KNB4,JAH07,KALJAHR,NUMC,Calendar Year
+KNB4,JAH08,KALJAHR,NUMC,Calendar Year
+KNB4,JAH09,KALJAHR,NUMC,Calendar Year
+KNB4,JAH10,KALJAHR,NUMC,Calendar Year
+KNB4,JAH11,KALJAHR,NUMC,Calendar Year
+KNB4,JAH12,KALJAHR,NUMC,Calendar Year
+KNB4,JAH13,KALJAHR,NUMC,Calendar Year
+KNB4,JAH14,KALJAHR,NUMC,Calendar Year
+KNB4,JAH15,KALJAHR,NUMC,Calendar Year
+KNB4,JAH16,KALJAHR,NUMC,Calendar Year
+KNB4,KUNNR,KUNNR,CHAR,Customer Number 1
+KNB4,MANDT,MANDT,CLNT,Client
+KNB4,MON01,KMONA_FI,NUMC,Calendar Month
+KNB4,MON02,KMONA_FI,NUMC,Calendar Month
+KNB4,MON03,KMONA_FI,NUMC,Calendar Month
+KNB4,MON04,KMONA_FI,NUMC,Calendar Month
+KNB4,MON05,KMONA_FI,NUMC,Calendar Month
+KNB4,MON06,KMONA_FI,NUMC,Calendar Month
+KNB4,MON07,KMONA_FI,NUMC,Calendar Month
+KNB4,MON08,KMONA_FI,NUMC,Calendar Month
+KNB4,MON09,KMONA_FI,NUMC,Calendar Month
+KNB4,MON10,KMONA_FI,NUMC,Calendar Month
+KNB4,MON11,KMONA_FI,NUMC,Calendar Month
+KNB4,MON12,KMONA_FI,NUMC,Calendar Month
+KNB4,MON13,KMONA_FI,NUMC,Calendar Month
+KNB4,MON14,KMONA_FI,NUMC,Calendar Month
+KNB4,MON15,KMONA_FI,NUMC,Calendar Month
+KNB4,MON16,KMONA_FI,NUMC,Calendar Month
+KNB4,VZN01,VZNXX,DEC,Average arrears with payments without cash discount taken
+KNB4,VZN02,VZNXX,DEC,Average arrears with payments without cash discount taken
+KNB4,VZN03,VZNXX,DEC,Average arrears with payments without cash discount taken
+KNB4,VZN04,VZNXX,DEC,Average arrears with payments without cash discount taken
+KNB4,VZN05,VZNXX,DEC,Average arrears with payments without cash discount taken
+KNB4,VZN06,VZNXX,DEC,Average arrears with payments without cash discount taken
+KNB4,VZN07,VZNXX,DEC,Average arrears with payments without cash discount taken
+KNB4,VZN08,VZNXX,DEC,Average arrears with payments without cash discount taken
+KNB4,VZN09,VZNXX,DEC,Average arrears with payments without cash discount taken
+KNB4,VZN10,VZNXX,DEC,Average arrears with payments without cash discount taken
+KNB4,VZN11,VZNXX,DEC,Average arrears with payments without cash discount taken
+KNB4,VZN12,VZNXX,DEC,Average arrears with payments without cash discount taken
+KNB4,VZN13,VZNXX,DEC,Average arrears with payments without cash discount taken
+KNB4,VZN14,VZNXX,DEC,Average arrears with payments without cash discount taken
+KNB4,VZN15,VZNXX,DEC,Average arrears with payments without cash discount taken
+KNB4,VZN16,VZNXX,DEC,Average arrears with payments without cash discount taken
+KNB4,VZS01,VZSXX,DEC,Average arrears with cash discount payments
+KNB4,VZS02,VZSXX,DEC,Average arrears with cash discount payments
+KNB4,VZS03,VZSXX,DEC,Average arrears with cash discount payments
+KNB4,VZS04,VZSXX,DEC,Average arrears with cash discount payments
+KNB4,VZS05,VZSXX,DEC,Average arrears with cash discount payments
+KNB4,VZS06,VZSXX,DEC,Average arrears with cash discount payments
+KNB4,VZS07,VZSXX,DEC,Average arrears with cash discount payments
+KNB4,VZS08,VZSXX,DEC,Average arrears with cash discount payments
+KNB4,VZS09,VZSXX,DEC,Average arrears with cash discount payments
+KNB4,VZS10,VZSXX,DEC,Average arrears with cash discount payments
+KNB4,VZS11,VZSXX,DEC,Average arrears with cash discount payments
+KNB4,VZS12,VZSXX,DEC,Average arrears with cash discount payments
+KNB4,VZS13,VZSXX,DEC,Average arrears with cash discount payments
+KNB4,VZS14,VZSXX,DEC,Average arrears with cash discount payments
+KNB4,VZS15,VZSXX,DEC,Average arrears with cash discount payments
+KNB4,VZS16,VZSXX,DEC,Average arrears with cash discount payments
+KNB5,BUKRS,BUKRS,CHAR,Company Code
+KNB5,BUSAB,BUSAB_MA,CHAR,Dunning clerk
+KNB5,GMVDT,GMVDT,DATS,Date of the legal dunning proceedings
+KNB5,KNRMA,KNRMA,CHAR,Account number of the dunning recipient
+KNB5,KUNNR,KUNNR,CHAR,Customer Number 1
+KNB5,MABER,MABER,CHAR,Dunning Area
+KNB5,MADAT,MADAT,DATS,Last dunned on
+KNB5,MAHNA,MAHNA,CHAR,Dunning Procedure
+KNB5,MAHNS,MAHNS_D,NUMC,Dunning level
+KNB5,MANDT,MANDT,CLNT,Client
+KNB5,MANSP,MANSP,CHAR,Dunning block
+KNKA,DLAUS,DLAUS,DATS,Date of the last general information
+KNKA,KLIME,KLIME,CURR,Credit limit: Limit for individual control area
+KNKA,KLIMG,KLIMG,CURR,Credit limit: Total limit across all control areas
+KNKA,KUNNR,KUNNR,CHAR,Customer Number 1
+KNKA,MANDT,MANDT,CLNT,Client
+KNKA,WAERS,WAERS,CUKY,Currency Key
+KNKK,ABSBT,ABSBT_SUM,CURR,Total Secured Receivables
+KNKK,AEDAT,AEDAT_CM,DATS,Date of Last Change
+KNKK,AENAM,AENAM_CM,CHAR,Last changed by
+KNKK,AETXT,AETXT_CM,DATS,Date of Last Text Change
+KNKK,CASHA,CASHA,CURR,Amount of Last Payment
+KNKK,CASHC,CASHC,CUKY,Currency of Last Payment
+KNKK,CASHD,CASHD,DATS,Date of Last Payment
+KNKK,CRBLB,CRBLB_CM,CHAR,Indicator: Blocked by credit management ?
+KNKK,CTLPC,CTLPC_CM,CHAR,Credit management: Risk category
+KNKK,DBEKR,DBEKR_CM,CURR,Recommended credit limit
+KNKK,DBMON,DBMON_CM,DATS,Date Monitoring
+KNKK,DBPAY,DBPAY_CM,CHAR,Payment Index
+KNKK,DBRAT,DBRAT_CM,CHAR,do not use - replaced by DBRTG_CM
+KNKK,DBRTG,DBRTG_CM,CHAR,Rating
+KNKK,DBWAE,DBWAE_CM,CUKY,Currency of recommended credit limit
+KNKK,DTREV,DTREV_CM,DATS,Last internal review
+KNKK,ERDAT,ERDAT_RF,DATS,Date on which the Record Was Created
+KNKK,ERNAM,ERNAM_RF,CHAR,Name of Person who Created the Object
+KNKK,GRUPP,GRUPP_CM,CHAR,Customer Credit Group
+KNKK,KDGRP,KDGRP_CM,CHAR,Customer Group
+KNKK,KKBER,KKBER,CHAR,Credit control area
+KNKK,KLIMK,KLIMK,CURR,Customer's credit limit
+KNKK,KNKLI,KNKLI,CHAR,Customer's account number with credit limit reference
+KNKK,KRAUS,KRAUS_CM,CHAR,Credit information number
+KNKK,KUNNR,KUNNR,CHAR,Customer Number 1
+KNKK,MANDT,MANDT,CLNT,Client
+KNKK,NXTRV,NXTRV_CM,DATS,Next internal review
+KNKK,PAYDB,PAYDB_CM,NUMC,do not use - replaced by DBPAY_CM
+KNKK,REVDB,REVDB_CM,DATS,Last review (external)
+KNKK,SAUFT,SAUFT,CURR,Total of the sales values for the credit limit check
+KNKK,SBDAT,SBDAT_CM,DATS,Reference Date
+KNKK,SBGRP,SBGRP_CM,CHAR,Credit representative group for credit management
+KNKK,SKFOR,SKFOR,CURR,Total receivables (for credit limit check)
+KNKK,SSOBL,SSOBL,CURR,Relevant special liabilities for credit limit check
+KNKK,UEDAT,UEDAT,DATS,Date on which the credit limit was exceeded
+KNKK,XCHNG,XCHNG_KNKK,CHAR,Indicator: credit limit must be recreated
+TDWST,CVLANG,CVLANG,LANG,Language
+TDWST,DOKST,DOKST,CHAR,Document Status
+TDWST,DOSTX,DOSTX,CHAR,Description of document status
+TDWST,MANDT,MANDT,CLNT,Client
+TDWST,STABK,STABK,CHAR,Status of a document (language-dependent)
