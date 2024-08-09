@@ -34,16 +34,15 @@ def process_csv(file_path):
 
 def main():
     # Path to your CSV file
-    file_path = 'schema_chinook.csv'
-    file_path = 'schema_northwind.csv'
+    file_paths = ['schema_chinook.csv', 'schema_northwind.csv']
+    for file_path in file_paths:
+        # Process the CSV file
+        result_df = process_csv(file_path)
 
-    # Process the CSV file
-    result_df = process_csv(file_path)
-
-    # Display the result
-    print(result_df.head())
-    result_df.to_csv(f'flattened_{file_path}', index=False)
-    print("Flattened out file ", file_path)
+        # Display the result
+        print(result_df.head())
+        result_df.to_csv(f'flattened_{file_path}', index=False)
+        print("Flattened out file ", file_path)
 
 if __name__ == "__main__":
     main()
