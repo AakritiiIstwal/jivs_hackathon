@@ -1,1 +1,0 @@
-This table stores information about accounting documents, such as vendors, creditors, and customers. The table contains information about the accounting document number, date, company code, number of line items, fiscal year, account number, client, debit/credit indicator, currency, amount, and reference document number.
