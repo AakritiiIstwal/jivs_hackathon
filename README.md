@@ -22,15 +22,15 @@ We use 2 different approaches for automated Schema Mapping.
     <b>Schema Mapping Approach 2</b> 
 </p>
 
-## Databases considered
+## Databases Used
 1. ORACLE
 2. SAP
 
 ## Application
 
 <p align="center">
-  <img src="Images/app.gif" width="400" />
+  <img src="Images/app.gif" width="800" />
 </p>
 <p align="center">
-    <b> Speed based increase on the driver assist detector</b>
+    <b> MapX for Automated Schema Mapping</b>
 </p>
