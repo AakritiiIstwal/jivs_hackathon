@@ -29,7 +29,7 @@ We use 2 different approaches for automated Schema Mapping.
 ## Application
 
 <p align="center">
-<!--   <img src="Images/demonstrations/predicted-speed-test-recording-one.gif" width="400" /> -->
+  <img src="Images/app.gif" width="400" />
 </p>
 <p align="center">
     <b> Speed based increase on the driver assist detector</b>
