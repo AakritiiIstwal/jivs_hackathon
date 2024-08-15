@@ -6,3 +6,23 @@ different databases is a time-consuming and error-prone process.
 ## Challenge Requirement
 We are seeking innovative solutions to develop a program/tool that can automate the process of schema mapping between different databases. It should help users identify tables and columns with similar structures and suggest potential mappings, making it
 easier to integrate and compare data from diverse sources.
+
+## Architecture:
+We use 2 different approaches for automated Schema Mapping.
+1. In the first approach we make use of [sentence transformer](https://huggingface.co/sentence-transformers) to generate embedding of the table description and the column description. Using the embeddings the similarity is computed and those values which is coming above the threshold value of 0.6 is considered a match.
+
+<p align="center">
+  <img src="Images/Schema_mapping_approach1.png" width="800" />
+</p>
+<p align="center">
+    <b>Schema Maaping Approach 1</b> 
+</p>
+
+2.In the second approach we make use of Vector DB along with RAG for the automated schema mapping. The positive side about this approach is that the model provides a short explanation about its interpretation. 
+<p align="center">
+  <img src="Images/Schema_mapping_approach2.png" width="800" />
+</p>
+<p align="center">
+    <b>Schema Maaping Approach 2</b> 
+</p>
+
