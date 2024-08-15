@@ -1,69 +1,20 @@
-# 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
 import streamlit as st
 import time 
 import random
 from openai import OpenAI
+from sentence_transformers import SentenceTransformer
+import pandas as pd
+from sentence_transformers import util
 import warnings
 warnings.simplefilter("ignore")
 warnings.filterwarnings("ignore", category=DeprecationWarning)
 
+sentence_embedding_model = SentenceTransformer('sentence-transformers/all-MiniLM-L6-v2')
 
-# def response_generator(response):
-def response_generator():
-    response = random.choice(
-        [
-            "This is the reason behind the issue",
-            "FInally giving the answer",
-            "I know why it is a match",
-        ]
-    )
+def response_generator(response):
     for word in response.split(" "):
         yield word + " "
         time.sleep(0.05)
-
-
-dummy = [
-        {
-            "Source table": "EMPLOYEES",
-            "Target Table": "EMPLOYEE_MASTER",
-            "Source Column Name": "EMP_SALARY",
-            "Target Column Name": "SALARY",
-            "Source Column Type": "NUMBER(10,2)",
-            "Target Column Type": "DECIMAL(10,2)"
-        },
-        {
-            "Source table": "EMPLOYEES",
-            "Target Table": "PAYROLL_DATA",
-            "Source Column Name": "EMP_ID",
-            "Target Column Name": "EMPLOYEE_ID",
-            "Source Column Type": "NUMBER(10)",
-            "Target Column Type": "INT"
-        },
-        {
-            "Source table": "EMPLOYEES",
-            "Target Table": "PERSONAL_INFO",
-            "Source Column Name": "EMP_NAME",
-            "Target Column Name": "FULL_NAME",
-            "Source Column Type": "VARCHAR2(100)",
-            "Target Column Type": "VARCHAR(100)"
-        },
-        {
-            "Source table": "EMPLOYEES",
-            "Target Table": "DEPARTMENT_INFO",
-            "Source Column Name": "EMP_DEPT",
-            "Target Column Name": "DEPARTMENT",
-            "Source Column Type": "VARCHAR2(50)",
-            "Target Column Type": "VARCHAR(50)"
-        },
-        {
-            "Source table": "EMPLOYEES",
-            "Target Table": "EMPLOYEE_HISTORY",
-            "Source Column Name": "EMP_HIRE_DATE",
-            "Target Column Name": "HIRE_DATE",
-            "Source Column Type": "DATE",
-            "Target Column Type": "DATETIME"
-        }
-]
 
 def open_file_to_list(file_name):
     my_file = open(file_name, "r") 
@@ -72,36 +23,31 @@ def open_file_to_list(file_name):
     my_file.close() 
     return table_names_list
 
-# st.title("Next Gen Schema Matcher")
 st.markdown("""
     <div style='text-align: center;'>
-        <h1>MapX</h1>
-        <h2> Welcome to MapX </h2>
+        <h1> Welcome to MapX </h1>
     </div>
 """, unsafe_allow_html=True)
 
-
 def Home():
-    # st.write(st.session_state.foo)
-    # st.write("""This Next Gen AI Matcher can automaticly help in the process of schema mapping between different databases. The 
-    #          application identifies tables and columns with similar structures and suggest potential mappings. The tool provides a 
-    #          with an interpretable reason why it is a possible match""")
-
+    st.write("\n")
+    st.write("\n")
+    st.write("\n")
+    st.write("\n")
+    st.write("\n")
     st.write("""Unlock the power of seamless data integration with MapX. Designed for today's data-centric world, MapX
              automates the complex task of cross-database schema mapping and value harmonization. Effortlessly identify, 
              map, and align tables and columns across different database systems, ensuring data consistency and operational 
              efficiency across your organization.
              """
     )
-
+    st.write("\n")
+    st.write("\n")
     st.write("""Whether you're merging data from diverse sources or standardizing terminology and formats, 
              MapX empowers you to streamline processes, reduce errors, and make informed decisions faster. Experience a smarter way to manage your 
              data today.""")
 
 def Matcher():
-    # uploaded_file = st.file_uploader("Upload the file")
-    # print(uploaded_file)
-    proceed_flag = False
     style = "<style>.row-widget.stButton {text-align: center;}</style>"
     st.markdown(style, unsafe_allow_html=True)
     if st.button("Start Matching"):
@@ -111,16 +57,17 @@ def Matcher():
         for percent_complete in range(100):
             time.sleep(0.01)
             my_bar.progress(percent_complete + 1, text=progress_text)
-            if percent_complete == 99:
-                proceed_flag = True
         time.sleep(1)
 
     database = st.selectbox(
                 "Select the required Database",
-                ("Oracle", "SAP"),
+                (" ", "Oracle", "SAP"),
                 )
     if database == "Oracle":
-        oracle_table_names_list = open_file_to_list("oracle_table_names.txt")
+        # oracle_table_names_list = open_file_to_list("oracle_table_names.txt")
+        oracle_table_names_list = []
+        oracle_table_names_list.append( " ")
+        oracle_table_names_list = open_file_to_list("processed_oracle_table_names.txt")
         table_name = st.selectbox(
                         "Select the table name",
                         (oracle_table_names_list)
@@ -133,52 +80,66 @@ def Matcher():
                     )
 
     if st.button("Detailed Report"):
-        st.session_state.messages = []
+        column_matched = pd.read_csv("column_matched_final.csv")
+        if database == "Oracle":
+            selected_df = column_matched[column_matched['ORACLE_TABLE_NAME'] == table_name]
+        elif database == "SAP":
+            selected_df = column_matched[column_matched['SAP_TABLE_NAME'] == table_name]
 
-        # client = OpenAI(api_key="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")
-        # prompt = f"Here are a list of dictionary having table details that I want you to explain if the tables are a match or not. \n {dummy}"
-
-        # completion = client.chat.completions.create(
-        # model="gpt-3.5-turbo",
-        # messages=[
-        #     {"role": "system", "content": """You are an assistant who is an expert in schema mapping. Based on the incoming json file you need to 
-        #     explain if the source and target table is a match or not. Make sure to generate the explanation in the end with bullet points.
-        #     """},
-        #     {"role": "user", "content": prompt}
-        # ]
-        # )
+        selected_df["COLUMN_COSINE_SIMILARITY"] = selected_df.apply(lambda x: util.cos_sim(list(sentence_embedding_model.encode(str(x["ORACLE_COL_DESCRIPTION"]))),
+                                                                                  list(sentence_embedding_model.encode(str(x["SAP_COL_DESCRIPTION"]))))[0][0].item(), axis = 1)
+        filtered_df = selected_df[selected_df["COLUMN_COSINE_SIMILARITY"] > 0.6]
+        filtered_df = filtered_df[["ORACLE_TABLE_NAME", "ORACLE_TABLE_DESCRIPTION", "ORACLE_COL_NAME", "ORACLE_COL_DESCRIPTION", "ORACLE_DATATYPE", "SAP_TABLE_NAME",
+         "SAP_TABLE_DESCRIPTION", "SAP_COL_NAME", "SAP_COL_DESCRIPTION", "SAP_DATATYPE", "TABLE_DESCRIPTION_SIMILARITY",
+         "COLUMN_COSINE_SIMILARITY"]]
         
-        # # Get the summary and named entities
-        # result = completion.choices[0].message.content
-        # print(result)
-
-        # client.close()
-
+        filtered_df['TABLE_DESCRIPTION_SIMILARITY'] = filtered_df['TABLE_DESCRIPTION_SIMILARITY'].round(2)
+        filtered_df['COLUMN_COSINE_SIMILARITY'] = filtered_df['COLUMN_COSINE_SIMILARITY'].round(2)
+        filtered_df.reset_index(inplace=True, drop= True)
         
-        with st.chat_message("assistant"):
-            # response = st.write_stream(response_generator(result))
-            response = st.write_stream(response_generator())
-        st.session_state.messages.append({"role": "assistant", "content": response})
+        result_json = filtered_df.to_json(orient="index")
 
         tab_list = []  
-
-        # for i, tab in enumerate(tabs):
-        #     with tab:
-        #         st.write(f"This is the content of {tab_list[i]}")
-
-        for i in range(len(dummy)):
-            tab_list.append("Tab "+ str(i))
+        for i in range(filtered_df.shape[0]):
+            tab_list.append("Tab "+ str(i+1))
 
         index = 0
         for tab in tab_list:
             with st.expander(tab):
                 st.write("This is the content of:")
-                st.write(dummy[index])
+                st.write(filtered_df.iloc[index,:])
             index = index + 1
+
+        st.session_state.messages = []
+
+        client = OpenAI(api_key="API_KEY")
+        prompt = f"""Here is a dictionary of dictionary having table details that I want you to explain if the tables are a match or not. 
+                    Each index of the json corresponds to the two table details \n {result_json}"""
+
+        completion = client.chat.completions.create(
+        model="gpt-4o-mini",
+        messages=[
+            {"role": "system", "content": """You are an assistant who is an expert in schema mapping. Based on the incoming json you need to 
+            explain if the source and target table is a match or not. The structure should be having each of the index of json.
+            explaned with bullet points.
+            """},
+            {"role": "user", "content": prompt}
+        ]
+        )
+        
+        # Get the summary and named entities
+        result = completion.choices[0].message.content
+        print(result)
+
+        client.close()
+        
+        with st.chat_message("assistant"):
+            response = st.write_stream(response_generator(result))
+            # response = st.write_stream(response_generator())
+        st.session_state.messages.append({"role": "assistant", "content": response})
 
 def Settings():
     st.write()
 
 pg = st.navigation([st.Page(Home), st.Page(Matcher), st.Page(Settings)])
 pg.run()
-
